@@ -1,0 +1,5 @@
+runtime
+*.obj
+*.pdb
+*.exe
+*.out
