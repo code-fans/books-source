@@ -1,0 +1,62 @@
+直接用双下标，输入时记录下来，直接排序。 这样的话时间复杂度为 O(nlogn)
+#include <bits/stdc++.h>
+using namespace std;
+
+int n, m, x, y, ans, mx;
+struct tree {
+    int id, father, son;
+} t[110];
+
+inline bool cmp(tree a, tree b) {
+    return a.son > b.son;
+}
+
+int main() {
+    scanf("%d%d", &n, &m);
+    while(m--) {
+        scanf("%d%d", &x, &y);
+        t[x].id = x;
+        t[x].son++;
+        t[y].id = y;
+        t[y].father = x;
+    }
+    sort(t+1, t+1+n, cmp);
+    for(int i=1; i<=n; i++) {
+        if(t[i].father == 0)
+            printf("%d ", t[i].id);
+    }
+    printf("%d", t[1].id);
+    return 0;
+}
+
+ O(n) 的代码
+#include <bits/stdc++.h>
+using namespace std;
+
+int n, m, MAX, tmp, x[2013];
+struct Tree {
+    int root, num[201];
+} f;
+
+int main() {
+    int root;
+    cin >> n >> m;
+    for(int i=1,y; i<=m; i++) {
+        cin >> x[i] >> y;
+        if(i == 1)
+             f.root = x[1];
+        if(y == f.root)
+             f.root = x[i];
+        f.num[x[i]]++;
+    }
+    for(int i=1; i<=m; i++) {
+        if(x[i] == x[i-1])
+            continue;
+        else if(f.num[x[i]] > MAX) {
+            tmp = x[i];
+            MAX = f.num[x[i]];
+        }
+    }
+    cout << f.root << ' ' << tmp << '\n';
+    return 0;
+}

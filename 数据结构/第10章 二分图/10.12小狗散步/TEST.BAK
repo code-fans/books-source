@@ -1,0 +1,4 @@
+@echo off
+copy dog.%1 dog.in
+dog
+dogcheck

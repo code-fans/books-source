@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem version="1.1.0" type="TRA_0_4" maker="ccr-plus">
+    <source code="100" dir="Triangle" file="Triangle">
+        <language cmd="gcc -o Triangle Triangle.c -lm -static" time="10" file="Triangle.c"/>
+        <language cmd="g++ -o Triangle Triangle.cpp -lm -static" time="10" file="Triangle.cpp"/>
+        <language cmd="fpc Triangle.pas" time="10" file="Triangle.pas"/>
+    </source>
+    <task time="10" input="Triangle.in" output="Triangle.out" checker="fulltext">
+        <subtask score="11">
+            <point time="1" in="Triangle1.in" mem="128" out="Triangle1.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle2.in" mem="128" out="Triangle2.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle3.in" mem="128" out="Triangle3.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle4.in" mem="128" out="Triangle4.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle5.in" mem="128" out="Triangle5.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle6.in" mem="128" out="Triangle6.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle7.in" mem="128" out="Triangle7.ans"/>
+        </subtask>
+        <subtask score="11">
+            <point time="1" in="Triangle8.in" mem="128" out="Triangle8.ans"/>
+        </subtask>
+        <subtask score="12">
+            <point time="1" in="Triangle9.in" mem="128" out="Triangle9.ans"/>
+        </subtask>
+    </task>
+</problem>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem version="1.1.0" type="TRA_0_4" maker="ccr-plus">
+    <source dir="roller" file="roller" code="100">
+        <language cmd="fpc roller.pas" time="10" file="roller.pas"/>
+        <language cmd="g++ -o roller roller.cpp -lm" time="10" file="roller.cpp"/>
+        <language cmd="gcc -o roller roller.c -lm" time="10" file="roller.c"/>
+    </source>
+    <task output="roller.out" input="roller.in" checker="fulltext" time="10">
+        <subtask score="10">
+            <point in="roller1.in" time="1" out="roller1.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller2.in" time="1" out="roller2.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller3.in" time="1" out="roller3.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller4.in" time="1" out="roller4.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller5.in" time="1" out="roller5.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller6.in" time="1" out="roller6.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller7.in" time="1" out="roller7.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller8.in" time="1" out="roller8.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller9.in" time="1" out="roller9.out" mem="256"/>
+        </subtask>
+        <subtask score="10">
+            <point in="roller10.in" time="1" out="roller10.out" mem="256"/>
+        </subtask>
+    </task>
+</problem>

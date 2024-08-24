@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem type="TRA_0_4" maker="pcdialog">
+    <source dir="classroom" file="classroom" code="100">
+        <language cmd="fpc classroom.pas" file="classroom.pas"/>
+        <language cmd="g++ -o classroom classroom.cpp -lm" file="classroom.cpp"/>
+        <language cmd="gcc -o classroom classroom.c -lm" file="classroom.c"/>
+    </source>
+    <task output="classroom.out" input="classroom.in" checker="全文比较">
+        <subtask score="4">
+            <point in="classroom1.in" out="classroom1.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom2.in" out="classroom2.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom3.in" out="classroom3.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom4.in" out="classroom4.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom5.in" out="classroom5.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom6.in" out="classroom6.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom7.in" out="classroom7.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom8.in" out="classroom8.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom9.in" out="classroom9.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom10.in" out="classroom10.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom11.in" out="classroom11.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom12.in" out="classroom12.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom13.in" out="classroom13.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom14.in" out="classroom14.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom15.in" out="classroom15.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom16.in" out="classroom16.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom17.in" out="classroom17.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom18.in" out="classroom18.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom19.in" out="classroom19.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom20.in" out="classroom20.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom21.in" out="classroom21.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom22.in" out="classroom22.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom23.in" out="classroom23.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom24.in" out="classroom24.ans" time="1" mem="128"/>
+        </subtask>
+        <subtask score="4">
+            <point in="classroom25.in" out="classroom25.ans" time="1" mem="128"/>
+        </subtask>
+    </task>
+</problem>

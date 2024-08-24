@@ -1,0 +1,20 @@
+//九连环 —格雷码算法 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  for(int n; cin>>n; cout<<endl)
+  {
+    if(n>341)
+      cout<<-1;
+    else
+    {
+      n=341-n;                   //题目是从111..11到000..00，所以反向计算 
+      n=(n^(n>>1));              //二进制的n转为对应的格雷码(请自行查询上午发的资料) 
+      for(int j=0; j<9; j++)     //逐位输出格雷码即可 
+        printf("%d", ((n>>j)&1));
+    }
+  }
+  return 0;
+}

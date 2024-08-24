@@ -1,0 +1,52 @@
+//还有种方法就是正常多重背包但是有技巧地剪枝，而且AC才78ms，前面二进制优化的多重背包要250ms
+#include <cstdio>
+#include <cstring>
+#include <cmath>
+#include <iostream>
+#include <algorithm>
+#include <queue>
+#include <cstdlib>
+#include <vector>
+#include <set>
+#include <map>
+#define LL long long
+#define mod 1000000007
+#define inf 1<<30
+#define N 100010
+using namespace std;
+int dp[120010];
+int main()
+{
+    int a[10],cas=1;
+    while(scanf("%d",&a[1])>0)
+    {
+        int sum=a[1];
+        for(int i=2;i<=6;i++)scanf("%d",&a[i]),sum+=a[i]*i;
+        if(sum==0)break;
+        printf("Collection #%d:\n",cas++);
+        if(sum%2)
+        {
+            puts("Can't be divided.\n");continue;
+        }
+        memset(dp,-1,sizeof(dp));
+        for(int i=1;i<=a[1];i++)dp[i]=1;
+        dp[0]=1;
+        for(int i=2;i<=6;i++)
+        {
+            if(!a[i])continue;
+            for(int k=sum/2;k>=0;k--)
+            {
+                if(dp[k]==-1)continue;
+                for(int j=1;j<=a[i]&&i*j+k<=sum/2;j++)
+                {
+                    //这里剪枝最为关键，因为如果dp[i*j+k]=1后说明这个循环已经进行过一次了，没必要重复了
+                    if(dp[i*j+k]!=-1)break;
+                    dp[i*j+k]=1;
+                }
+            }
+        }
+        if(dp[sum/2]!=-1)puts("Can be divided.");
+        else puts("Can't be divided.");
+        puts("");
+    }
+}

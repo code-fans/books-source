@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem version="1.1.0" maker="ccr-plus" type="TRA_0_4">
+    <source file="money" dir="money" code="100">
+        <language cmd="gcc -o money money.c -lm -static" file="money.c" time="10"/>
+        <language cmd="g++ -o money money.cpp -lm -static" file="money.cpp" time="10"/>
+        <language cmd="fpc money.pas" file="money.pas" time="10"/>
+    </source>
+    <task input="money.in" checker="fulltext" time="10" output="money.out">
+        <subtask score="5">
+            <point mem="128" out="money1.ans" in="money1.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money2.ans" in="money2.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money3.ans" in="money3.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money4.ans" in="money4.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money5.ans" in="money5.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money6.ans" in="money6.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money7.ans" in="money7.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money8.ans" in="money8.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money9.ans" in="money9.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money10.ans" in="money10.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money11.ans" in="money11.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money12.ans" in="money12.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money13.ans" in="money13.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money14.ans" in="money14.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money15.ans" in="money15.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money16.ans" in="money16.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money17.ans" in="money17.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money18.ans" in="money18.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money19.ans" in="money19.in" time="1"/>
+        </subtask>
+        <subtask score="5">
+            <point mem="128" out="money20.ans" in="money20.in" time="1"/>
+        </subtask>
+    </task>
+</problem>

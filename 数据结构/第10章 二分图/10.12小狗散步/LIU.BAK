@@ -1,0 +1,107 @@
+{$R+,Q+}
+program wliu;
+  const inputname='dog.in';
+        outputname='dog.out';
+  type ty=array[1..201]of longint;
+  var f1,f2:text;
+      i,j,n,m,s,v,r,best,x,y,c,max:longint;
+      d,liu:array[1..201]of ^ty;
+      b:array[0..201]of boolean;
+      p:array[0..201]of longint;
+      a1,a2:array[1..100,1..2]of real;
+      b1:boolean;
+  function dis(x1,y1,x2,y2:real):real;
+    begin
+      dis:=sqrt(sqr(x1-x2)+sqr(y1-y2));
+    end;
+  begin
+    assign(f1,inputname);
+    reset(f1);
+    assign(f2,outputname);
+    rewrite(f2);
+    readln(f1,m,n);
+    fillchar(d,sizeof(d),0);
+    for i:=1 to m do
+      read(f1,a1[i,1],a1[i,2]);
+    for i:=1 to n do
+      read(f1,a2[i,1],a2[i,2]);
+    for i:=1 to m-1 do
+      d[1,i+1]:=1;
+    for i:=1 to m-1 do
+      begin
+        for j:=1 to n do
+          if 2*dis(a1[i,1],a1[i,2],a1[i+1,1],a1[i+1,2])+1e-6>
+            dis(a1[i,1],a1[i,2],a2[j,1],a2[j,2])+dis(a2[j,1],a2[j,2],a1[i+1,1],a1[i+1,2]) then
+              d[i+1,j+m]:=1;
+      end;
+    for i:=1 to n do
+      d[i+m,m+n+1]:=1;
+    best:=m;
+    n:=m+n+1;
+    fillchar(liu,sizeof(liu),0);
+    repeat
+      fillchar(b,sizeof(b),false);
+      fillchar(p,sizeof(p),0);
+      p[1]:=0;
+      b[1]:=true;
+      repeat
+        b1:=false;
+        for i:=1 to n do
+          if b[i] then
+            for j:=1 to n do
+              begin
+                if (d[i,j]>0)and(liu[i,j]<d[i,j])and(not b[j]) then
+                  begin
+                    b1:=true;
+                    b[j]:=true;
+                    p[j]:=i;
+                  end;
+                if (d[j,i]>0)and(liu[j,i]>0)and(not b[j]) then
+                  begin
+                    b1:=true;
+                    b[j]:=true;
+                    p[j]:=-i;
+                  end;
+              end;
+      until (not b1)or(b[n]);
+      if not b[n] then break;
+      i:=n;
+      max:=maxlongint;
+      while i<>1 do
+        begin
+          j:=abs(p[i]);
+          if p[i]<0 then
+            begin
+              if liu[i,j]<max then max:=liu[i,j];
+            end
+            else begin
+              if (d[j,i]-liu[j,i])<max then max:=d[j,i]-liu[j,i];
+            end;
+          i:=j;
+        end;
+      inc(best,max);
+      i:=n;
+      while i<>1 do
+        begin
+          j:=abs(p[i]);
+          if p[i]<0 then dec(liu[i,j],max)
+            else inc(liu[j,i],max);
+          if (liu[i,j]>0)and(liu[j,i]>0) then
+            begin
+              if liu[i,j]>liu[j,i] then
+                begin
+                  dec(liu[i,j],liu[j,i]);
+                  liu[j,i]:=0;
+                end
+                else begin
+                  dec(liu[j,i],liu[i,j]);
+                  liu[i,j]:=0;
+                end;
+            end;
+          i:=j;
+        end;
+    until false;
+    writeln(f2,best);
+    close(f1);
+    close(f2);
+  end.

@@ -1,0 +1,20 @@
+【算法分析】
+设F[i][j]表示在前i道菜中，花的钱数为j的方案数，则有动态转移方程 f[i][j]=f[i-1][j]+f[i-1][j-a[i]]，即你可以不点这道菜（f[i-1][j]，或者点这道菜f[i-1][j-a[i]]。
+初始化F[i][0]=1。
+事实上观察方程，我们完全可以只用一维的滚动数组，即f[j]+=f[j-a[i]]。
+	#include <bits/stdc++.h>
+using namespace std;
+
+int n,m,a[101],F[10001]={1};
+int main()
+{
+  cin>>n>>m;
+  for(int i=1; i<=n; i++)
+    cin>>a[i];
+  for(int i=1; i<=n; i++)
+    for(int j=m; j>=a[i]; j--)
+      F[j]+=F[j-a[i]];
+  cout<<F[m]<<endl;
+  return 0;
+}
+

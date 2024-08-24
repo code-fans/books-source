@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem type="TRA_0_4" maker="ccr-plus">
+    <source code="100" file="travel" dir="travel">
+        <language file="travel.c" cmd="gcc -o travel travel.c -lm -static" time="10"/>
+        <language file="travel.cpp" cmd="g++ -o travel travel.cpp -lm -static" time="10"/>
+        <language file="travel.pas" cmd="fpc travel.pas" time="10"/>
+    </source>
+    <task output="travel.out" checker="fulltext" input="travel.in" time="10">
+        <subtask score="5">
+            <point in="salesman1.in" out="salesman1.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman2.in" out="salesman2.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman3.in" out="salesman3.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman4.in" out="salesman4.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman5.in" out="salesman5.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman6.in" out="salesman6.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman7.in" out="salesman7.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman8.in" out="salesman8.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman9.in" out="salesman9.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman10.in" out="salesman10.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman11.in" out="salesman11.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman12.in" out="salesman12.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman13.in" out="salesman13.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman14.in" out="salesman14.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman15.in" out="salesman15.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman16.in" out="salesman16.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman17.in" out="salesman17.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman18.in" out="salesman18.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman19.in" out="salesman19.out" time="1" mem="128"/>
+        </subtask>
+        <subtask score="5">
+            <point in="salesman20.in" out="salesman20.out" time="1" mem="128"/>
+        </subtask>
+    </task>
+</problem>
