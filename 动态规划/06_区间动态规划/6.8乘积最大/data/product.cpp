@@ -30,8 +30,8 @@ string GetMax(string x,string y)
 
 int main()
 {
-  freopen("product.in","r",stdin);
-  freopen("product.out","w",stdout);
+  //freopen("product.in","r",stdin);
+  //freopen("product.out","w",stdout);
   int n,k;
   cin>>n>>k>>str;
   for(int i=0; i<n; i++)

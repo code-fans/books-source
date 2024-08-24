@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("horse.in","r",stdin);
-  freopen("horse.out","w",stdout);
+  //freopen("horse.in","r",stdin);
+  //freopen("horse.out","w",stdout);
   int n,tian[1010],king[1010];
   while (scanf("%d", &n) && n)
   {

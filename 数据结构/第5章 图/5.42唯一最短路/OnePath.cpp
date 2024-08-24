@@ -48,8 +48,8 @@ int Kruskal()
 
 int main()
 {
-  freopen("OnePath.in","r",stdin);
-  freopen("OnePath.out","w",stdout);
+  //freopen("OnePath.in","r",stdin);
+  //freopen("OnePath.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=m; i++)
     scanf("%d%d%d",&edge[i].x,&edge[i].y,&edge[i].w);

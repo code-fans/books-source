@@ -35,8 +35,8 @@ void Prim(int star)
 
 int main()
 {
-  freopen("Line.in","r",stdin);
-  freopen("Line.out","w",stdout);
+  //freopen("Line.in","r",stdin);
+  //freopen("Line.out","w",stdout);
   memset(w,127,sizeof(w));         //设所有边的边权为无穷大
   cin>>n>>e;
   for(int i=1; i<=e; i++)

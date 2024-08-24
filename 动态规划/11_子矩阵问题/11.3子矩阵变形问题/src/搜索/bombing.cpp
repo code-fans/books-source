@@ -8,8 +8,8 @@ int a[5001][5001];
 
 int main()
 {
-  freopen("bombing.in","r",stdin);
-  freopen("bombing.out","w",stdout);
+  //freopen("bombing.in","r",stdin);
+  //freopen("bombing.out","w",stdout);
   int Max=-INT_MAX,sum;
   cin>>m>>n>>w>>h;
   for(int i=1; i<=m; ++i)

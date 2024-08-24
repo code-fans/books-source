@@ -29,8 +29,8 @@ void DFS(int dep)
 
 int main()
 {
-  freopen("count.in","r",stdin);
-  freopen("count.out","w",stdout);
+  //freopen("count.in","r",stdin);
+  //freopen("count.out","w",stdout);
   char c;
   scanf("%d%d%d",&l,&r,&n);
   for(int i=1; i<=n; i++)

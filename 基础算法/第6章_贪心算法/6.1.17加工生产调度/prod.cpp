@@ -19,8 +19,8 @@ bool Cmp2(node x,node y)
 
 int main()
 {
-  freopen("prod.in","r",stdin);
-  freopen("prod.out","w",stdout);
+  //freopen("prod.in","r",stdin);
+  //freopen("prod.out","w",stdout);
   int n,k1=0,k2=0,sum=0;
   cin>>n;
   for(int i=0; i<n; i++)

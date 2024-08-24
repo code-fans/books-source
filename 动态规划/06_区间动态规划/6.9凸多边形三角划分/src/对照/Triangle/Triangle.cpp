@@ -77,8 +77,8 @@ void getsan(int l, int r)
 
 int main()
 {
-	freopen("Triangle.in", "r", stdin);
-	freopen("Triangle.out", "w", stdout);
+	//freopen("Triangle.in", "r", stdin);
+	//freopen("Triangle.out", "w", stdout);
 	scanf("%d", &n);
 	int i, j;
 	for (i = 1; i <= n; i++)

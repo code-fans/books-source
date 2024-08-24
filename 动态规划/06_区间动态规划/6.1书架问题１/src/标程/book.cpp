@@ -19,8 +19,8 @@ int Opt(int x,int y)               //返回书在区间(x,y)的最大高度
 
 int main()
 {
-  freopen("book.in","r",stdin);
-  freopen("book.out","w",stdout);
+  //freopen("book.in","r",stdin);
+  //freopen("book.out","w",stdout);
   int n,t;
   scanf("%d%d",&n,&sw);
   for(int i=1; i<=n; i++)

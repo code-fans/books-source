@@ -7,8 +7,8 @@ int a[20001],b[20001],t[20001];
 
 int main()
 {
-  freopen("fruit.in","r",stdin);
-  freopen("fruit.out","w",stdout);
+  //freopen("fruit.in","r",stdin);
+  //freopen("fruit.out","w",stdout);
   scanf("%d",&n);
   memset(a,127,sizeof(a));               //赋数组元素值为最大值
   memset(b,127,sizeof(b));

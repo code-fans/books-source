@@ -39,8 +39,8 @@ void Conversion(int N,int d)        //进制转换
 
 int main()
 {
-  freopen("NchangeX.in","r",stdin);
-  freopen("NchangeX.out","w",stdout);
+  //freopen("NchangeX.in","r",stdin);
+  //freopen("NchangeX.out","w",stdout);
   int number,d;
   cin>>number>>d;
   if(number==0)                     //注意特例0

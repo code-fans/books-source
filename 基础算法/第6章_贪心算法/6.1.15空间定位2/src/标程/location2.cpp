@@ -18,8 +18,8 @@ int Cmp(const Node &a,const Node &b)
 
 int main()
 {
-  freopen("location2.in", "r", stdin);
-  freopen("location2.out", "w", stdout);
+  //freopen("location2.in", "r", stdin);
+  //freopen("location2.out", "w", stdout);
   int ncase;                         //²âÊÔÑùÀýÊý
   scanf("%d",&ncase);
   while(ncase--)

@@ -4,7 +4,7 @@ int a[100010];
 
 int main()
 {
-  freopen("danger10.in","w",stdout);
+  //freopen("danger10.in","w",stdout);
   set <int> s;
 
   srand(unsigned(time(0)));

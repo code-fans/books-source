@@ -41,8 +41,8 @@ void MultiplePack()
 
 int main()
 {
-  freopen("watch10.in","r",stdin);
-  freopen("watch10.ans","w",stdout);
+  //freopen("watch10.in","r",stdin);
+  //freopen("watch10.ans","w",stdout);
   while(scanf("%d%d",&n,&V)&&n&&V)
   {
     for(int i=1; i<=n; i++)

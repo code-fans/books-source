@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("Max_Min.in","r",stdin);
-  freopen("Max_Min.out","w",stdout);
+  //freopen("Max_Min.in","r",stdin);
+  //freopen("Max_Min.out","w",stdout);
   int n;
   while (scanf("%d", &n) == 1 && n)
   {

@@ -21,8 +21,8 @@ bool cmp2(const node &p, const node &q)
 
 int main()
 {
-  freopen("flowshop.in","r",stdin);
-  freopen("flowshop.out","w",stdout);
+  //freopen("flowshop.in","r",stdin);
+  //freopen("flowshop.out","w",stdout);
   int n;
   while(scanf("%d",&n) && n)
   {

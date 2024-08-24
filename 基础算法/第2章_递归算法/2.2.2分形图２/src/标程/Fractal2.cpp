@@ -27,8 +27,8 @@ void Dfs(int k,int x,int y)
 
 int main()
 {
-  freopen("Fractal2.in","r",stdin);
-  freopen("Fractal2.out","w",stdout);
+  //freopen("Fractal2.in","r",stdin);
+  //freopen("Fractal2.out","w",stdout);
   int i,m,sum,j;
   while(scanf("%d",&n)!=EOF)
   {

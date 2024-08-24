@@ -25,8 +25,8 @@ int DFS(int x,int y)
 
 int main()
 {
-  freopen("select.in","r",stdin);
-  freopen("select.out","w",stdout);
+  //freopen("select.in","r",stdin);
+  //freopen("select.out","w",stdout);
   int M,N,a,b;
   scanf("%d %d\n",&N,&M);
   memset(node,-1,sizeof(node));

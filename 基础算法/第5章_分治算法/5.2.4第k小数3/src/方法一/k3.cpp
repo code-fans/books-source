@@ -34,8 +34,8 @@ LL FindKth(LL m,LL n,LL k)
 
 int main()
 {
-  freopen("k3.in","r",stdin);
-  freopen("k3.out","w",stdout);
+  //freopen("k3.in","r",stdin);
+  //freopen("k3.out","w",stdout);
   LL m,n,k;
   while(scanf ("%lld%lld%lld", &m, &n, &k) != EOF)
   {

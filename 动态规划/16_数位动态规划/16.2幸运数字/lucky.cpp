@@ -44,8 +44,8 @@ int Dp(int n)
 
 int main()
 {
-  freopen("lucky.in","r",stdin);
-  freopen("lucky.out","w",stdout);
+  //freopen("lucky.in","r",stdin);
+  //freopen("lucky.out","w",stdout);
   Init();
   for(int n,m; cin>>n && cin>>m && n+m!=0;)
     cout<<Dp(m+1)-Dp(n)<<endl;

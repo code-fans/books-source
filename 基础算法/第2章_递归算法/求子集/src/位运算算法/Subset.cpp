@@ -15,8 +15,8 @@ void output(int n)
 
 int main()
 {
-  freopen("Subset.in","r",stdin);
-  freopen("Subset.out","w",stdout); 
+  //freopen("Subset.in","r",stdin);
+  //freopen("Subset.out","w",stdout); 
   cin>>N;
   cout<<"()\n";
   for(int i=1;i<(1<<N);i++)//Ñ­»·2^N´Î 

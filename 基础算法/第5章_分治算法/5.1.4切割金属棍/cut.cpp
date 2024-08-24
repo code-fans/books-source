@@ -15,8 +15,8 @@ inline bool Try(double x)
 
 int main()
 {
-  freopen("cut.in","r",stdin);
-  freopen("cut.out","w",stdout);
+  //freopen("cut.in","r",stdin);
+  //freopen("cut.out","w",stdout);
   scanf("%d%d",&n,&k);
   for(int i=1; i<=n; i++)
   {

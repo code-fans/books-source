@@ -8,8 +8,8 @@ int	R[MAXN],C[MAXN],N;              //将维度分开存入两个数组，左和右数组
 
 int main()
 {
-  freopen ("matrix.in", "r", stdin);
-  freopen ("matrix.out", "w", stdout);
+  //freopen ("matrix.in", "r", stdin);
+  //freopen ("matrix.out", "w", stdout);
   scanf("%d",&N);
   for(int i=1; i<=N; ++i)           //此处i从1编号
     scanf("%d%d",&R[i],&C[i]);

@@ -29,8 +29,8 @@ void DFS(int k,int remain) //k为当前位数,remain为剩下的数
 
 int main()
 {
-  freopen("Distribution.in","r",stdin);
-  freopen("Distribution.out","w",stdout);
+  //freopen("Distribution.in","r",stdin);
+  //freopen("Distribution.out","w",stdout);
   scanf("%d",&n);
   DFS(1,n);
   printf("%d\n",Count);

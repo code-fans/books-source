@@ -9,8 +9,8 @@ pair<int, int>people[MAXN];                   //保存每个人的分数和钱数
 
 int main()
 {
-  freopen("student.in","r",stdin);
-  freopen("student.out","w",stdout);
+  //freopen("student.in","r",stdin);
+  //freopen("student.out","w",stdout);
   int n,c,f;
   scanf("%d%d%d",&n,&c,&f);
   for(int i = 0; i < c; i++)

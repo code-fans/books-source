@@ -38,8 +38,8 @@ void Find(string x)
 
 int main()
 {
-  freopen("word.in","r",stdin);
-  freopen("word.out","w",stdout);
+  //freopen("word.in","r",stdin);
+  //freopen("word.out","w",stdout);
   int n,m;
   string wrd;
   cin>>n;                              //单词库的单词个数

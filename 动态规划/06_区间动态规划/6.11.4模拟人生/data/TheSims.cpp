@@ -28,8 +28,8 @@ void Dp(int a[])
 
 int main()
 {
-  freopen("TheSims.in","r",stdin);
-  freopen("TheSims.out","w",stdout);
+  //freopen("TheSims.in","r",stdin);
+  //freopen("TheSims.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)
   {

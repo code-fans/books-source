@@ -9,8 +9,8 @@ int n1,n2;
 
 int main()
 {
-  freopen("LCS.in","r",stdin);
-  freopen("LCS.out","w",stdout);
+  //freopen("LCS.in","r",stdin);
+  //freopen("LCS.out","w",stdout);
   cin>>n1;
   for(int i=1; i<=n1; ++i)
     cin>>s1[i];

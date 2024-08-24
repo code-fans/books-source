@@ -48,8 +48,8 @@ void Mul(int a[],int k,int b[])
 
 int main()
 {
-//  freopen("chat.in","r",stdin);
-//  freopen("chat.out","w",stdout);
+//  //freopen("chat.in","r",stdin);
+//  //freopen("chat.out","w",stdout);
   int n;
   cin>>n;
   for(int i=0; i<n; i++)

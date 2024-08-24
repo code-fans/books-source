@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("stock.in","r",stdin);
-  freopen("stock.out","w",stdout);
+  //freopen("stock.in","r",stdin);
+  //freopen("stock.out","w",stdout);
   int n;
   double money=1,v[2];                       //¹ö¶¯Êý×é
   scanf("%d %lf",&n,&v[0]);

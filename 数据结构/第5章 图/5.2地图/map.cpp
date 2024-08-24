@@ -85,8 +85,8 @@ void Init()
 
 int main()
 {
-  freopen("map.in","r",stdin);
-  freopen("map.out","w",stdout);
+  //freopen("map.in","r",stdin);
+  //freopen("map.out","w",stdout);
   Init();                        //∂¡»ÎÕº
   Dijkstra(1);
   return 0;

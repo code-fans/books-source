@@ -8,8 +8,8 @@ int w[110][110],c[110],rd[110],cd[110];
 
 int main()
 {
-  freopen("NETWORK.in","r",stdin);
-  freopen("NETWORK.out","w",stdout);
+  //freopen("NETWORK.in","r",stdin);
+  //freopen("NETWORK.out","w",stdout);
   int n,p,outs=0;
   cin>>n>>p;
   for(int i=1,u; i<=n; i++)

@@ -48,8 +48,8 @@ void Init(int a[],string str,int len)
 
 int main()
 {
-  freopen("sample_div28.in","r",stdin);
-  freopen("sample_div28.ans","w",stdout);
+  //freopen("sample_div28.in","r",stdin);
+  //freopen("sample_div28.ans","w",stdout);
   string str;
   int b;
   cin>>str>>b;                  //输入高精度被除数和低精数除数

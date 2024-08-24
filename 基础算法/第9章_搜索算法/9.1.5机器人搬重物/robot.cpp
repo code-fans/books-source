@@ -57,8 +57,8 @@ void BFS()
 
 int main()
 {
-  freopen("robot.in","r",stdin);
-  freopen("robot.out","w",stdout);
+  //freopen("robot.in","r",stdin);
+  //freopen("robot.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i = 1,a; i <= n; i++)//读入格子的值
     for(int j = 1; j <= m; j++)

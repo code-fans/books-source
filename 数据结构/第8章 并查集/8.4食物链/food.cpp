@@ -25,8 +25,8 @@ void Union(int x,int y,int d)           //合并x,y所在的集合
 
 int main()
 {
-  freopen("food12.in","r",stdin);
-  freopen("food12.ans","w",stdout);
+  //freopen("food12.in","r",stdin);
+  //freopen("food12.ans","w",stdout);
   int total=0,n,k;
   cin>>n>>k;
   for(int i=1; i<=n; ++i)

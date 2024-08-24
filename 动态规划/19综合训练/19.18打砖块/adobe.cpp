@@ -10,8 +10,8 @@ int dp[mxn][mxn][2], ci[mxn][mxn], now[mxn][mxn];  //0:不需要借，1:需要借
 bool b[mxn][mxn];
 int main()
 {
-  freopen("adobe.in","r",stdin);
-  freopen("adobe.ans","w",stdout);
+  //freopen("adobe.in","r",stdin);
+  //freopen("adobe.ans","w",stdout);
 
   int i, j, k;
   cin>>n>>m>>p;

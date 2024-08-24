@@ -17,8 +17,8 @@ void InOrder(int index)                                  //ÖÐÐò±éÀú
 
 int main()
 {
-  freopen("order.in","r",stdin);
-  freopen("order2.out","w",stdout);
+  //freopen("order.in","r",stdin);
+  //freopen("order2.out","w",stdout);
   while(cin>>temp)
     node[i++]=temp;
   InOrder(1);

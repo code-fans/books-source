@@ -47,8 +47,8 @@ void Dfs(int u,int fa)
 
 int main()
 {
-  freopen("island.in","r",stdin);
-  freopen("island.out","w",stdout);
+  //freopen("island.in","r",stdin);
+  //freopen("island.out","w",stdout);
   int u,v,n,m;
   scanf("%d%d",&n,&m);
   memset(head,-1,sizeof(head));

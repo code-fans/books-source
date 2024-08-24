@@ -47,8 +47,8 @@ void print()
 
 int main()
 {
-  freopen("arraytree.in","r",stdin);
-  freopen("arraytree.out","w",stdout);
+  //freopen("arraytree.in","r",stdin);
+  //freopen("arraytree.out","w",stdout);
   cin>>n;
   int node[n+1];
   for(int i=1; i<=n; i++)

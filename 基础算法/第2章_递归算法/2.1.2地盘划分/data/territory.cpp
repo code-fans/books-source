@@ -14,8 +14,8 @@ int Square(int a,int b)
 
 int main()
 {
-  freopen("territory.in","r",stdin);
-  freopen("territory.out","w",stdout);
+  //freopen("territory.in","r",stdin);
+  //freopen("territory.out","w",stdout);
   int x,y;
   scanf("%d %d",&x,&y);
   printf("%d\n",Square(x,y));

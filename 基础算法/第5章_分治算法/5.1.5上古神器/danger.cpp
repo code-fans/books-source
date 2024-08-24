@@ -24,8 +24,8 @@ bool Check(int x)
 
 int main()
 {
-  freopen("danger.in","r",stdin);
-  freopen("danger.out","w",stdout);
+  //freopen("danger.in","r",stdin);
+  //freopen("danger.out","w",stdout);
   scanf("%d%d",&n,&p);
   for(int i=1; i<=n; i++)
     scanf("%d",&U[i]);

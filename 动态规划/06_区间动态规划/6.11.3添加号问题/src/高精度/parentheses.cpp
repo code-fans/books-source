@@ -29,8 +29,8 @@ string GetMin(string x,string y)
 
 int main()
 {
-  freopen("parentheses.in","r",stdin);
-  freopen("parentheses.out","w",stdout);
+  //freopen("parentheses.in","r",stdin);
+  //freopen("parentheses.out","w",stdout);
   int m;
   cin>>str>>m;
   for(int i=0; i<str.size(); i++)

@@ -18,8 +18,8 @@ int ZeroOnePack()
 
 int main()
 {
-  freopen("Currency.in","r",stdin);
-  freopen("Currency.out","w",stdout);
+  //freopen("Currency.in","r",stdin);
+  //freopen("Currency.out","w",stdout);
   while (~scanf("%d", &N))
   {
     MAX = 0;

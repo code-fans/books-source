@@ -18,8 +18,8 @@ void work(int x)
 
 int main()
 {
-  freopen("Csum.in","r",stdin);
-  freopen("Csum.out","w",stdout);
+  //freopen("Csum.in","r",stdin);
+  //freopen("Csum.out","w",stdout);
   int i;
   cin>>n;
   for(i=1;i<=n;++i)

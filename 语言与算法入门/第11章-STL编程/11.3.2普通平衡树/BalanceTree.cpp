@@ -16,8 +16,8 @@ inline int Read()         //关键字inline把函数指定为运行速度更快的内联函数
 
 int main()
 {
-  freopen("BalanceTree.in","r",stdin);
-  freopen("BalanceTree.out","w",stdout);
+  //freopen("BalanceTree.in","r",stdin);
+  //freopen("BalanceTree.out","w",stdout);
   int n=Read();            //Read()用于快速读取整数
   vector<int> vec;
   vec.reserve(200000);     //预留空间

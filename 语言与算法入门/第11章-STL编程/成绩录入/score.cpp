@@ -5,8 +5,8 @@ typedef pair<string, double> p;//使用typedef简化pair的声明为p
 
 int main()
 {
-  freopen("score.in","r",stdin);
-  freopen("score.out","w",stdout);
+  //freopen("score.in","r",stdin);
+  //freopen("score.out","w",stdout);
   vector< p > VP;
   p p1;
   while(cin>>p1.first>>p1.second)

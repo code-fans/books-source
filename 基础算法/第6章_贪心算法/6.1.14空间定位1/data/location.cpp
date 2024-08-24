@@ -6,8 +6,8 @@ double dot[605];
 
 int main()
 {
-  freopen("location.in", "r", stdin);
-  freopen("location.out", "w", stdout);
+  //freopen("location.in", "r", stdin);
+  //freopen("location.out", "w", stdout);
   int m, n;
   scanf("%d",&m);
   for (int i=1; i<=m; i++)

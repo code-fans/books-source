@@ -16,8 +16,8 @@ int Cmp(const node &a,const node &b)
 
 int main()
 {
-  freopen("homework.in","r",stdin);
-  freopen("homework.out","w",stdout);
+  //freopen("homework.in","r",stdin);
+  //freopen("homework.out","w",stdout);
   int t,n,sum,i,j;
   scanf("%d",&t);
   while(t--)

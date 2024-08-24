@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("hanoi15.in","r",stdin);
-  freopen("hanoi15.ans","w",stdout);  
+  //freopen("hanoi15.in","r",stdin);
+  //freopen("hanoi15.ans","w",stdout);  
   int i,m,n;
   cin>>n;
   m=1;

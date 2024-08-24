@@ -25,8 +25,8 @@ void Count(long long x,long long *cnt,int len=0)
 
 int main()
 {
-  freopen("count.in","r",stdin);
-  freopen("count.out","w",stdout);
+  //freopen("count.in","r",stdin);
+  //freopen("count.out","w",stdout);
   scanf("%lld %lld",&a,&b);
   for(int i=1; i<=15; i++)
   {

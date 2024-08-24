@@ -37,8 +37,8 @@ DB slop(int a,int b)
 }
 int main()
 {
-  freopen("Land5.in","r",stdin);
-  freopen("Land5.ans","w",stdout);
+  //freopen("Land5.in","r",stdin);
+  //freopen("Land5.ans","w",stdout);
 
   n=read();
   for(int i=1; i<=n; i++)

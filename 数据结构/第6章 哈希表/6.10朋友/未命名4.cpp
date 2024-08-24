@@ -9,8 +9,8 @@ LL p=13131,mi[N],h[N],ans;
 int n,pos;
 int main()
 {
-  freopen("friends5.in","r",stdin);
-  freopen("friends5.ans","w",stdout);
+  //freopen("friends5.in","r",stdin);
+  //freopen("friends5.ans","w",stdout);
   ans=-1;
   scanf("%d%s",&n,s+1);
   int l=(n-1)/2;

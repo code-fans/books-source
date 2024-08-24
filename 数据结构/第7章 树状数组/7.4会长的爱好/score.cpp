@@ -34,8 +34,8 @@ int query(int x, int y)
 
 int main()
 {
-  freopen("score.in","r",stdin);
-  freopen("score.out","w",stdout);
+  //freopen("score.in","r",stdin);
+  //freopen("score.out","w",stdout);
   int n, m,x,y;
   char c;
   while (~scanf("%d%d",&n,&m))

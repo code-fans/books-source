@@ -25,8 +25,8 @@ void combin(int M,int N)
 
 main()
 {
-  //freopen("combination.in","r",stdin);
-  //freopen("combination.out","w",stdout);
+  ////freopen("combination.in","r",stdin);
+  ////freopen("combination.out","w",stdout);
   cin>>M>>N;//即从M个元素中选择N个元素
   combin(M,N);
   return 0;

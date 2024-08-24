@@ -44,8 +44,8 @@ void Tarjan(int u,int father)
 }
 int main()
 {
-  freopen("bridge21.in","r",stdin);
-  freopen("bridge21.ans","w",stdout);
+  //freopen("bridge21.in","r",stdin);
+  //freopen("bridge21.ans","w",stdout);
   int i,x,y,j,t,sum;
   char str[2][200];
   scanf("%d",&t);

@@ -31,8 +31,8 @@ LL Cal(LL x, int digit)
 
 int main()
 {
-  freopen("count.in","r",stdin);
-  freopen("count.out","w",stdout);
+  //freopen("count.in","r",stdin);
+  //freopen("count.out","w",stdout);
   cin>>l>>r;
   for(int i=0; i<=9; i++)
     printf("%lld%c",Cal(r,i)-Cal(l-1,i),i==9?'\n':' ');

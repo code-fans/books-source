@@ -14,8 +14,8 @@ int dp[N][N];
 
 int main()
 {
-  freopen("test.in","r",stdin);
-  freopen("test.out","w",stdout);
+  //freopen("test.in","r",stdin);
+  //freopen("test.out","w",stdout);
   int n,m;
   while(~scanf("%d%d",&n,&m))
   {

@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("getnum3.in","r",stdin);
-  freopen("getnum3.out","w",stdout);
+  //freopen("getnum3.in","r",stdin);
+  //freopen("getnum3.out","w",stdout);
   static int f[41][21][21][21],w[21][21];
   int n,m,i,j,k,s,x1,x2,x3,y1,y2,y3,d1,d2,d3,get;
   memset(f,0,sizeof(f));

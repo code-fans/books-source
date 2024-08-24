@@ -24,8 +24,8 @@ void time()                     //万进制高精度运算
 
 int main()
 {
-  freopen("hanoi2.in","r",stdin);
-  freopen("hanoi2.out","w",stdout);
+  //freopen("hanoi2.in","r",stdin);
+  //freopen("hanoi2.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n+1; i++)

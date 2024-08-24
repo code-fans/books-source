@@ -5,8 +5,8 @@ using  namespace std;
 
 int main()
 {
-  freopen("oil.in","r",stdin);
-  freopen("oil.out","w",stdout);
+  //freopen("oil.in","r",stdin);
+  //freopen("oil.out","w",stdout);
   int N,M,j,i,oil[100],total,t,t2;
   cin>>N>>M;
   for (i=0;i<N;i++)

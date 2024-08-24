@@ -27,8 +27,8 @@ bool dfs(int u)
 
 int main()
 {
-  freopen("antenan.in","r",stdin);
-  freopen("antenan.out","w",stdout);
+  //freopen("antenan.in","r",stdin);
+  //freopen("antenan.out","w",stdout);
   int Case,h,w;
   scanf("%d",&Case);
   while(Case--)

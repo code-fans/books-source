@@ -12,8 +12,8 @@ int F[MAXN][MAXN][MAXN][MAXN][MAXN],P[105][1005];
 
 int main()
 {
-  freopen("shopping2.in","r",stdin);
-  freopen("shopping2.out","w",stdout);
+  //freopen("shopping2.in","r",stdin);
+  //freopen("shopping2.out","w",stdout);
   int s,b,n,c;
   cin>>s;
   for(int i=1; i<=s; i++)              //读入s种优惠商品信息

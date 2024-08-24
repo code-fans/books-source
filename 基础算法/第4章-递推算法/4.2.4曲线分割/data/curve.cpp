@@ -9,8 +9,8 @@ int F(int n)
 
 int main()
 {
-  freopen("curve.in","r",stdin);
-  freopen("curve.out","w",stdout);
+  //freopen("curve.in","r",stdin);
+  //freopen("curve.out","w",stdout);
   int n;
   cin>>n;
   cout<<F(n)<<endl;

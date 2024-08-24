@@ -94,8 +94,8 @@ int best_match(int n)//¿ªÊ¼Æ¥Åä
 
 int main()
 {
-  freopen("home.in","r",stdin);
-  freopen("home.out","w",stdout);
+  //freopen("home.in","r",stdin);
+  //freopen("home.out","w",stdout);
   int m,n;
   while(cin>>m>>n&&(m!=0&&n!=0))
   {

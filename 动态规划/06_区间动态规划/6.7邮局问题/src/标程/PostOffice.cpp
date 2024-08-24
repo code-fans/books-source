@@ -6,8 +6,8 @@ int dp[310][31],sum[310][310],pos[310];
 
 int main()
 {
-  freopen("PostOffice.in","r",stdin);
-  freopen("PostOffice.out","w",stdout);
+  //freopen("PostOffice.in","r",stdin);
+  //freopen("PostOffice.out","w",stdout);
   int V,P;
   cin>>V>>P;
   for(int i=1; i<=V; ++i)

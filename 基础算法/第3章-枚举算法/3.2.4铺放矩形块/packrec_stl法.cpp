@@ -75,8 +75,8 @@ void GetState()
 
 int main()
 {
-  freopen("packrec.in","r",stdin);
-  freopen("packrec.out","w",stdout);
+  //freopen("packrec.in","r",stdin);
+  //freopen("packrec.out","w",stdout);
   for(int i=1; i<=4; i++)
     scanf("%d%d",&xx[i],&yy[i]);
   GetState();

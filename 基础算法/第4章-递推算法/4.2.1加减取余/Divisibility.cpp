@@ -6,8 +6,8 @@ int dp[10010][110],a[10010];
 
 int main()
 {
-  freopen("Divisibility.in","r",stdin);
-  freopen("Divisibility.out","w",stdout);
+  //freopen("Divisibility.in","r",stdin);
+  //freopen("Divisibility.out","w",stdout);
   int t,n,k;
   scanf("%d",&t);
   while(t--)

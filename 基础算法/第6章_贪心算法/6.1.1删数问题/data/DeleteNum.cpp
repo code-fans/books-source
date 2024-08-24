@@ -15,8 +15,8 @@ void Delete_Num(char str[],int n,int k)
 
 int main()
 {
-  freopen("DeleteNum.in","r",stdin);
-  freopen("DeleteNum.out","w",stdout);
+  //freopen("DeleteNum.in","r",stdin);
+  //freopen("DeleteNum.out","w",stdout);
   int k;
   char str[300];
   while(scanf("%s%d",str,&k)!=EOF)

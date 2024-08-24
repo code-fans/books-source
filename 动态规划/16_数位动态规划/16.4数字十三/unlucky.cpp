@@ -53,8 +53,8 @@ int Count(int n)
 
 int main()
 {
-  freopen("unlucky.in","r",stdin);
-  freopen("unlucky.out","w",stdout);
+  //freopen("unlucky.in","r",stdin);
+  //freopen("unlucky.out","w",stdout);
   Init();
   int n;
   while(~scanf("%d",&n))

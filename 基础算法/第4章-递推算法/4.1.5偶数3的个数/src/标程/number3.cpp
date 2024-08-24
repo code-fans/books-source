@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("number3.in","r",stdin);
-  freopen("number3.out","w",stdout);
+  //freopen("number3.in","r",stdin);
+  //freopen("number3.out","w",stdout);
   int n;
   scanf("%d",&n);
   long long a[2]= {0,9},b[2]= {0,1};                //¹ö¶¯Êý×é

@@ -14,8 +14,8 @@ int Cmp( T a, T b)
 
 int main()
 {
-  freopen("tv.in","r",stdin);
-  freopen("tv.out","w",stdout);
+  //freopen("tv.in","r",stdin);
+  //freopen("tv.out","w",stdout);
   int n;
   while(scanf("%d", &n), n)
   {

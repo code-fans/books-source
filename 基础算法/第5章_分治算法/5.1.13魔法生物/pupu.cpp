@@ -37,8 +37,8 @@ ll Pow(ll a,ll b,ll Mod)
 
 int main ()
 {
-  freopen("pupu.in","r",stdin);
-  freopen("pupu.out","w",stdout);
+  //freopen("pupu.in","r",stdin);
+  //freopen("pupu.out","w",stdout);
   ll n;
   while(scanf("%lld",&n) && n)
     printf("%lld\n",(Pow(2,n-1,n)+1)%n);

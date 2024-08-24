@@ -8,8 +8,8 @@ bool flag[N];
 
 int main()
 {
-  freopen("bird.in","r",stdin);
-  freopen("bird.out","w",stdout);
+  //freopen("bird.in","r",stdin);
+  //freopen("bird.out","w",stdout);
   scanf("%d%d%d",&n,&m,&k);
   for (int i=1; i<=n; i++)
     scanf("%d%d",&x[i],&y[i]);

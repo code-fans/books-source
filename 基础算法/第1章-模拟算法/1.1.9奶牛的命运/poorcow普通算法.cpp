@@ -11,8 +11,8 @@ int GCD(int m,int n)
 
 int main()
 {
-  //freopen("poorcow.in","r",stdin);
-  //freopen("poorcow.out","w",stdout);
+  ////freopen("poorcow.in","r",stdin);
+  ////freopen("poorcow.out","w",stdout);
   scanf("%d", &T);
   while(T--)
   {

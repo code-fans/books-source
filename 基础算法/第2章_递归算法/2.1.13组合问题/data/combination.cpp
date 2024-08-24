@@ -25,8 +25,8 @@ void DFS(int i)
 
 int main()
 {
-  freopen("combination.in","r",stdin);
-  freopen("combination.out","w",stdout);
+  //freopen("combination.in","r",stdin);
+  //freopen("combination.out","w",stdout);
   cin>>m>>n;
   DFS(1);
   return 0;

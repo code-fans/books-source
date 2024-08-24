@@ -24,8 +24,8 @@ void DFS(int pos,int s,int state)//找出第i-1行状态s与第i行哪些状态state相匹配
 
 int main()
 {
-  freopen("Imprisonment.in","r",stdin);
-  freopen("Imprisonment.out","w",stdout);
+  //freopen("Imprisonment.in","r",stdin);
+  //freopen("Imprisonment.out","w",stdout);
   while(cin>>n>>m,n)
   {
     if(m>n)

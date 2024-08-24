@@ -47,8 +47,8 @@ int Query(int l,int r,int pos)
 
 int main()
 {
-  freopen("terminator.in","r",stdin);
-  freopen("terminator.out","w",stdout);
+  //freopen("terminator.in","r",stdin);
+  //freopen("terminator.out","w",stdout);
   int T,L,R,n,q,Metal,Case=0;
   scanf("%d",&T);
   while(T--)

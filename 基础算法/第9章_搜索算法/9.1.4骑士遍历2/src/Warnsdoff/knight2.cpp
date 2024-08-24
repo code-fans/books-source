@@ -40,8 +40,8 @@ int Next(int x,int y,int start)//返回出口最少的点
 
 int main()
 {
-  freopen("knight2.in","r",stdin);
-  freopen("knight2.out","w",stdout);
+  //freopen("knight2.in","r",stdin);
+  //freopen("knight2.out","w",stdout);
   int x,y,step,start;
   cin>>N>>x>>y;
   board[x][y]=1;

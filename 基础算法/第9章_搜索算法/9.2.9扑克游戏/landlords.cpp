@@ -71,8 +71,8 @@ void DFS(int step)
 
 int main()
 {
-  freopen("landlords.in","r",stdin);
-  freopen("landlords.out","w",stdout);
+  //freopen("landlords.in","r",stdin);
+  //freopen("landlords.out","w",stdout);
   int t,n;
   cin>>t>>n;
   while(t--)

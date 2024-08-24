@@ -25,8 +25,8 @@ int min(int a,int b,int c)
 
 int main()
 {
-  freopen("edit.in","r",stdin);
-  freopen("edit.out","w",stdout);
+  //freopen("edit.in","r",stdin);
+  //freopen("edit.out","w",stdout);
   char a[maxn],b[maxn];
   cin>>a>>b;
   memset(d,0,sizeof(d));

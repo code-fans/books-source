@@ -16,8 +16,8 @@ ULL Factorial(int n)                //此处的ULL即为unsigned long long
 
 main()
 {
-  freopen("factorial.in","r",stdin);
-  freopen("factorial.out","w",stdout);
+  //freopen("factorial.in","r",stdin);
+  //freopen("factorial.out","w",stdout);
   int n;
   scanf("%d",&n);
   printf("%d!=%llu\n",n,Factorial(n));//注意unsigned long long的输出格式

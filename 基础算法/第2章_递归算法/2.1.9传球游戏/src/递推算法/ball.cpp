@@ -7,8 +7,8 @@ int f[31][31];
 
 int main()
 {
-  freopen("ball.in","r",stdin);
-  freopen("ball.out","w",stdout);
+  //freopen("ball.in","r",stdin);
+  //freopen("ball.out","w",stdout);
   cin>>n>>m;
   f[1][0]=1;
   for(int j=1; j<=m; j++)

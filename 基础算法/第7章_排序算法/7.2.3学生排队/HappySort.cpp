@@ -47,8 +47,8 @@ void MergeSort(stu a[],stu b[],int L,int R)
 
 int main()
 {
-  freopen("HappySort.in","r",stdin);
-  freopen("HappySort.out","w",stdout);
+  //freopen("HappySort.in","r",stdin);
+  //freopen("HappySort.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=0; i<n; i++)

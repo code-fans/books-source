@@ -42,8 +42,8 @@ void PrintWay(int x,int y)
 
 int main()
 {
-  freopen("labyrinth.in","r",stdin);
-  freopen("labyrinth.out","w",stdout);
+  //freopen("labyrinth.in","r",stdin);
+  //freopen("labyrinth.out","w",stdout);
 
   cin>>m>>n;
   for(int i=1; i<=m; i++)

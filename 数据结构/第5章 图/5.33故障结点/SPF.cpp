@@ -28,8 +28,8 @@ void tarjan(int u,int fa)
 
 int main()
 {
-  freopen("SPF.in","r",stdin);
-  freopen("SPF.out","w",stdout);
+  //freopen("SPF.in","r",stdin);
+  //freopen("SPF.out","w",stdout);
   int Case=0;
   while(1)
   {

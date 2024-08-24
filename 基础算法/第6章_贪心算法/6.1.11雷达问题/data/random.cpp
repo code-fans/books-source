@@ -14,8 +14,8 @@ struct node
 
 int main()
 {
-  //freopen("radar.in","r",stdin);
-  freopen("radar.in","w",stdout);
+  ////freopen("radar.in","r",stdin);
+  //freopen("radar.in","w",stdout);
   srand(time(0));
   int T,n,d;
   cin>>T>>n;

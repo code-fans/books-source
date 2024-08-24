@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   int n;
   cin>>n;
   int a[n+1];//可动态定义数组大小,但不能同时赋值,如int a[n+1]={0};

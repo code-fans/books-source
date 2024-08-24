@@ -23,8 +23,8 @@ void Dijkstra(int b)
 
 int main()
 {
-  freopen("money.in","r",stdin);
-  freopen("money.out","w",stdout);
+  //freopen("money.in","r",stdin);
+  //freopen("money.out","w",stdout);
   int a,b,money;
   cin>>n>>m;
   for(int i=1; i<=m; i++)

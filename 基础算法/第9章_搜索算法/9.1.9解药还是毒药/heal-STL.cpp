@@ -52,8 +52,8 @@ int main()
 {
   cin>>n;
   cout<<n<<' '<<~n;
-  freopen("heal.in","r",stdin);
-  freopen("heal.out","w",stdout);
+  //freopen("heal.in","r",stdin);
+  //freopen("heal.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=m; i++)
   {

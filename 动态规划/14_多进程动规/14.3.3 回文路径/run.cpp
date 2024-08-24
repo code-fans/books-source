@@ -7,8 +7,8 @@ int main()
 
   while(1)
   {
-    freopen("path.out","r",stdin);
-    freopen("path.out","w",stdout);
+    //freopen("path.out","r",stdin);
+    //freopen("path.out","w",stdout);
     int n;
     if(cin>>n)
       fclose(stdin);

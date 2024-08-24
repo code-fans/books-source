@@ -37,8 +37,8 @@ LL Cal(LL x)               //拆成二进制保存
 
 int main()
 {
-  freopen("round.in","r",stdin);
-  freopen("round.out","w",stdout);
+  //freopen("round.in","r",stdin);
+  //freopen("round.out","w",stdout);
   cin>>l>>r;
   cout<<Cal(r)-Cal(l-1)<<endl;
   return 0;

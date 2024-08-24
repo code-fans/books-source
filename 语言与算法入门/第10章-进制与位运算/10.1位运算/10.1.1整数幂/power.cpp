@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("power.in","r",stdin);
-  freopen("power.out","w",stdout);
+  //freopen("power.in","r",stdin);
+  //freopen("power.out","w",stdout);
   int n,t;
   scanf("%d",&t);
   while(t--)

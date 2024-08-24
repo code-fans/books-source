@@ -33,8 +33,8 @@ int D(int x1,int y1,int x2,int y2)
 
 int main()
 {
-  freopen("taxi.in","r",stdin);
-  freopen("taxi.out","w",stdout);
+  //freopen("taxi.in","r",stdin);
+  //freopen("taxi.out","w",stdout);
   scanf("%d",&t);
   while(t--)
   {

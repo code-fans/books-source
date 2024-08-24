@@ -6,8 +6,8 @@ long long g[501][501];
 
 int main()
 {
-  freopen("Staircases.in","r",stdin);
-  freopen("Staircases.out","w",stdout);
+  //freopen("Staircases.in","r",stdin);
+  //freopen("Staircases.out","w",stdout);
   int m;
   scanf("%d",&m);
   for(int i=1; i<=m; ++i)

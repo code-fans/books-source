@@ -74,8 +74,8 @@ void work()
 
 int main()
 {
-  freopen("LCIS.in","r",stdin);
-  freopen("LCIS.out","w",stdout);
+  //freopen("LCIS.in","r",stdin);
+  //freopen("LCIS.out","w",stdout);
   work();
   return 0;
 }

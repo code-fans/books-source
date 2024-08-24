@@ -21,8 +21,8 @@ bool bellman()
 
 int main()
 {
-  freopen("hole.in","r",stdin);
-  freopen("hole.out","w",stdout);
+  //freopen("hole.in","r",stdin);
+  //freopen("hole.out","w",stdout);
   scanf("%d%d", &n, &m);
   for (int i = 0; i < m; i++)
     scanf("%d%d%d", &v[i], &u[i], &w[i]);

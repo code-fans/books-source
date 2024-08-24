@@ -10,8 +10,8 @@ struct person
 
 int main()
 {
-  freopen("kind.in","r",stdin);
-  freopen("kind.out","w",stdout);
+  //freopen("kind.in","r",stdin);
+  //freopen("kind.out","w",stdout);
   int n,m;
   cin>>n;
   for(int i=0; i<n; i++)

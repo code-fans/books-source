@@ -6,8 +6,8 @@ int f[100005], c[100005], a[100005];
 
 int main()
 {
-  freopen("LIS.in","r",stdin);
-  freopen("LIS.out","w",stdout);
+  //freopen("LIS.in","r",stdin);
+  //freopen("LIS.out","w",stdout);
   int n,longest=1;
   scanf("%d", &n);
   for(int i=1; i<=n; ++i)

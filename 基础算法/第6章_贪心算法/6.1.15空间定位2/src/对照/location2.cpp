@@ -64,8 +64,8 @@ int compare(const void* x, const void* y)
 
 int main(int argc, char* argv[])
 {
-    	freopen("location2.in", "r", stdin);
-	freopen("location2.out", "w", stdout);
+    	//freopen("location2.in", "r", stdin);
+	//freopen("location2.out", "w", stdout);
 	unsigned timer, N, W, H, i, X, RR, C = 0, U = 1;
 	double T, L, R, Q = 0;
 

@@ -10,8 +10,8 @@ int dp[2][maxl][maxl];
 
 int main(void)
 {
-  freopen("service.in", "r", stdin);
-  freopen("service.out", "w", stdout);
+  //freopen("service.in", "r", stdin);
+  //freopen("service.out", "w", stdout);
   scanf("%d%d", &l, &n);
   for (int i = 1; i <= l; i++)
     for (int j = 1; j <= l; j++)

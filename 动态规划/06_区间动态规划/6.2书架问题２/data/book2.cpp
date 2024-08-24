@@ -15,8 +15,8 @@ bool Cmp(const book &a,const book &b)
 
 int main()
 {
-  freopen("book2.in","r",stdin);
-  freopen("book2.out","w",stdout);
+  //freopen("book2.in","r",stdin);
+  //freopen("book2.out","w",stdout);
   int n,k;
   scanf("%d%d",&n,&k);
   for (int i=1; i<=n; ++i)

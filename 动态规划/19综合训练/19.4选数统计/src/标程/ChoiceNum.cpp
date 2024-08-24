@@ -7,8 +7,8 @@ long long a[11][2001],ans;
 
 int main()
 {
-  freopen("ChoiceNum.in","r",stdin);
-  freopen("ChoiceNum.out","w",stdout);   
+  //freopen("ChoiceNum.in","r",stdin);
+  //freopen("ChoiceNum.out","w",stdout);   
   scanf("%d%d",&N,&M);
   memset(a,0,sizeof(a));
   for (i=1;i<=M;i++) 

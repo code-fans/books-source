@@ -69,8 +69,8 @@ void Work(int x1,int y1,int x2,int y2)  //µÝ¹éº¯Êý
 
 int main()
 {
-  freopen("chessboard.in","r",stdin);
-  freopen("chessboard.out","w",stdout);
+  //freopen("chessboard.in","r",stdin);
+  //freopen("chessboard.out","w",stdout);
   int n,x,y;
   cin>>n>>x>>y;
   for(int i=1; i<=n; i++)

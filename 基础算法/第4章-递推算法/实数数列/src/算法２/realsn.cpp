@@ -14,8 +14,8 @@ Type d,a1,an;
 
 int main()
 {
-  freopen("realsn.in","r",stdin);
-  freopen("realsn.out","w",stdout);
+  //freopen("realsn.in","r",stdin);
+  //freopen("realsn.out","w",stdout);
   cin>>n>>d>>m>>a1>>an;
   //≥ı ºªØa[1],a[2] 
   a[1].p=a1;

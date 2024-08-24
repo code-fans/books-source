@@ -25,8 +25,8 @@ int GetSum(int x,int y)              //查询第1行到第x行，第1列到第y列的和
 
 int main()
 {
-  freopen("cell.in","r",stdin);
-  freopen("cell.out","w",stdout);
+  //freopen("cell.in","r",stdin);
+  //freopen("cell.out","w",stdout);
   int X,Y,A,L,B,R,T;
   for(int i=1; i<=MAXN ; i++)        //预处理lowbit
     lowbit[i]=i&(-i);

@@ -20,8 +20,8 @@ void reverse(int n)
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   reverse(5);
   printf("\n");
   return 0;

@@ -109,8 +109,8 @@ int GetNxt(int num)                                //≤È’“∫ÛºÃ
 
 int main()
 {
-  freopen("BalanceTree.in","r",stdin);
-  freopen("BalanceTree.out","w",stdout);
+  //freopen("BalanceTree.in","r",stdin);
+  //freopen("BalanceTree.out","w",stdout);
   n=Read();
   for(int i=0,opt,x; i<n; ++i)
   {

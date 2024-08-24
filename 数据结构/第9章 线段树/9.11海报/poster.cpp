@@ -44,8 +44,8 @@ void query(int p,int l,int r)
 }
 int main()
 {
-  freopen("poster.in","r",stdin);
-  freopen("poster.out","w",stdout);
+  //freopen("poster.in","r",stdin);
+  //freopen("poster.out","w",stdout);
   int T;
   scanf("%d",&T);
   int n;

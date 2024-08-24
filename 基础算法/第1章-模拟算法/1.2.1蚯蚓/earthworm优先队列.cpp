@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("earthworm.in","r",stdin);
-  freopen("earthworm.out","w",stdout);
+  //freopen("earthworm.in","r",stdin);
+  //freopen("earthworm.out","w",stdout);
   priority_queue<int> earthworm;  //优先队列默认由大到小排列
   int n,m,t,q,u,v,sum=0;          //sum用于保存累计增加的q值
   cin>>n>>m>>q>>u>>v>>t;

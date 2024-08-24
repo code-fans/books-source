@@ -7,8 +7,8 @@ int a[101][101],b[101];                     //ÓÃÁÚ½Ó¾ØÕóa[][]±£´æ
 
 int main()
 {
-  freopen("hospital.in","r",stdin);
-  freopen("hospital.out","w",stdout);
+  //freopen("hospital.in","r",stdin);
+  //freopen("hospital.out","w",stdout);
   int n;
   cin>>n;
   for(int i=1; i<=n; i++)

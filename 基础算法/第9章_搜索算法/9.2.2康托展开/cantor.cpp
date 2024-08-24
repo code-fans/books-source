@@ -22,8 +22,8 @@ long long Cantor(int s[],int n)            //¿µÍÐÕ¹¿ª
 
 int main()
 {
-  freopen("cantor.in","r",stdin);
-  freopen("cantor.out","w",stdout);
+  //freopen("cantor.in","r",stdin);
+  //freopen("cantor.out","w",stdout);
   int N;
   cin>>N;
   for (int i=1; i<=N; i++)

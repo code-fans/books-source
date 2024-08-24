@@ -11,8 +11,8 @@ int w[10001],c[10001],f[10001],stone[10001][1001];
 
 int main()
 {
-  freopen("kbag.in","r",stdin);
-  freopen("kbag.out","w",stdout);
+  //freopen("kbag.in","r",stdin);
+  //freopen("kbag.out","w",stdout);
   scanf("%d%d",&m,&n);
   for(int i=1; i<=n; i++)
   {

@@ -17,8 +17,8 @@ int Get_c(int n,int m)
 
 int main()
 {
-  freopen("encode.in","r",stdin);
-  freopen("encode.out","w",stdout);
+  //freopen("encode.in","r",stdin);
+  //freopen("encode.out","w",stdout);
   scanf("%s",&ss);
   int n=strlen(ss);
   for (int i=1; i<=n; i++)

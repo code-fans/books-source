@@ -17,8 +17,8 @@ void SPFA(int s)
 
 int main()
 {
-  freopen("path.in","r",stdin);
-  freopen("path.out","w",stdout);
+  //freopen("path.in","r",stdin);
+  //freopen("path.out","w",stdout);
   int n,m,s,t,x,y,z;
   cin>>n>>m;
   for(int i=0; i<m; i++)

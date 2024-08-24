@@ -56,8 +56,8 @@ int DP()
 
 int main()
 {
-  freopen("subset.in","r",stdin);
-  freopen("subset.out","w",stdout);
+  //freopen("subset.in","r",stdin);
+  //freopen("subset.out","w",stdout);
   int T;
   scanf("%d",&T);
   int iCase=0;

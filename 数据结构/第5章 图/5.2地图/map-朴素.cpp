@@ -36,8 +36,8 @@ void Dijkstra(int x)                     //求从起x点到其它结点的单源最短路径
 
 int main()
 {
-  freopen("map.in","r",stdin);
-  freopen("map.out","w",stdout);
+  //freopen("map.in","r",stdin);
+  //freopen("map.out","w",stdout);
   cin>>n;                                //n个结点
   for(int i=1; i<=n; i++)                //读入图
     for(int j=1; j<=n; j++)

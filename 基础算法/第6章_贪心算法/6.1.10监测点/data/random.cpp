@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  //freopen("ChoicePoint.in","r",stdin);
-  freopen("ChoicePoint.in","w",stdout);
+  ////freopen("ChoicePoint.in","r",stdin);
+  //freopen("ChoicePoint.in","w",stdout);
   int x,n;
   cin>>x>>n;
   cout<<x<<endl;

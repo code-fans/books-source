@@ -47,8 +47,8 @@ double Find(int L,int R)                  //找到L到R之间最小距离
 
 int main()
 {
-  freopen("nearest.in","r",stdin);
-  freopen("nearest.out","w",stdout);
+  //freopen("nearest.in","r",stdin);
+  //freopen("nearest.out","w",stdout);
   scanf("%d",&n);
   for(int i=0; i<n; ++i)
     scanf("%lf%lf",&S[i].x,&S[i].y) ;

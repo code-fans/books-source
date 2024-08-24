@@ -24,8 +24,8 @@ void Judge(int who,int guilt)
 
 int main()
 {
-  freopen("LOGIC.in","r",stdin);
-  freopen("LOGIC.out","w",stdout);
+  //freopen("LOGIC.in","r",stdin);
+  //freopen("LOGIC.out","w",stdout);
   int m,n,p;
   cin>>m>>n>>p;
   for(int i=1; i<=m; i++)

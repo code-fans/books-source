@@ -19,8 +19,8 @@ int fun(int x,int y)//x为行，y为列
 
 int main()
 {
-  freopen("tower.in","r",stdin);
-  freopen("tower.out","w",stdout);
+  //freopen("tower.in","r",stdin);
+  //freopen("tower.out","w",stdout);
   int i,j;
   cin>>n;
   for(i=1;i<=n;i++)

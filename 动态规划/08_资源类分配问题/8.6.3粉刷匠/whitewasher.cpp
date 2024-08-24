@@ -22,8 +22,8 @@ char s[150];
 
 int main()
 {
-  freopen("whitewasher.in","r",stdin);
-  freopen("whitewasher.out","w",stdout);
+  //freopen("whitewasher.in","r",stdin);
+  //freopen("whitewasher.out","w",stdout);
   cin>>n>>m>>t;
   for(int i=1; i<=n; i++)
   {

@@ -4,8 +4,8 @@ using namespace std;
 int f[10001];
 int main()
 {
-  freopen("FullKnapsack.in","r",stdin);
-  freopen("FullKnapsack.out","w",stdout);
+  //freopen("FullKnapsack.in","r",stdin);
+  //freopen("FullKnapsack.out","w",stdout);
   int m,n;
   cin>>m>>n;
   for(int i=1,w,c; i<=n; i++)

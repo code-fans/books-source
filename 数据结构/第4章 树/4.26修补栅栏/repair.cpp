@@ -8,8 +8,8 @@ priority_queue<int,vector<int>,greater<int> >wood;
 
 int main()
 {
-  freopen("repair.in","r",stdin);
-  freopen("repair.out","w",stdout);
+  //freopen("repair.in","r",stdin);
+  //freopen("repair.out","w",stdout);
   int n,l;
   cin>>n;
   for(int i=0; i<n; i++)

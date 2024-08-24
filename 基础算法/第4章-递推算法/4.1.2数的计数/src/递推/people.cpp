@@ -6,8 +6,8 @@ long long f[1005];
 
 int main()
 {
-  freopen("people.in","r",stdin);
-  freopen("people.out","w",stdout);
+  //freopen("people.in","r",stdin);
+  //freopen("people.out","w",stdout);
   int n;
   scanf("%d",&n);
   f[1]=1;

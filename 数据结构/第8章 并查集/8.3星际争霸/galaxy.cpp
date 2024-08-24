@@ -26,8 +26,8 @@ void Union(int i,int j)
 
 int main()
 {
-  freopen("galaxy.in","r",stdin);
-  freopen("galaxy.out","w",stdout);
+  //freopen("galaxy.in","r",stdin);
+  //freopen("galaxy.out","w",stdout);
   int N,x,y;
   scanf("%d\n",&N);
   for(int i=1; i<=30000; i++)

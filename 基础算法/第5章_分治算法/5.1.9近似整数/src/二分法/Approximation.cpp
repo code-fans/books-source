@@ -36,8 +36,8 @@ void FindMin(int n, int d)
 
 int main()
 {
-  freopen("Approximation.in", "r", stdin);
-  freopen("Approximation.out", "w", stdout);
+  //freopen("Approximation.in", "r", stdin);
+  //freopen("Approximation.out", "w", stdout);
   scanf("%lf%d", &A, &L);
   ans.a = (int)(A + 0.5);
   ans.b = 1;

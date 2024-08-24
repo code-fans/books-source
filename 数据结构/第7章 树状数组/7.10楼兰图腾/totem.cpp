@@ -36,8 +36,8 @@ long long ask(long long p)
 
 int main()
 {
-  freopen("totem.in","r",stdin);
-  freopen("totem.out","w",stdout);
+  //freopen("totem.in","r",stdin);
+  //freopen("totem.out","w",stdout);
   read(n);
   for(register long long i = 1; i <= n; ++ i) read(num[i]), ma = max(ma, num[i]);
   register long long ans = 0;

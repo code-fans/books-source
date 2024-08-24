@@ -31,8 +31,8 @@ void Dfs(int pos)
 
 int main()
 {
-  freopen("count.in","r",stdin);
-  freopen("count.out","w",stdout);
+  //freopen("count.in","r",stdin);
+  //freopen("count.out","w",stdout);
   string str;
   cin>>s>>t>>w>>str;
   for(int i=0; i<str.size(); i++)

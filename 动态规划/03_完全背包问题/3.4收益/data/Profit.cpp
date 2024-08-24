@@ -11,8 +11,8 @@ int weight[12],profit[12],dp[1000002];
 
 int main()
 {
-  freopen("Profit.in","r",stdin);
-  freopen("Profit.out","w",stdout);
+  //freopen("Profit.in","r",stdin);
+  //freopen("Profit.out","w",stdout);
   scanf("%d",&T);
   while(T--)
   {

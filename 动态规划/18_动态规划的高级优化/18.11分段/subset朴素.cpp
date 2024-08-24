@@ -22,8 +22,8 @@ int out(int k1,int k,int k2,int j)
 }
 int main()                                      //设k1<k2，假设k1比k2优,所以
 {
-  freopen("subset.in","r",stdin);
-  freopen("subset.out","w",stdout);
+  //freopen("subset.in","r",stdin);
+  //freopen("subset.out","w",stdout);
   int t,n,m,i,j,l,r,k,k1,k2,cas;              //dp[k1][j-1]+(a[i]-a[k1+1])^2<dp[k2][j-1]+(a[i]-a[k2+1])^2
   scanf("%d",&t);                             //(dp[k1][j-1]-dp[k2][j-1]+a[k1+1]^2-a[k2+1]^2)/(2*(a[k1+1]-a[k2+1]))>=a[i]
   for(cas=1; cas<=t; cas++)                   //设左式为G(k1,k2)

@@ -55,8 +55,8 @@ void ini()
 }
 int main()
 {
-  freopen("two.in","r",stdin);
-  freopen("two.out","w",stdout);
+  //freopen("two.in","r",stdin);
+  //freopen("two.out","w",stdout);
   while(~scanf("%d%d",&n,&s))
   {
     ini();

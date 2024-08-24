@@ -17,8 +17,8 @@ int f[100005];
 
 int main()
 {
-  //freopen("Beautiful.in","r",stdin);
-  //freopen("Beautiful.out","w",stdout);
+  ////freopen("Beautiful.in","r",stdin);
+  ////freopen("Beautiful.out","w",stdout);
   int n,longest=1;
   scanf("%d", &n);
   for(int i=1; i<=n; ++i)

@@ -55,8 +55,8 @@ int GetBig()//每次取3个队列中队首最大的元素进行切割
 
 int main()
 {
-  freopen("earthworm.in","r",stdin);
-  freopen("earthworm.out","w",stdout);
+  //freopen("earthworm.in","r",stdin);
+  //freopen("earthworm.out","w",stdout);
   n=Read();
   m=Read();
   q=Read();

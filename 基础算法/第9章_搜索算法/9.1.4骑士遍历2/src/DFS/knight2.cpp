@@ -26,8 +26,8 @@ int DFS(int x,int y,int step)
 
 int main()
 {
-  freopen("knight2.in","r",stdin);
-  freopen("knight2.out","w",stdout);
+  //freopen("knight2.in","r",stdin);
+  //freopen("knight2.out","w",stdout);
   int x,y;
   cin>>n>>x>>y;
   Count=n*n;

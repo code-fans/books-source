@@ -17,8 +17,8 @@ inline int Getnum(int x,int t=0)       //计算x转二进制数后有多少1
 
 int main()
 {
-  freopen("cannon.in","r",stdin);
-  freopen("cannon.out","w",stdout);
+  //freopen("cannon.in","r",stdin);
+  //freopen("cannon.out","w",stdout);
   int n, m, cnt=0,ans=0;
   cin>>n>>m;
   for(int i=1; i<=n; i++)

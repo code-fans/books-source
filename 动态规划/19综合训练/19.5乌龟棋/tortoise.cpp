@@ -6,8 +6,8 @@ int F[MAXN][MAXN][MAXN][MAXN],num[351],g[5],n,m,x;
 
 int main()
 {
-  freopen("tortoise.in","r",stdin);
-  freopen("tortoise.out","w",stdout);
+  //freopen("tortoise.in","r",stdin);
+  //freopen("tortoise.out","w",stdout);
   cin>>n>>m;
   for(int i=1; i<=n; i++)
     cin>>num[i];

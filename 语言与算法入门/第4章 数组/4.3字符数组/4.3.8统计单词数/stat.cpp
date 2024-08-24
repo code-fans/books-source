@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("stat.in","r",stdin);
-  freopen("stat.out","w",stdout);
+  //freopen("stat.in","r",stdin);
+  //freopen("stat.out","w",stdout);
   string a,b;          //string不是基本数据类型，不能用scanf()读入
   getline(cin,a);      //读取string推荐用getline()
   getline(cin,b);

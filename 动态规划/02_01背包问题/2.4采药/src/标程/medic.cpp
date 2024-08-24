@@ -6,8 +6,8 @@ int t,m,a[10001],b[10001],f[10001][10001];
 
 int main()
 {
-  freopen("medic.in","r",stdin);
-  freopen("medic.out","w",stdout);
+  //freopen("medic.in","r",stdin);
+  //freopen("medic.out","w",stdout);
   scanf("%d%d",&t,&m);
   for (int i=1; i<=m; i++)
     scanf("%d%d",&a[i],&b[i]);

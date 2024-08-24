@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("Numdismantle.in","r",stdin);
-  freopen("Numdismantle.out","w",stdout);
+  //freopen("Numdismantle.in","r",stdin);
+  //freopen("Numdismantle.out","w",stdout);
   int n,k,ans=0;
   cin>>n>>k;
   if (k==2)

@@ -6,8 +6,8 @@ int a[32+1][32+1];
 
 int main()
 {
-  freopen("competition.in","r",stdin);
-  freopen("competition.out","w",stdout);
+  //freopen("competition.in","r",stdin);
+  //freopen("competition.out","w",stdout);
   int n,h=1;
   scanf("%d",&n);
   a[1][1]=1;

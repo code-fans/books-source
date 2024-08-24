@@ -43,8 +43,8 @@ void AddEdge(int u,int v)
 
 int main()
 {
-  freopen("bfs5.in","r",stdin);
-  freopen("bfs5.ans","w",stdout);
+  //freopen("bfs5.in","r",stdin);
+  //freopen("bfs5.ans","w",stdout);
   memset(Head, -1, sizeof(Head));
   cin>>N>>M;
   for(int i=1; i<=M; i++)

@@ -37,8 +37,8 @@ long long Cal(long long n,int len)
 
 int main()
 {
-  freopen("statistics.in","r",stdin);
-  freopen("statistics.out","w",stdout);
+  //freopen("statistics.in","r",stdin);
+  //freopen("statistics.out","w",stdout);
   Init();
   int t,len;
   cin>>t;

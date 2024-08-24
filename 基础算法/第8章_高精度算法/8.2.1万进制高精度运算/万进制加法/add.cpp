@@ -43,8 +43,8 @@ void Init(int result[],string in)       //string转整型数组,4位数一格
 
 int main()
 {
-  freopen("add.in","r",stdin);
-  freopen("add.out","w",stdout);
+  //freopen("add.in","r",stdin);
+  //freopen("add.out","w",stdout);
   string a,b;
   cin>>a>>b;                            //string要用C++读入方式
   Init(x,a);

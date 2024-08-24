@@ -6,8 +6,8 @@ pair<int,int>p[1000001];//pair容器存储每一轮的信息
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   int n,ans=1;
   cin>>n;
   for(int i=1; i<=n; i++)

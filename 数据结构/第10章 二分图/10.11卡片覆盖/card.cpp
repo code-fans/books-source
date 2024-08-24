@@ -46,8 +46,8 @@ int hungry()
 
 int main()
 {
-  freopen("card.in","r",stdin);
-  freopen("card.out","w",stdout);
+  //freopen("card.in","r",stdin);
+  //freopen("card.out","w",stdout);
   int k , u , v;
   while(cin >> n >> m >> k)
   {

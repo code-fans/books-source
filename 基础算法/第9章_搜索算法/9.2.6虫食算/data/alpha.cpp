@@ -64,8 +64,8 @@ void GetNext(int x)
 
 int main()
 {
-  freopen("alpha.in","r",stdin);
-  freopen("alpha.out","w",stdout);
+  //freopen("alpha.in","r",stdin);
+  //freopen("alpha.out","w",stdout);
   char s1[N],s2[N],s3[N];
   scanf("%d %s %s %s",&n,s1,s2,s3);
   for(int i=0; i<n; i++)

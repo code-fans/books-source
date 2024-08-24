@@ -33,8 +33,8 @@ bool isSame(int a, int b)//判断a与b是否同样
 
 int main()
 {
-  freopen("snow.in","r",stdin);
-  freopen("snow.out","w",stdout);
+  //freopen("snow.in","r",stdin);
+  //freopen("snow.out","w",stdout);
 
   int n;
   int i,j;

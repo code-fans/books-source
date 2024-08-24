@@ -41,8 +41,8 @@ bool Dfs(const int &m,const int &i, const int &j)//DFS找出增加的线路
 
 int main()
 {
-  freopen("traffic.in","r",stdin);
-  freopen("traffic.out","w",stdout);
+  //freopen("traffic.in","r",stdin);
+  //freopen("traffic.out","w",stdout);
   memset(f,0x7f,sizeof(f));              //浮点数组不能用0x3f赋最大值
   int n,M,x, y,w;
   scanf("%d %d", &n, &M);

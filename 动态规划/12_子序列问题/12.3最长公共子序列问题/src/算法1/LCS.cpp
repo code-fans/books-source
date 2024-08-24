@@ -24,8 +24,8 @@ void Dp()
 
 int main()
 {
-  freopen("LCS.in","r",stdin);
-  freopen("LCS.out","w",stdout);
+  //freopen("LCS.in","r",stdin);
+  //freopen("LCS.out","w",stdout);
   scanf("%d%*c",&n1);                //*表示读入（换行符）不赋予任何变量
   for(int i=1; i<=n1; ++i)
     scanf("%c",&s1[i]);

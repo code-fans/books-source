@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("NumX.in","r",stdin);
-  freopen("NumX.out","w",stdout);
+  //freopen("NumX.in","r",stdin);
+  //freopen("NumX.out","w",stdout);
   long long n,x,t=0;
   cin>>n>>x;
   for(int i=1; i<=n; i++)

@@ -37,8 +37,8 @@ void Output(int ans[])
 
 int main()
 {
-  freopen("mul.in","r",stdin);
-  freopen("mul.out","w",stdout);
+  //freopen("mul.in","r",stdin);
+  //freopen("mul.out","w",stdout);
   cin>>str1>>str2;
   int la=strlen(str1);
   int lb=strlen(str2);

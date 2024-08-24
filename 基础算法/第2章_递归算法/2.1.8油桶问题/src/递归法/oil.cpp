@@ -16,8 +16,8 @@ int p(int n,int m)
 
 int main()
 {
-  freopen("oil.in","r",stdin);
-  freopen("oil.out","w",stdout);
+  //freopen("oil.in","r",stdin);
+  //freopen("oil.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)
     scanf("%d",&a[i]);

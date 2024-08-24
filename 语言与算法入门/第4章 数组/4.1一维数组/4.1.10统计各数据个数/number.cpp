@@ -6,8 +6,8 @@ int temp,sum;
 
 int main()
 {
-  freopen("number.in","r",stdin);
-  freopen("number.out","w",stdout);
+  //freopen("number.in","r",stdin);
+  //freopen("number.out","w",stdout);
   t=0;
   while(cin>>temp)
   {

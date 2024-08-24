@@ -61,8 +61,8 @@ void AddE(int x, int y) //Ç°ÏòĞÇ´æ±ß
 
 int main()
 {
-  freopen("travel.in","r",stdin);
-  freopen("travel.out","w",stdout);
+  //freopen("travel.in","r",stdin);
+  //freopen("travel.out","w",stdout);
   int x, y;
   scanf("%d%d", &n, &m);
   for (int i = 1; i <= m; i++)

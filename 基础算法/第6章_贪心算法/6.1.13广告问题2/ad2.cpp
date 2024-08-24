@@ -16,8 +16,8 @@ bool Cmp(node a, node b)
 
 int main()
 {
-  freopen("ad2.in","r",stdin);
-  freopen("ad2.out","w",stdout);
+  //freopen("ad2.in","r",stdin);
+  //freopen("ad2.out","w",stdout);
   int n, w,ans=0;
   scanf("%d%d", &n, &w);
   for(int i=1; i<=w; i++)

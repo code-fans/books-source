@@ -6,8 +6,8 @@ long long len,N,NO,NOI;
 
 int main()
 {
-  freopen("NOI.in","r",stdin);
-  freopen("NOI.out","w",stdout);
+  //freopen("NOI.in","r",stdin);
+  //freopen("NOI.out","w",stdout);
   cin>>len;
   getchar();                   //消去回车符
   string st;

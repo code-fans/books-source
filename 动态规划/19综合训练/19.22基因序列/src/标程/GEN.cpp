@@ -41,8 +41,8 @@ void work()
 
 int main()
 {
-//  freopen("GEN.in","r",stdin);
-//  freopen("GEN.out","w",stdout);
+//  //freopen("GEN.in","r",stdin);
+//  //freopen("GEN.out","w",stdout);
   scanf("%d",&n);
   num[0]=1;
   for(int i=1; i<=26; i++)

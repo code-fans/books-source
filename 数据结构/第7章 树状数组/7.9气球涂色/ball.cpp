@@ -32,8 +32,8 @@ int sum(int i)
 
 int main()
 {
-  freopen("ball1.in","r",stdin);
-  freopen("ball1.ans","w",stdout);
+  //freopen("ball1.in","r",stdin);
+  //freopen("ball1.ans","w",stdout);
   int a,b;
   while(scanf("%d",&n),n)
   {

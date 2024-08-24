@@ -95,8 +95,8 @@ long dp(int root, int j)//¶¯¹æ
 
 int main()
 {
-  freopen("skill.out", "w", stdout);
-  freopen("skill.in", "r", stdin);
+  //freopen("skill.out", "w", stdout);
+  //freopen("skill.in", "r", stdin);
   while (scanf("%d", &n) != EOF)
   {
     set_tree();

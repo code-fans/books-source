@@ -39,8 +39,8 @@ void Calc(int k,int n)
 
 int main()
 {
-  freopen("ad.in","r",stdin);
-  freopen("ad.out","w",stdout);
+  //freopen("ad.in","r",stdin);
+  //freopen("ad.out","w",stdout);
   int t,k,n;
   for(scanf("%d",&t); t; t--)
   {

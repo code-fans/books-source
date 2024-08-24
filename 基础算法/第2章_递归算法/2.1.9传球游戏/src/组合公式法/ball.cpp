@@ -27,8 +27,8 @@ int C(int m, int n)                //计算C(m,i),公式为C(m,n)=m!/(n!(m-n)!)
 
 int main()
 {
-  freopen("ball.in","r",stdin);
-  freopen("ball.out","w",stdout);
+  //freopen("ball.in","r",stdin);
+  //freopen("ball.out","w",stdout);
   scanf("%d%d",&n,&m);
   for (int i = 0; i <= m; i++)
   {

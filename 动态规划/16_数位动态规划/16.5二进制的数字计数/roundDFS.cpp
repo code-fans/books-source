@@ -41,8 +41,8 @@ int Cal(int n)
 
 int main()
 {
-  freopen("round.in","r",stdin);
-  freopen("round.out","w",stdout);
+  //freopen("round.in","r",stdin);
+  //freopen("round.out","w",stdout);
   memset(dp,-1,sizeof(dp));
   cin>>l>>r;
   int ans=Cal(r)-Cal(l-1 );

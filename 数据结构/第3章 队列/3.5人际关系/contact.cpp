@@ -7,8 +7,8 @@ bool visit[110];
 
 int main()
 {
-  freopen("contact.in","r",stdin);
-  freopen("contact.out","w",stdout);
+  //freopen("contact.in","r",stdin);
+  //freopen("contact.out","w",stdout);
   int n,x,y,rear=1,front=1;
   cin>>n>>x>>y;
   for(int i=1; i<=n; i++)

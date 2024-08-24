@@ -34,8 +34,8 @@ void Init(int x[],string s,int len)     //字符数组转换为整型数组
 
 int main()
 {
-  freopen("sub.in","r",stdin);
-  freopen("sub.out","w",stdout);
+  //freopen("sub.in","r",stdin);
+  //freopen("sub.out","w",stdout);
   string str1,str2;
   cin>>str1>>str2;
   if((str1<str2 && str1.size()==str2.size()) || str1.size()<str2.size())

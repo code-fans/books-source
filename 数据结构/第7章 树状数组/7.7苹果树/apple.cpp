@@ -39,8 +39,8 @@ int GetSum(int x)
 
 int main()
 {
-  freopen("apple.in","r",stdin);
-  freopen("apple.out","w",stdout);
+  //freopen("apple.in","r",stdin);
+  //freopen("apple.out","w",stdout);
   while(~scanf("%d", &N))
   {
     memset(Left, 0, sizeof(Left));

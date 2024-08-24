@@ -67,8 +67,8 @@ void DFS(int step)
 
 int main()
 {
-  freopen("mayan.in","r",stdin);
-  freopen("mayan.out","w",stdout);
+  //freopen("mayan.in","r",stdin);
+  //freopen("mayan.out","w",stdout);
   scanf("%d",&n);
   for(short i = 0; i < 5; i++)//枚举列
     for(short h=0; scanf("%d",&st[i][h]) && st[i][h]; h++);//枚举行

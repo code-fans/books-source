@@ -7,8 +7,8 @@ priority_queue<int,vector<int>,greater<int> > q;
 
 int main()
 {
-  freopen("dragons.in","r",stdin);
-  freopen("dragons.out","w",stdout);
+  //freopen("dragons.in","r",stdin);
+  //freopen("dragons.out","w",stdout);
   scanf("%d",&n);
   for (int i=1; i<n; i++)
   {

@@ -6,8 +6,8 @@ int a[MAX],b[MAX];                            //男选手队列及女选手队列
 
 int main()
 {
-  freopen("party.in","r",stdin);
-  freopen("party.out","w",stdout);
+  //freopen("party.in","r",stdin);
+  //freopen("party.out","w",stdout);
   int n,m,k;
   cin>>m>>n>>k;
   int front1=0,real1=m-1,front2=0,real2=n-1;

@@ -31,8 +31,8 @@ bool dfs(int u)
 
 int main()
 {
-  freopen("dog.in","r",stdin);
-  freopen("dog.out","w",stdout);
+  //freopen("dog.in","r",stdin);
+  //freopen("dog.out","w",stdout);
   scanf("%d%d",&N,&M);
   for(int i = 1; i <= N; i++)
     scanf("%d%d", &A[i].x, &A[i].y);

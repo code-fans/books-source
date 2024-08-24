@@ -50,8 +50,8 @@ void Operation(int START,int END)
 
 int main()
 {
-  freopen("K17.in","r",stdin);
-  freopen("K17.txt","w",stdout);
+  //freopen("K17.in","r",stdin);
+  //freopen("K17.txt","w",stdout);
   scanf("%d%d",&m,&k);
   for(int i=1; i<=m; i++)
   {

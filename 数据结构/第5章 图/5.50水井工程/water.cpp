@@ -102,8 +102,8 @@ int solve()
 }
 int main()
 {
-  freopen("water.in","r",stdin);
-  freopen("water.out","w",stdout);
+  //freopen("water.in","r",stdin);
+  //freopen("water.out","w",stdout);
   while(scanf("%d%d%d%d",&n,&X,&Y,&Z),n||X||Y||Z)
   {
     for(int i=1; i<=n; i++)	scanf("%d%d%d",&E[i].x,&E[i].y,&E[i].z);

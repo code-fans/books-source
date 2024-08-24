@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("12.in","r",stdin);
-  freopen("12.out","w",stdout);
+  //freopen("12.in","r",stdin);
+  //freopen("12.out","w",stdout);
   int N,n,num=0,f12=479001600;
   multiset<unsigned int>s;//多重集合，允许值重复
   cin>>N;

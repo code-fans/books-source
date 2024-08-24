@@ -7,8 +7,8 @@ bool b[60000+1]= {1};
 
 int main()
 {
-  freopen("oil.in","r",stdin);
-  freopen("oil.out","w",stdout);
+  //freopen("oil.in","r",stdin);
+  //freopen("oil.out","w",stdout);
   int m,n;
   cin>>n>>m;
   for(int i=1; i<=n; i++)

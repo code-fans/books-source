@@ -6,8 +6,8 @@ vector<int>v;
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   scanf("%d",&n);
   for(int i=1; i<=n; i++)
   {

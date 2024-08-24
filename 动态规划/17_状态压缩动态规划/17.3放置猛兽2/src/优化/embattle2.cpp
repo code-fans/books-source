@@ -72,8 +72,8 @@ void Dp()
 
 int main()
 {
-  freopen("embattle2.in","r",stdin);
-  freopen("embattle2.out","w",stdout);     
+  //freopen("embattle2.in","r",stdin);
+  //freopen("embattle2.out","w",stdout);     
   init();
   Dp();
   return 0;

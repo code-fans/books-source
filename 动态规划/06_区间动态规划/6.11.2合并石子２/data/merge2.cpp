@@ -78,8 +78,8 @@ void solve(int s)
 
 int main()
 {
-  freopen("merge2.in", "r", stdin);
-  freopen("merge2.out", "w", stdout);
+  //freopen("merge2.in", "r", stdin);
+  //freopen("merge2.out", "w", stdout);
   scanf("%d",&N);
   for(i=1; i<=N; i++)
     scanf("%d",&stone[i]);

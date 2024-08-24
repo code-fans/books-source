@@ -13,8 +13,8 @@ void Out(int t)
 
 int main()
 {
-  freopen("poker.in","r",stdin);
-  freopen("poker.out","w",stdout);
+  //freopen("poker.in","r",stdin);
+  //freopen("poker.out","w",stdout);
   while(1)
   {
     int MAP[5][17]= {0};                   //设置牌的状态均为0

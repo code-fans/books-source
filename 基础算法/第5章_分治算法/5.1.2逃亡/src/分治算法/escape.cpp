@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("escape.in","r",stdin);
-  freopen("escape.out","w",stdout);
+  //freopen("escape.in","r",stdin);
+  //freopen("escape.out","w",stdout);
   double s,a,b,c,t1,t2,t3,t4;
   cin>>s>>a>>b;
   double c0=0,c1=s;

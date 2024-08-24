@@ -13,8 +13,8 @@ template<typename T>inline void read(T &x)
 int p[1010],c[210][210],f[2][210][201];
 int main()
 {
-  freopen("service.in","r",stdin);
-  freopen("service.out","w",stdout);
+  //freopen("service.in","r",stdin);
+  //freopen("service.out","w",stdout);
 
   int l,n;
   read(l);

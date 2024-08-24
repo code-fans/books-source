@@ -70,8 +70,8 @@ void Init()
 
 int main()
 {
-  freopen("sudoku.in","r",stdin);
-  freopen("sudoku.out","w",stdout);
+  //freopen("sudoku.in","r",stdin);
+  //freopen("sudoku.out","w",stdout);
   Init();
   int tot=0;
   for(int i=0; i<9; i++)

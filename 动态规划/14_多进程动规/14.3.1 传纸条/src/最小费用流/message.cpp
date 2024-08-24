@@ -64,8 +64,8 @@ inline void addedge(int a,int b,int v)
 void init()
 {
   int i,j,a,b,c;
-  freopen("message.in","r",stdin);
-  freopen("message.out","w",stdout);
+  //freopen("message.in","r",stdin);
+  //freopen("message.out","w",stdout);
   scanf("%d%d",&N,&M);
   for (i=1;i<=N;i++)
   {
@@ -145,8 +145,8 @@ void solve()
 
 int main()
 {
-  freopen("message.in","r",stdin);
-  freopen("message.out","w",stdout);    
+  //freopen("message.in","r",stdin);
+  //freopen("message.out","w",stdout);    
   init();
   solve();
   printf("%d\n",CostFlow);

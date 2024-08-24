@@ -33,8 +33,8 @@ bool DFS(int l,int k,int le)//已拼好的木棍数,拼到第k个木棍,剩余长度
 
 int main()
 {
-  freopen("stick.in","r",stdin);
-  freopen("stick.out","w",stdout);
+  //freopen("stick.in","r",stdin);
+  //freopen("stick.out","w",stdout);
   scanf("%d",&n);
   while(n!=0)
   {

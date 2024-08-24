@@ -108,8 +108,8 @@ void dfs(int sx,int sy,int dep,int pre_move)//sx,sy是空格的位置
 
 int main()
 {
-  freopen("Puzzle15.in","r",stdin);
-  freopen("Puzzle15.out","w",stdout);
+  //freopen("Puzzle15.in","r",stdin);
+  //freopen("Puzzle15.out","w",stdout);
   int l,m,n,sx,sy;
   char c,g;
   int i=0;

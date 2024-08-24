@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("AntiArr.in","r",stdin);
-  freopen("AntiArr.out","w",stdout);
+  //freopen("AntiArr.in","r",stdin);
+  //freopen("AntiArr.out","w",stdout);
   int a[1001];
   int n=0;
   for(int i=0; cin>>a[i]; i++)

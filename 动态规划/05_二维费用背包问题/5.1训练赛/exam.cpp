@@ -7,8 +7,8 @@ int dp[1100][110];
 
 int main()
 {
-  freopen("exam.in","r",stdin);
-  freopen("exam.out","w",stdout);
+  //freopen("exam.in","r",stdin);
+  //freopen("exam.out","w",stdout);
   int T,V,N;
   scanf("%d%d%d",&T,&V,&N);
   for(int i=1; i<=N; ++i)

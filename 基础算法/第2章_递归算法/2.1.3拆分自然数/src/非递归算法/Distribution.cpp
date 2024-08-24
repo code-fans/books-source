@@ -16,8 +16,8 @@ void Print(int k)
 
 int main()
 {
-  freopen("Distribution.in","r",stdin);
-  freopen("Distribution.out","w",stdout);
+  //freopen("Distribution.in","r",stdin);
+  //freopen("Distribution.out","w",stdout);
   scanf("%d",&n);
   Num[1]=1;
   for(int p=1; p>=1;)          //pÎª¶ÑÕ»µÄÖ¸Õë

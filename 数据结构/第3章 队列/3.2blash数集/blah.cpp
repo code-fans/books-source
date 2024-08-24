@@ -5,8 +5,8 @@ int  q[1000005];
 
 int main()
 {
-  freopen("blah.in","r",stdin);
-  freopen("blah.out","w",stdout);
+  //freopen("blah.in","r",stdin);
+  //freopen("blah.out","w",stdout);
   int a,n,num=1,p2=1,p3=1,t2,t3;
   cin>>a>>n;
   q[1]=a;

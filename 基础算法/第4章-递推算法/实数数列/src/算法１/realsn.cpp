@@ -7,8 +7,8 @@ double a[100];
 
 int main()
 {
- freopen("realsn.in","r",stdin);
- freopen("realsn.out","w",stdout);
+ //freopen("realsn.in","r",stdin);
+ //freopen("realsn.out","w",stdout);
  cin>>n>>d>>m>>a[1]>>a[n];
  p[1]=0;
  r[1]=1;

@@ -23,8 +23,8 @@ int Calc(int ans=0)                                   // ¼ÆËã×î¶ÌÂ·
 
 int main()
 {
-  freopen("Patrol.in","r",stdin);
-  freopen("Patrol.out","w",stdout);
+  //freopen("Patrol.in","r",stdin);
+  //freopen("Patrol.out","w",stdout);
   scanf("%d",&T);
   while(T--)
   {

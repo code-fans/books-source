@@ -49,8 +49,8 @@ int Binary(int left,int right)       //按质量二分
 
 int main()
 {
-  freopen("Assemble.in","r",stdin);
-  freopen("Assemble.out","w",stdout);
+  //freopen("Assemble.in","r",stdin);
+  //freopen("Assemble.out","w",stdout);
   char a[25];
   for(cin>>t; t; t--)
   {

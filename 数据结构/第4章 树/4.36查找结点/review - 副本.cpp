@@ -43,8 +43,8 @@ b_tree search(b_tree point,int locate)          //¶ş·Ö²éÕÒ
 
 int main()
 {
-  freopen("review.in","r",stdin);
-  freopen("review.out","w",stdout);
+  //freopen("review.in","r",stdin);
+  //freopen("review.out","w",stdout);
   scanf("%d",&n);
   for(int i=0; i<n; i++)
     scanf("%d",&node[i]);

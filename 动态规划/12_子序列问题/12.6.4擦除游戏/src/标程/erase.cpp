@@ -17,8 +17,8 @@ int max (int a, int b)
 
 int main()
 {
-  freopen ("erase.in", "r", stdin);
-  freopen ("erase.out", "w", stdout);
+  //freopen ("erase.in", "r", stdin);
+  //freopen ("erase.out", "w", stdout);
 
   scanf ("%d\n", &N);
   for (int i = 0; i < N; ++i)

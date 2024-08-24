@@ -24,8 +24,8 @@ bool dfs(int boy)
 
 int main()
 {
-  freopen("team.in","r",stdin);
-  freopen("team.out","w",stdout);
+  //freopen("team.in","r",stdin);
+  //freopen("team.out","w",stdout);
   int a,b,ans=0;
   cin>>n>>m>>k;                           //n,m为男、女运动员个数，k为边数
   for(int i=1; i<=k; i++)

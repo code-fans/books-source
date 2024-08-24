@@ -13,8 +13,8 @@ int a[200005],dp[200005];
 
 int main()
 {
-  freopen("bean.in","r",stdin);
-  freopen("bean.out","w",stdout);
+  //freopen("bean.in","r",stdin);
+  //freopen("bean.out","w",stdout);
   int n,m;
   while(scanf("%d %d",&n,&m)==2)
   {

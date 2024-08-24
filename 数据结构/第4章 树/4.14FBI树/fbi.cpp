@@ -31,8 +31,8 @@ void PostOrder(int root)                      //后序遍历
 
 int main()
 {
-  freopen("fbi.in","r",stdin);
-  freopen("fbi.out","w",stdout);
+  //freopen("fbi.in","r",stdin);
+  //freopen("fbi.out","w",stdout);
   int N;
   scanf("%d",&N);
   for(int i=(1<<N); i<(1<<(N+1)); i++)        //子结点在2^n~2^(n+1)

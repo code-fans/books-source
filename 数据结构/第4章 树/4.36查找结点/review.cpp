@@ -118,8 +118,8 @@ void Delete(int val)                            //É¾³ýval
 
 int main()
 {
-//  freopen("review.in","r",stdin);
-//  freopen("review.out","w",stdout);
+//  //freopen("review.in","r",stdin);
+//  //freopen("review.out","w",stdout);
   Build();
   scanf("%d",&n);
   for(int i=0,x; i<n; i++)

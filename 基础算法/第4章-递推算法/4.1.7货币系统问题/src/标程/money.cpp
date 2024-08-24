@@ -7,8 +7,8 @@ int f[1001];
 
 int main()
 {
-  freopen("money.in","r",stdin);
-  freopen("money.out","w",stdout);  
+  //freopen("money.in","r",stdin);
+  //freopen("money.out","w",stdout);  
   scanf("%d%d",&v,&n);
   f[0]=1;
   for(i=1;i<=v;i++)

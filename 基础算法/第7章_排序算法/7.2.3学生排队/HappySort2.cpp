@@ -31,8 +31,8 @@ void add(LL x, LL val)
 
 int main()
 {
-  freopen("HappySort.in","r",stdin);
-  freopen("HappySort.out","w",stdout);
+  //freopen("HappySort.in","r",stdin);
+  //freopen("HappySort.out","w",stdout);
   while(~scanf("%I64d", &n))
   {
     memset(cnt, 0, sizeof(cnt));

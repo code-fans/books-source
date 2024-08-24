@@ -58,8 +58,8 @@ void Kruskal()
 
 int main()
 {
-  freopen("Line.in","r",stdin);
-  freopen("Line.out","w",stdout);
+  //freopen("Line.in","r",stdin);
+  //freopen("Line.out","w",stdout);
   cin>>n>>e;                          //输入结点数和边数
   for(int i=1; i<=e; i++)
     cin>>x[i]>>y[i]>>w[i];

@@ -20,8 +20,8 @@ void  Fun(int node)
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   cin>>n;
   char X,L,R;
   for(int i=1; i<=n; i++)

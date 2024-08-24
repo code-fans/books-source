@@ -35,8 +35,8 @@ void Dfs(int x)//ËÑË÷µ¥´Ê
 
 int main()
 {
-  freopen("word.in","r",stdin);
-  freopen("word.out","w",stdout);
+  //freopen("word.in","r",stdin);
+  //freopen("word.out","w",stdout);
   scanf("%d", &n);
   for(int i = 1; i <= n; i++)
   {

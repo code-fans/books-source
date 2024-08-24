@@ -19,8 +19,8 @@ ll cross(const Pos& a, const Pos& b)
 }
 int main()
 {
-  freopen("print15.in","r",stdin);
-  freopen("print15.ans","w",stdout);
+  //freopen("print15.in","r",stdin);
+  //freopen("print15.ans","w",stdout);
 
   while(~scanf("%d%d", &n, &m))
   {

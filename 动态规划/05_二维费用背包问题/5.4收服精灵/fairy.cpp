@@ -6,8 +6,8 @@ int dp[1050][700],m[1050],k[1050];
 
 int main()
 {
-  freopen("fairy.in","r",stdin);
-  freopen("fairy.out","w",stdout);
+  //freopen("fairy.in","r",stdin);
+  //freopen("fairy.out","w",stdout);
   scanf("%d%d%d",&M,&K,&n);
   for(int i=1; i<=n; i++)
     scanf("%d%d",&m[i],&k[i]);

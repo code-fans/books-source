@@ -6,8 +6,8 @@ int s[1001][1001];
 
 int main()
 {
-  freopen("bombing.in","r",stdin);
-  freopen("bombing.out","w",stdout);
+  //freopen("bombing.in","r",stdin);
+  //freopen("bombing.out","w",stdout);
   int m,n,h,w,a,Max=-INT_MAX;
   cin>>m>>n>>w>>h;
   for(int i=1; i<=m; ++i)

@@ -19,8 +19,8 @@ void DFS(int root,int step)
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
 
   cin>>n;
   for(int i=1; i<=n; i++)

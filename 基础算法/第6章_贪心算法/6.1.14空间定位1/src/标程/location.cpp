@@ -6,8 +6,8 @@ double data[605];
 
 int main()
 {
-  freopen("location.in", "r", stdin);
-  freopen("location.out", "w", stdout);
+  //freopen("location.in", "r", stdin);
+  //freopen("location.out", "w", stdout);
   int N, n;
   scanf("%d", &N);
   for (int i = 1; i <= N; i++)

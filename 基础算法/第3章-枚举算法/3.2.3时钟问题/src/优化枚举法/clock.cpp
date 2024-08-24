@@ -15,8 +15,8 @@ int Order(int k)                              //统一变成范围内值的函数
 
 int main()
 {
-  freopen("clock.in","r",stdin);
-  freopen("clock.out","w",stdout);
+  //freopen("clock.in","r",stdin);
+  //freopen("clock.out","w",stdout);
   for (int i = 1; i <= 9; ++i)
   {
     scanf("%d", &C[i]);

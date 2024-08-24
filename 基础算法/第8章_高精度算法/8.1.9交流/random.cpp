@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("chat.in","r",stdin);
-  freopen("chat.in","w",stdout);
+  //freopen("chat.in","r",stdin);
+  //freopen("chat.in","w",stdout);
   srand(time(0));
   int n=rand()%998+3;
   cout<<n<<endl;

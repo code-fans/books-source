@@ -7,8 +7,8 @@ int f[11][101][101],t[11];
 
 int main()
 {
-  freopen("FastFood.in","r",stdin);
-  freopen("FastFood.out","w",stdout);
+  //freopen("FastFood.in","r",stdin);
+  //freopen("FastFood.out","w",stdout);
   cin>>a>>b>>c>>p1>>p2>>p3>>n;
   for(int i=1; i<=n; i++)
     cin>>t[i];

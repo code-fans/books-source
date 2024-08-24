@@ -44,8 +44,8 @@ void DFS(int now,int group)    //搜到了第now个数，现在有group个集合
 
 int main()
 {
-  freopen("prime.in","r",stdin);
-  freopen("prime.out","w",stdout);
+  //freopen("prime.in","r",stdin);
+  //freopen("prime.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     cin>>a[i];

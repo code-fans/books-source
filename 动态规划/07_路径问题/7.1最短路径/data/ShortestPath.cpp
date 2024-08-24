@@ -29,8 +29,8 @@ void TopSort(int a[101][101],int *indegree)      //拓扑排序
 
 int main()
 {
-  freopen("ShortestPath.in","r",stdin);
-  freopen("ShortestPath.out","w",stdout);
+  //freopen("ShortestPath.in","r",stdin);
+  //freopen("ShortestPath.out","w",stdout);
   scanf("%d",&n);
   int f[n+1];
   int indegree[n+1];                              //保存每个点的入度

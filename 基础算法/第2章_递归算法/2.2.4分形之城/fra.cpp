@@ -26,8 +26,8 @@ PLL Cal(long long n, long long pos)
 
 int main()
 {
-//  freopen("fra.in","r",stdin);
-//  freopen("fra.out","w",stdout);
+//  //freopen("fra.in","r",stdin);
+//  //freopen("fra.out","w",stdout);
   long long T,A,B,n,x,y;
   for(scanf("%lld", &T); T--;)
   {

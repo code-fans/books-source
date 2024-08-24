@@ -8,8 +8,8 @@ int Compare(int p, int q)
 
 int main()
 {
-  freopen("Currency.in","r",stdin);
-  freopen("Currency.out","w",stdout);
+  //freopen("Currency.in","r",stdin);
+  //freopen("Currency.out","w",stdout);
   int N,i,ans,value[100];
   while (scanf("%d", &N) != EOF)
   {

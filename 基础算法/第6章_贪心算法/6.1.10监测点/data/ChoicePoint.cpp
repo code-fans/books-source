@@ -14,8 +14,8 @@ bool Cmp(const node &x,const node &y)
 
 int main()
 {
-  freopen("ChoicePoint.in","r",stdin);
-  freopen("ChoicePoint.out","w",stdout);
+  //freopen("ChoicePoint.in","r",stdin);
+  //freopen("ChoicePoint.out","w",stdout);
   int T,n;
   scanf("%d",&T);
   while(T--)

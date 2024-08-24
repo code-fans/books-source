@@ -44,8 +44,8 @@ int Find(int left, int right, bool (*law)(int arg))  //²Î¼ûk3, O(logN)
 
 int main()
 {
-  freopen("k4.in", "r",stdin);
-  freopen("k4.out", "w",stdout);
+  //freopen("k4.in", "r",stdin);
+  //freopen("k4.out", "w",stdout);
   cin >> n;
   for (int i = 0; i < n; ++i)
     cin >> A[i];

@@ -6,8 +6,8 @@ bool a[255];                         //统计每个点的入度
 
 int main()
 {
-  freopen("Msg.in","r",stdin);
-  freopen("Msg.out","w",stdout);
+  //freopen("Msg.in","r",stdin);
+  //freopen("Msg.out","w",stdout);
   int n,x,ans=0;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

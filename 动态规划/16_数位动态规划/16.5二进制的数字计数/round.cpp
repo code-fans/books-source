@@ -34,8 +34,8 @@ int Count(int n)              //寻找比n小符合条件个数
 
 int main()
 {
-  freopen("round.in","r",stdin);
-  freopen("round.out","w",stdout);
+  //freopen("round.in","r",stdin);
+  //freopen("round.out","w",stdout);
   int s,e;
   Init();
   while(cin>>s>>e)

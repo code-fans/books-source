@@ -11,8 +11,8 @@ int min(int a, int b)
 int f[41][21][21][21], a[21][21];
 int main()
 {
-   freopen("getnum3.in","r",stdin);
-  freopen("getnum3.out","w",stdout);      
+   //freopen("getnum3.in","r",stdin);
+  //freopen("getnum3.out","w",stdout);      
        int n, i , j, k, x1, x2, x3, temp, s1, s2, s3;
        scanf("%d", &n);
        for (i = 1; i <= n; i++)

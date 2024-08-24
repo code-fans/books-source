@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("word2.in","r",stdin);
-  freopen("word2.out","w",stdout);
+  //freopen("word2.in","r",stdin);
+  //freopen("word2.out","w",stdout);
   char s[20210],word[205][105];
   int minRow, maxRow,minlen,maxlen, i ,j,p;
   while (gets(s))

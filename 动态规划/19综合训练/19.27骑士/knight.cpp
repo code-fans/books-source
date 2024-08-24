@@ -47,8 +47,8 @@ void dfs0(int k)
 }
 int main()
 {
-  freopen("knight.in","r",stdin);
-  freopen("knight.out","w",stdout);
+  //freopen("knight.in","r",stdin);
+  //freopen("knight.out","w",stdout);
 
   ios::sync_with_stdio(0);
   cin.tie(0);

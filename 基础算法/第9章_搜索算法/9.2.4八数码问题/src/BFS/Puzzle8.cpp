@@ -108,8 +108,8 @@ void bfs(int c)
 
 int main()
 {
-  freopen("Puzzle8.in","r",stdin);
-  freopen("Puzzle8.out","w",stdout);
+  //freopen("Puzzle8.in","r",stdin);
+  //freopen("Puzzle8.out","w",stdout);
   init();
   if(visit[final] == true)//³õ×´Ì¬¼´Ä©×´Ì¬
   {

@@ -15,8 +15,8 @@ int b[N+1];//b存放最后排序结果
 int main()
 {
  int n,i,p=0;
- freopen("sort.in","r",stdin);
- freopen("sort.out","w",stdout);
+ //freopen("sort.in","r",stdin);
+ //freopen("sort.out","w",stdout);
  cin>>n;
  for(i=1;i<=n;i++) //统计 
  {

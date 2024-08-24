@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("CharSort.in","r",stdin);
-  freopen("CharSort.out","w",stdout);
+  //freopen("CharSort.in","r",stdin);
+  //freopen("CharSort.out","w",stdout);
   char a[10][21];
   for(int i=0; i<=9; ++i)
   {

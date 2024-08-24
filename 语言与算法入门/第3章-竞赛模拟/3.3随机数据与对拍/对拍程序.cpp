@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-  freopen("in.txt","r",stdin); //Dev-C++智能平台需加此行以保持自动运行
+  //freopen("in.txt","r",stdin); //Dev-C++智能平台需加此行以保持自动运行
   do
   {
     system("CreatRand.exe");

@@ -7,8 +7,8 @@ int a[maxn], b[maxn], c[maxn], d[maxn];
 
 int main()
 {
-  freopen("zero.in","r",stdin);
-  freopen("zero.out","w",stdout);
+  //freopen("zero.in","r",stdin);
+  //freopen("zero.out","w",stdout);
   int n;
   cin>>n;
   for (int i = 0; i < n; i++)

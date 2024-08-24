@@ -21,8 +21,8 @@ void Add(int x)
 
 int main ()
 {
-  freopen("bee.in","r",stdin);
-  freopen("bee.out","w",stdout);
+  //freopen("bee.in","r",stdin);
+  //freopen("bee.out","w",stdout);
   scanf("%d%d",&m,&n);
   f[1][1]=1,f[2][1]=1;
   for(int i=3; i<=n-m+1; i++)

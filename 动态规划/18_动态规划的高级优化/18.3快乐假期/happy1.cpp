@@ -9,8 +9,8 @@ long long sum[maxx], ans = -(1 << 62);
 
 int main()
 {
-  freopen("happy20.in","r",stdin);
-  freopen("happy20.ans","w",stdout);
+  //freopen("happy20.in","r",stdin);
+  //freopen("happy20.ans","w",stdout);
   int n,p,q;
   cin>>n>>p>>q;
   for(int i = 1; i <= n; i++)

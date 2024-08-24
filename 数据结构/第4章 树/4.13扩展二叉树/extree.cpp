@@ -38,8 +38,8 @@ void Postorder(int i)                            //后序输出
 
 int main()
 {
-  freopen("extree.in","r",stdin);
-  freopen("extree.out","w",stdout);
+  //freopen("extree.in","r",stdin);
+  //freopen("extree.out","w",stdout);
   cin.getline(Node+1,110);
   int n=1;
   CreateTree(n);                                 //将变量n作为参数传递

@@ -26,8 +26,8 @@ void GetMatch()                   //事先将从0~1999使用的火柴数存到Match[]
 
 int main()
 {
-  freopen("matches.in","r",stdin);
-  freopen("matches.out","w",stdout);
+  //freopen("matches.in","r",stdin);
+  //freopen("matches.out","w",stdout);
   int ans=0,n;
   scanf("%d",&n);
   GetMatch();

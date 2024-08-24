@@ -22,8 +22,8 @@ bool Check(int p)                           //查找集合中匹配的串
 
 int main()
 {
-  freopen("Prefix.in","r",stdin);
-  freopen("Prefix.out","w",stdout);
+  //freopen("Prefix.in","r",stdin);
+  //freopen("Prefix.out","w",stdout);
   for(string s; cin>>s,s!="."; P[n++]=s);   //读入P集合
   for(string s; cin>>s; S+=s);              //读入S
   for (int i=1; i<=S.size(); i++)

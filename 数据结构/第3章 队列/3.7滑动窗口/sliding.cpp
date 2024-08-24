@@ -8,8 +8,8 @@ int maxans[MAXN],minans[MAXN];
 
 int main()
 {
-  freopen("sliding.in","r",stdin);
-  freopen("sliding.out","w",stdout);
+  //freopen("sliding.in","r",stdin);
+  //freopen("sliding.out","w",stdout);
   scanf("%d%d",&n,&k);
   int maxhead=0,minhead=0,maxtail=0,mintail=0;
   for (int i=0; i<n; i++)

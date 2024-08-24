@@ -16,8 +16,8 @@ int cmp(const string &a,const string &b)
 
 int main()
 {
-  freopen("friends.in","r",stdin);
-  freopen("friends.out","w",stdout);
+  //freopen("friends.in","r",stdin);
+  //freopen("friends.out","w",stdout);
   vector<string> v;//可变长数组，无须声明大小
   string s1,s2;
   while(cin>>s1>>s2)

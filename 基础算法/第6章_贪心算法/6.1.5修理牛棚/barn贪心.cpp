@@ -10,8 +10,8 @@ int cow[210],gap[210];
 
 int main()
 {
-  freopen("barn.in","r",stdin);
-  freopen("barn.out","w",stdout);
+  //freopen("barn.in","r",stdin);
+  //freopen("barn.out","w",stdout);
   int m,s,c;
   scanf("%d%d%d",&m,&s,&c);     //m:木板最大数目,s:牛棚总数,c:牛的总数
   for (int i=1; i<=c; i++)

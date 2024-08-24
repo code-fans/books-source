@@ -7,8 +7,8 @@ multimap<int ,int>::iterator it;
 
 int main()
 {
-//  freopen("bank.in","r",stdin);
-//  freopen("bank.ans","w",stdout);
+//  //freopen("bank.in","r",stdin);
+//  //freopen("bank.ans","w",stdout);
   int Request;
   while (1)
   {

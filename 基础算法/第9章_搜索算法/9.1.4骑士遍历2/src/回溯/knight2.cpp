@@ -15,8 +15,8 @@ bool Check(int x,int y)
 
 int main()
 {
-  freopen("knight2.in","r",stdin);
-  freopen("knight2.out","w",stdout);
+  //freopen("knight2.in","r",stdin);
+  //freopen("knight2.out","w",stdout);
   cin>>n>>x>>y;
   Count=n*n;
   Map[x][y]=1;

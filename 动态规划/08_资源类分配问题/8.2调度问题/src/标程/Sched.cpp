@@ -7,8 +7,8 @@ int p[2000]={0};
 
 int main()
 {
-  freopen("Sched.in","r",stdin);
-  freopen("Sched.out","w",stdout);  
+  //freopen("Sched.in","r",stdin);
+  //freopen("Sched.out","w",stdout);  
   int n;
   int i,j,k,sa=0,sb=0,min=100000000;
   int A[201],B[201],x=0;

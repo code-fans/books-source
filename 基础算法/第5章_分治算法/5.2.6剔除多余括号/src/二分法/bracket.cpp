@@ -63,8 +63,8 @@ int Cal(int L, int R, int prev_min)
 
 int main()
 {
-  freopen("bracket.in","r",stdin);
-  freopen("bracket.out","w",stdout);
+  //freopen("bracket.in","r",stdin);
+  //freopen("bracket.out","w",stdout);
   cin>>s;
   int len=strlen(s);
   Cal(0,len-1,0);

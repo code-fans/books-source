@@ -15,8 +15,8 @@ int ZeroTrail (int n)
 
 int main()
 {
-  freopen("rob.in","r",stdin);
-  freopen("rob.out","w",stdout);
+  //freopen("rob.in","r",stdin);
+  //freopen("rob.out","w",stdout);
   int Q;
   scanf("%d", &Q);
   int start = 1;                        //×ó±ß½ç

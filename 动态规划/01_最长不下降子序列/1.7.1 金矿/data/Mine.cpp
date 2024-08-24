@@ -30,8 +30,8 @@ void GetNum(int n)
 
 int main()
 {
-  freopen("Mine.in","r",stdin);
-  freopen("Mine.out","w",stdout);
+  //freopen("Mine.in","r",stdin);
+  //freopen("Mine.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n; ++i)

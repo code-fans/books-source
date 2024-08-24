@@ -10,8 +10,8 @@ struct Node
 
 int main()
 {
-  freopen("monkey.in","r",stdin);
-  freopen("monkey.out","w",stdout);
+  //freopen("monkey.in","r",stdin);
+  //freopen("monkey.out","w",stdout);
   struct Node *head,*s,*q,*t;
   int n,m,count=0;
   scanf("%d%d",&n,&m);

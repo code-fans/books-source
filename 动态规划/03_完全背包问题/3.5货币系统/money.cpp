@@ -12,8 +12,8 @@ int dp[25100],f[200];
 
 int main()
 {
-  freopen("money.in","r",stdin);
-  freopen("money.out","w",stdout);
+  //freopen("money.in","r",stdin);
+  //freopen("money.out","w",stdout);
   int T;
   for(scanf("%d",&T); T; T--)
   {

@@ -18,8 +18,8 @@ int Calc(int ans=0)                          // 计算当前路的长度
 
 int main()
 {
-  freopen("Patrol.in","r",stdin);
-  freopen("Patrol.out","w",stdout);
+  //freopen("Patrol.in","r",stdin);
+  //freopen("Patrol.out","w",stdout);
   scanf("%d",&T);
   while(T--)
   {

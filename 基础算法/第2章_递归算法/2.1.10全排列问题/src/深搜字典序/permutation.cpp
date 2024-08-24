@@ -30,8 +30,8 @@ void Dfs(int i)
 
 int main()
 {
-  freopen("permutation.in","r",stdin);
-  freopen("permutation.out","w",stdout); 
+  //freopen("permutation.in","r",stdin);
+  //freopen("permutation.out","w",stdout); 
   int j;
   cin>>N;
   Dfs(1);

@@ -4,8 +4,8 @@ int prime[]= {3,7,11,13,17,19,23,29,31,37,41,43,47};
 
 int main()
 {
-  freopen("emm7.in","r",stdin);
-  freopen("emm7.in","w",stdout);
+  //freopen("emm7.in","r",stdin);
+  //freopen("emm7.in","w",stdout);
   srand(time(0));
   int n=5;
   while(n--)

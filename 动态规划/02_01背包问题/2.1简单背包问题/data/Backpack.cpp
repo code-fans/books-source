@@ -20,8 +20,8 @@ int Bag(int s,int n)     //s为剩余重量，n为剩余可选物品数
 
 int main()
 {
-  freopen("Backpack.in","r",stdin);
-  freopen("Backpack.out","w",stdout);
+  //freopen("Backpack.in","r",stdin);
+  //freopen("Backpack.out","w",stdout);
   int S,N;
   scanf("%d%d",&S,&N);
   for(int i=1; i<=N; ++i)

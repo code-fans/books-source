@@ -26,8 +26,8 @@ int RMQ(int L,int R)
 
 int main()
 {
-  freopen("task.in","r",stdin);
-  freopen("task.out","w",stdout);
+  //freopen("task.in","r",stdin);
+  //freopen("task.out","w",stdout);
   scanf("%d %d",&n,&m);
   for(int i=1; i<=n; i++)
   {

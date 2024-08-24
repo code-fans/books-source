@@ -14,8 +14,8 @@ char ToChar(char ch)
 
 int main()
 {
-  freopen("expand.in","r",stdin);
-  freopen("expand.out","w",stdout);
+  //freopen("expand.in","r",stdin);
+  //freopen("expand.out","w",stdout);
   cin>>p1>>p2>>p3>>S;
   S=' '+S+' ';//字符串两端各加一个空格，防止'-'出现在开头或末尾
   for(int i=1; i<S.size()-1; i++)

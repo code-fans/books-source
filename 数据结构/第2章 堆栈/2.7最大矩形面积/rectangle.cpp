@@ -6,8 +6,8 @@ long long a[500001],n,Stack[500001],l,r;
 
 int main()
 {
-  freopen("rectangle.in","r",stdin);
-  freopen("rectangle.out","w",stdout);
+  //freopen("rectangle.in","r",stdin);
+  //freopen("rectangle.out","w",stdout);
   while(cin>>n && n)
   {
     for(int i=1; i<=n; i++)

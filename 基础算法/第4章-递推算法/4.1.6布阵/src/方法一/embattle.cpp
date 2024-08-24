@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("embattle.in","r",stdin);
-  freopen("embattle.out","w",stdout);
+  //freopen("embattle.in","r",stdin);
+  //freopen("embattle.out","w",stdout);
   long long n,fn=0;
   scanf("%d",&n);
   if(n==1)

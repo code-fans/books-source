@@ -33,8 +33,8 @@ void LRD( int root )
   
 int main()  
 {  
-  freopen("fbi.in","r",stdin);
-  freopen("fbi.out","w",stdout);
+  //freopen("fbi.in","r",stdin);
+  //freopen("fbi.out","w",stdout);
     scanf( "%d", &N );  
     for( i = ( 1 << N ) ; i < ( 1 << ( N + 1 ) ) ; i++ )
     {  

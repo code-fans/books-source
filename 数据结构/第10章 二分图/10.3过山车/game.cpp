@@ -42,8 +42,8 @@ int FindMatch(int iBoy)
 
 int main()
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   while(~scanf("%d",&k) && k)
   {
     memset(Boy,-1,sizeof(Boy));

@@ -9,8 +9,8 @@ int cost[N];
 
 int main()
 {
-//  freopen("Reliable.in","r",stdin);
-//  freopen("Reliable.out","w",stdout);
+//  //freopen("Reliable.in","r",stdin);
+//  //freopen("Reliable.out","w",stdout);
   int n,c;
   scanf("%d%d",&n,&c);
   for(int i=1; i<=n; i++)

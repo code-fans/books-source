@@ -34,8 +34,8 @@ int Mul(int u[],int v[],int ansn[])        //u*v=ansn
 
 int main()
 {
-  freopen("group.in","r",stdin);
-  freopen("group.out","w",stdout);
+  //freopen("group.in","r",stdin);
+  //freopen("group.out","w",stdout);
   ans[MAXN]=1;
   a[MAXN]=2;
   cin>>N;

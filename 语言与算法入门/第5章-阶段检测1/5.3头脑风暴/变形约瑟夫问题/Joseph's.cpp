@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-  freopen("Joseph's4.in","r",stdin);
-  freopen("Joseph's4.out","w",stdout);
+  //freopen("Joseph's4.in","r",stdin);
+  //freopen("Joseph's4.out","w",stdout);
   int n,k;
   long long s=0;
   cin>>n>>k;

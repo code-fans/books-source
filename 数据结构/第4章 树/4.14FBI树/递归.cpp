@@ -25,8 +25,8 @@ void Build(int l,int r)
 
 int main()
 {
-  freopen("fbi.in","r",stdin);
-  freopen("fbi.out","w",stdout);
+  //freopen("fbi.in","r",stdin);
+  //freopen("fbi.out","w",stdout);
   cin>>n>>s;
   Build(0,pow(2,n)-1);
   cout<<endl;

@@ -22,8 +22,8 @@ void Turn(int n)                  //翻转第n位
 
 int main()
 {
-  freopen("ring.in","r",stdin);
-  freopen("ring.out","w",stdout);
+  //freopen("ring.in","r",stdin);
+  //freopen("ring.out","w",stdout);
   for(int i=9; i>=1; i--)         //因为后面的影响前面的，所以从后向前翻转
     Turn(i);
   while(cin>>num)

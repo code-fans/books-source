@@ -33,8 +33,8 @@ string GetMax(string x,string y)
 
 int main()
 {
-  freopen("mul.in","r",stdin);
-  freopen("mul.out","w",stdout);
+  //freopen("mul.in","r",stdin);
+  //freopen("mul.out","w",stdout);
   string s1,s2;
   cin>>s1>>s2;
   cout<<Mul(s1,s2)<<endl;

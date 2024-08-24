@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
   srand(time(0));
-  freopen("sort.in","w",stdout);
+  //freopen("sort.in","w",stdout);
   int n,r;
   cin>>n>>r;
   cout<<n<<endl;

@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-  freopen("count.in","r",stdin);
-  freopen("count.out","w",stdout);
+  //freopen("count.in","r",stdin);
+  //freopen("count.out","w",stdout);
   int s,t,w;
   string str;
   cin>>s>>t>>w>>str;

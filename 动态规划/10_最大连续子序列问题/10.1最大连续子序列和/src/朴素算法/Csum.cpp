@@ -6,8 +6,8 @@ int a[100001];
 
 int main()
 {
-  freopen("Csum.in","r",stdin);
-  freopen("Csum.out","w",stdout);
+  //freopen("Csum.in","r",stdin);
+  //freopen("Csum.out","w",stdout);
   int Max=-INT_MAX,n;
   scanf("%d",&n);
   for(int i=1; i<=n; ++i)

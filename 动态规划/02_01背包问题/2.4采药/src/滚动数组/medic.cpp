@@ -15,8 +15,8 @@ inline int Read(int &x)                        //以字符串形式读入数字可提速
 
 int main()
 {
-  freopen("medic.in","r",stdin);
-  freopen("medic.out","w",stdout);
+  //freopen("medic.in","r",stdin);
+  //freopen("medic.out","w",stdout);
   Read(t),Read(m);
   for (int i=1; i<=m; i++)
     Read(a[i]),Read(b[i]);

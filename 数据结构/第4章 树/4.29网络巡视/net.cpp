@@ -50,8 +50,8 @@ void dfs(int x)
 }
 int main()
 {
-  freopen("Net.in","r",stdin);
-  freopen("Net.out","w",stdout);
+  //freopen("Net.in","r",stdin);
+  //freopen("Net.out","w",stdout);
   int n;
   scanf("%d",&n);
   int root;

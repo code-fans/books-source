@@ -12,8 +12,8 @@ int ZeroTrail(int n)                      //计算n！的0的个数
 
 int main()
 {
-  freopen("rob.in","r",stdin);
-  freopen("rob.out","w",stdout);
+  //freopen("rob.in","r",stdin);
+  //freopen("rob.out","w",stdout);
   int q;
   scanf ("%d", &q);
   if (!q)                                  //0的阶乘为1

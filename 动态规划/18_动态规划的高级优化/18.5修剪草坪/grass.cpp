@@ -7,8 +7,8 @@ long long f[N];
 
 int main()
 {
-  freopen("grass.in","r",stdin);
-  freopen("grass.out","w",stdout);
+  //freopen("grass.in","r",stdin);
+  //freopen("grass.out","w",stdout);
   int n,k;
   long long sum=0,Min=1e+18;
   scanf("%d%d",&n,&k);

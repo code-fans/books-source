@@ -32,8 +32,8 @@ double F(int day,int x,int y,double p)//pÎª¸ÅÂÊ
 
 int main()
 {
-  freopen("encounter.in","r",stdin);
-  freopen("encounter.out","w",stdout);
+  //freopen("encounter.in","r",stdin);
+  //freopen("encounter.out","w",stdout);
   scanf("%d",&n);
   if(n%4==1)
     puts("0");

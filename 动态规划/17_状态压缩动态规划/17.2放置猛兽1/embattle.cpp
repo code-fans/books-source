@@ -41,8 +41,8 @@ void Out(long long ans=0)
 
 int main()
 {
-  freopen("embattle.in","r",stdin);
-  freopen("embattle.out","w",stdout);
+  //freopen("embattle.in","r",stdin);
+  //freopen("embattle.out","w",stdout);
   cin>>N>>K;
   Init();
   DP();

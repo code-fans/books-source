@@ -13,8 +13,8 @@ int dp[N][N],la,lb,T;
 
 int main()
 {
-  freopen("gene.in","r",stdin);
-  freopen("gene.out","w",stdout);
+  //freopen("gene.in","r",stdin);
+  //freopen("gene.out","w",stdout);
   map<char,int>m;
   m['A']=0;
   m['C']=1;

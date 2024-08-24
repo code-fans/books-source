@@ -47,8 +47,8 @@ cpair Calc(float s[],int n)         //返回s[]中最近距离的点对及其距离
 
 int main()
 {
-  freopen("line.in","r",stdin);
-  freopen("line.out","w",stdout);
+  //freopen("line.in","r",stdin);
+  //freopen("line.out","w",stdout);
   int m;
   cin>>m;                           //输入点的个数
   for(int i=0; i<m; i++)            //输入各点坐标

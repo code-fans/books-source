@@ -35,8 +35,8 @@ void TopoSort()                        //Õÿ∆À≈≈–Ú
 
 int main()
 {
-  freopen("level.in","r",stdin);
-  freopen("level.out","w",stdout);
+  //freopen("level.in","r",stdin);
+  //freopen("level.out","w",stdout);
   scanf("%d %d",&n,&m);
   for(int i=1,s; i<=m; i++)
   {

@@ -27,8 +27,8 @@ void TopoSort()
 
 int main()
 {
-  freopen("ranking.in","r",stdin);
-  freopen("ranking.out","w",stdout);
+  //freopen("ranking.in","r",stdin);
+  //freopen("ranking.out","w",stdout);
   cin>>n>>m;             //输入结点数和边数
   for(int i=0; i<m; i++)
   {

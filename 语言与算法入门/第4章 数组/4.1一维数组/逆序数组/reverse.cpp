@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   int n,a[1002];
   cin>>n;
   for(int i=0; i<n; i++)

@@ -56,8 +56,8 @@ void GetFish(int T)
 
 int main()
 {
-  freopen("fish.in","r",stdin);
-  freopen("fish.out","w",stdout);
+  //freopen("fish.in","r",stdin);
+  //freopen("fish.out","w",stdout);
   while(scanf("%d", &n) && n)
   {
     scanf("%d", &h);

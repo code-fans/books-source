@@ -39,8 +39,8 @@ void OutPut(int x[],int len)
 
 int main()
 {
-  freopen("sub.in","r",stdin);
-  freopen("sub.out","w",stdout);
+  //freopen("sub.in","r",stdin);
+  //freopen("sub.out","w",stdout);
   int n;
   cin>>n;
   string ma,mi,s;

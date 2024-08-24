@@ -15,8 +15,8 @@ double slope(int x, int y)
 
 int main()
 {
-  freopen("toy10.in","r",stdin);
-  freopen("toy10.ans","w",stdout);
+  //freopen("toy10.in","r",stdin);
+  //freopen("toy10.ans","w",stdout);
 
   scanf("%d%d", &n, &L);
   for (int i = 1; i <= n; i++)

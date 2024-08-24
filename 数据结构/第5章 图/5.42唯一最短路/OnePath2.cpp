@@ -42,8 +42,8 @@ int Prim()                              //Prim算法
 
 int main()
 {
-  freopen("OnePath.in","r",stdin);
-  freopen("OnePath.out","w",stdout);
+  //freopen("OnePath.in","r",stdin);
+  //freopen("OnePath.out","w",stdout);
   memset(G,INF,sizeof(G));              //设所有边初始值为无穷大
   scanf("%d %d",&n,&m);
   for(int u,v,w; m; m--)

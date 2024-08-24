@@ -17,8 +17,8 @@ void Subset(int n)
 
 int main()
 {
-  freopen("Subset.in","r",stdin);
-  freopen("Subset.out","w",stdout);
+  //freopen("Subset.in","r",stdin);
+  //freopen("Subset.out","w",stdout);
   cin>>N;
   for(int i=0; i<(1<<N); i++) //Ñ­»·2^N´Î
     Subset(i);

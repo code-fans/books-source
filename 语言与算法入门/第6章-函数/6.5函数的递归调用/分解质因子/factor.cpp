@@ -17,8 +17,8 @@ void factor(int n,int p)
 
 int main()
 {
-  freopen("factor.in","r",stdin);
-  freopen("factor.out","w",stdout);
+  //freopen("factor.in","r",stdin);
+  //freopen("factor.out","w",stdout);
   int n;
   scanf("%d",&n);
   factor(n,2);

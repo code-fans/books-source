@@ -27,8 +27,8 @@ void Init(string s,int len,int a[])
 
 int main()
 {
-  freopen("gene.in","r",stdin);
-  freopen("gene.out","w",stdout);
+  //freopen("gene.in","r",stdin);
+  //freopen("gene.out","w",stdout);
   cin>>T;
   while(T--)
   {

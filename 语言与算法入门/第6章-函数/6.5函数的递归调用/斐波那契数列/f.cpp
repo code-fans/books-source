@@ -16,8 +16,8 @@ ULL f(int n)
 
 int main()
 {
-  freopen("f.in","r",stdin);
-  freopen("f.out","w",stdout);
+  //freopen("f.in","r",stdin);
+  //freopen("f.out","w",stdout);
   int n;
   scanf("%d",&n);
   printf("%llu\n",f(n));

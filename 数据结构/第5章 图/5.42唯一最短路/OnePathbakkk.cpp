@@ -56,8 +56,8 @@ int Prim()
 
 int main()
 {
-  freopen("OnePath.in","r",stdin);
-  freopen("OnePath.out","w",stdout);
+  //freopen("OnePath.in","r",stdin);
+  //freopen("OnePath.out","w",stdout);
   int s, e, t, Ans, ans;
   cin>>n>>m;
   memset(w,63,sizeof(w));//设为无穷大,63=127/2

@@ -14,8 +14,8 @@ LL a[M],cost[M][M],dp[M][M],sum[M];
 
 int main()
 {
-  freopen("railway.in","r",stdin);
-  freopen("railway.out","w",stdout);
+  //freopen("railway.in","r",stdin);
+  //freopen("railway.out","w",stdout);
   while(scanf("%d%d",&n,&m) && n)
   {
     for(int i=1; i<=n; i++)

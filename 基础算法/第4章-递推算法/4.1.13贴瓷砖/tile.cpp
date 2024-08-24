@@ -6,8 +6,8 @@ int f[1000010],g[1000010];
 
 int main()
 {
-  freopen("tile.in","r",stdin);
-  freopen("tile.out","w",stdout);
+  //freopen("tile.in","r",stdin);
+  //freopen("tile.out","w",stdout);
   int n;
   scanf("%d",&n);
   f[0]=f[1]=g[1]=1;

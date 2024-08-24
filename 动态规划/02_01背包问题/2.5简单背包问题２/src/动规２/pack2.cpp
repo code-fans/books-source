@@ -6,8 +6,8 @@ int f[20001];//f[j]表示前i个物品装入获得的最大体积
 
 int main()
 {
-  freopen("pack2.in","r",stdin);
-  freopen("pack2.out","w",stdout);
+  //freopen("pack2.in","r",stdin);
+  //freopen("pack2.out","w",stdout);
   int V,n,i,j;
   cin>>V>>n;
   int a[n+1];

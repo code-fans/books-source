@@ -25,8 +25,8 @@ inline LL Read(LL x=0)                   //以字符串形式读入数字可提速
 
 int main()
 {
-  freopen("happy.in","r",stdin);
-  freopen("happy.out","w",stdout);
+  //freopen("happy.in","r",stdin);
+  //freopen("happy.out","w",stdout);
   n=Read();
   P=Read();
   Q=Read();

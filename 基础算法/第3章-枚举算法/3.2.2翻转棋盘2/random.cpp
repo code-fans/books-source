@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
   srand(time(0));
-  freopen("flip.in","r",stdin);
-  freopen("flip.in","w",stdout);
+  //freopen("flip.in","r",stdin);
+  //freopen("flip.in","w",stdout);
   int n=rand()%11+6;
   cout<<n<<endl;
   for(int i=0; i<n; i++)

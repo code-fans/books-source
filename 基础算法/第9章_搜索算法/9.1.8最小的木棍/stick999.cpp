@@ -61,8 +61,8 @@ void DFS(int now,int last,int rest) //now:正在拼第几根木棍,last:正拼木棍的前一节
 
 int main()
 {
-  freopen("stick.in","r",stdin);
-  freopen("stick.out","w",stdout);
+  //freopen("stick.in","r",stdin);
+  //freopen("stick.out","w",stdout);
   int n,sum;
   while(n=Read())
   {

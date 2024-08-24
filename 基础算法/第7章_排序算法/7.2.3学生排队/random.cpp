@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  freopen("HappySort10.in","w",stdout);
+  //freopen("HappySort10.in","w",stdout);
   srand(time(0));
   int n=100000;
   cout<<n<<endl;

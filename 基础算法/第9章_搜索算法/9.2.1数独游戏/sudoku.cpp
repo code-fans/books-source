@@ -34,8 +34,8 @@ void DFS(int step)
 
 int main()
 {
-  freopen("sudoku.in","r",stdin);
-  freopen("sudoku.out","w",stdout);
+  //freopen("sudoku.in","r",stdin);
+  //freopen("sudoku.out","w",stdout);
   for(int i=0; i<=8; i++)
     for(int j=0; j<=8; j++)
     {

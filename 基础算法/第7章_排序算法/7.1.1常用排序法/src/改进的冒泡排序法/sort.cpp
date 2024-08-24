@@ -34,8 +34,8 @@ void popsort()
 
 int main()
 {
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   cin>>n;
   for(i=1;i<=n;i++)
     cin>>a[i];

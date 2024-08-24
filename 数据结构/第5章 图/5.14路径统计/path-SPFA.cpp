@@ -37,8 +37,8 @@ void SPFA(int S,int E)
 
 int main()
 {
-  freopen("path.in","r",stdin);
-  freopen("path.out","w",stdout);
+  //freopen("path.in","r",stdin);
+  //freopen("path.out","w",stdout);
   memset(Edg,63,sizeof(Edg));
   memset(d,63,sizeof d);
   scanf("%d%d",&n,&m);

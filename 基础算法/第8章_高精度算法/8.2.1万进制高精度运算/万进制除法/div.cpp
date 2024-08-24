@@ -190,8 +190,8 @@ BigNum Div(BigNum &a,BigNum &b)
 
 int main()
 {
-  freopen("div.in","r",stdin);
-  freopen("div.out","w",stdout);
+  //freopen("div.in","r",stdin);
+  //freopen("div.out","w",stdout);
   string a,b;
   cin>>a>>b;
   BigNum m,n;

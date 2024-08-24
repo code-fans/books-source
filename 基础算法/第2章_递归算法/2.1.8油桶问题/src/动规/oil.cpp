@@ -18,8 +18,8 @@ using namespace std;
 
 int main()
 {
-  freopen("oil.in","rb",stdin);
-  freopen("oil.out","w",stdout);
+  //freopen("oil.in","rb",stdin);
+  //freopen("oil.out","w",stdout);
   int n,m;
   scanf("%d %d",&n,&m);
 

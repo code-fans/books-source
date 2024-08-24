@@ -19,8 +19,8 @@ bool CMP2(node a,node b)   //按位置从小到大排序
 
 int main()
 {
-  freopen("seat.in","r",stdin);
-  freopen("seat.out","w",stdout);
+  //freopen("seat.in","r",stdin);
+  //freopen("seat.out","w",stdout);
   int m,n,k,l,d;
   scanf("%d%d%d%d%d",&m,&n,&k,&l,&d);
   for(int i=1,x1,y1,x2,y2; i<=d; i++)

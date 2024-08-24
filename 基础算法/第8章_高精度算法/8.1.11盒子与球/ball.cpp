@@ -57,8 +57,8 @@ string Times(string x,int y)
 
 int main()
 {
-  freopen("ball.in","r",stdin);
-  freopen("ball.out","w",stdout);
+  //freopen("ball.in","r",stdin);
+  //freopen("ball.out","w",stdout);
   f[0][0]="1";
   f[1][0]="0";
   f[1][1]="1";

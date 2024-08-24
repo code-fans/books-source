@@ -9,8 +9,8 @@ int p[61],q[61],r[61];
 
 int main()
 {
-    freopen("realsn7.in","r",stdin);
-	freopen("realsn7.out","w",stdout);
+    //freopen("realsn7.in","r",stdin);
+	//freopen("realsn7.out","w",stdout);
 	double d,a1,an;
 	int n,i,m;
 	cin>>n>>d>>m>>a1>>an;

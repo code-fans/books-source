@@ -23,8 +23,8 @@ void bubble(int n) /*定义两个参数：数组首地址与数组大小*/
 main()
 {
    int i,n;   
-   freopen("sort.in","r",stdin);
-   freopen("sort.out","w",stdout);   
+   //freopen("sort.in","r",stdin);
+   //freopen("sort.out","w",stdout);   
    scanf("%d",&n);
    for(i=0;i<n;i++)
      scanf("%d",&a[i]);

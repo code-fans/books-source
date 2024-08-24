@@ -28,8 +28,8 @@ void print(int s,int t){
  
  
 void read(){
-freopen("LCIS.in","r",stdin);
-freopen("LCIS.out","w",stdout);
+//freopen("LCIS.in","r",stdin);
+//freopen("LCIS.out","w",stdout);
     int i,j,k;
     while(cin>>n)
     {

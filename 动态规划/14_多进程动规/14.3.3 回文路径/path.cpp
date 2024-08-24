@@ -20,8 +20,8 @@ char s[N][N];
 
 int main()
 {
-//  freopen("path.in","r",stdin);
-//  freopen("path.out","w",stdout);
+//  //freopen("path.in","r",stdin);
+//  //freopen("path.out","w",stdout);
 
   scanf("%d",&n);
   for (int i=1; i<=n; i++) scanf("%s",s[i]+1);

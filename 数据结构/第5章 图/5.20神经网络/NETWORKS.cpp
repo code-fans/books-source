@@ -8,8 +8,8 @@ int g[110][110];//100的数据考虑邻接矩阵
 int q[2000010];
 int main()
 {
-  freopen("NETWORKS.in","r",stdin);
-  freopen("NETWORKS.out","w",stdout);
+  //freopen("NETWORKS.in","r",stdin);
+  //freopen("NETWORKS.out","w",stdout);
   cin>>n>>p;
   for(int i=1,u; i<=n; i++)
   {

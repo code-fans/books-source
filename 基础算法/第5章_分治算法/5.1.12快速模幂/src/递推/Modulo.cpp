@@ -17,8 +17,8 @@ int Pow(int a, int b, int n)
 int main()
 {
   int a,b,n;
-  freopen("Modulo.in", "r", stdin);
-  freopen("Modulo.out","w",stdout);
+  //freopen("Modulo.in", "r", stdin);
+  //freopen("Modulo.out","w",stdout);
   cin>>a>>b>>n;
   cout<<Pow(a,b,n)<<endl;
   return 0;

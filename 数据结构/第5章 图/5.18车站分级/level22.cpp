@@ -9,8 +9,8 @@ int m,n,N;
 
 int main()
 {
-  freopen("level.in","r",stdin);
-  freopen("level.out","w",stdout);
+  //freopen("level.in","r",stdin);
+  //freopen("level.out","w",stdout);
   int x,y,ans=0,Count1,Count2,x1;
   scanf("%d%d",&n,&m);
   for(int i=1; i<=m; i++) //输入的建图很麻烦，时间复杂度有n3次方，但是通过小小优化，对于测试数据是可以过的，但是最坏情况仍然是n3次方。

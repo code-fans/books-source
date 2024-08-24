@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("poorcow10.in","r",stdin);
-  freopen("poorcow10.in","w",stdout);
+  //freopen("poorcow10.in","r",stdin);
+  //freopen("poorcow10.in","w",stdout);
   srand(time(0));
   int t=500,num=1000;
   //cin>>t>>num;

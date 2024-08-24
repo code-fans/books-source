@@ -44,8 +44,8 @@ void PreOrder(int root)                //Ç°Ðò±éÀú
 
 int main()
 {
-  freopen("preorder.in","r",stdin);
-  freopen("preorder.out","w",stdout);
+  //freopen("preorder.in","r",stdin);
+  //freopen("preorder.out","w",stdout);
   cin>>n;
   int node[n+1];
   for(int i=1; i<=n; i++)

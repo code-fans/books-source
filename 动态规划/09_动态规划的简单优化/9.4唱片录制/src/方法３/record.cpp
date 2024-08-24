@@ -17,8 +17,8 @@ struct Node
 
 int main()
 {
-//  freopen("record.in","r",stdin);
-//  freopen("record.out","w",stdout);
+//  //freopen("record.in","r",stdin);
+//  //freopen("record.out","w",stdout);
   int n,m,t,Long;
   //scanf("%d%d%d",&n,&m,&t);
   memset(dp,0x3f3f3f3f,sizeof(dp));

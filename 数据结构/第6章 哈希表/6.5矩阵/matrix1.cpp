@@ -39,8 +39,8 @@ inline ull _hash2()
 }
 int main()
 {
-  freopen("matrix.in","r",stdin);
-  freopen("matrix.out","w",stdout);
+  //freopen("matrix.in","r",stdin);
+  //freopen("matrix.out","w",stdout);
   reset_p();
 
   scanf("%d%d%d%d",&n,&m,&a,&b);

@@ -45,8 +45,8 @@ void Read()
 
 int main()
 {
-  freopen("string35.in","r",stdin);
-  freopen("string35.ans","w",stdout);
+  //freopen("string35.in","r",stdin);
+  //freopen("string35.ans","w",stdout);
   Read();
   init();
   int q;

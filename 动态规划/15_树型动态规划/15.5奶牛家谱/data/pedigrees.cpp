@@ -8,8 +8,8 @@ int f[N][N];//f[i][j]表示，当前深度≤i，节点数为j的树的方案数
 
 int main()
 {
-  freopen("pedigrees.in","r",stdin);
-  freopen("pedigrees.out","w",stdout);
+  //freopen("pedigrees.in","r",stdin);
+  //freopen("pedigrees.out","w",stdout);
 
   cin >> n >> m;
   for(int i = 1 ; i <= m ; i++)//因为深度是≤i，因此f[i][1]都包含f[1][1]这种情况

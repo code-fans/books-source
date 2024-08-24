@@ -6,8 +6,8 @@ int n,num[101],dp[101][101],sum[101][101];
 
 int main()
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   cin>>n;
   for (int i=1; i<=n; i++)
     cin>>num[i];

@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("ball.in","r",stdin);
-  freopen("ball2.out","w",stdout);
+  //freopen("ball.in","r",stdin);
+  //freopen("ball2.out","w",stdout);
   double h;
   cin>>h;
   double dist=h;

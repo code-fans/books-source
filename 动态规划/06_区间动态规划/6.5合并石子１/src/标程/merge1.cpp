@@ -7,8 +7,8 @@ int a[MAXN],g[MAXN][MAXN],dp[MAXN][MAXN];
 
 int main()
 {
-  freopen("merge1.in","r",stdin);
-  freopen("merge1.out","w",stdout);
+  //freopen("merge1.in","r",stdin);
+  //freopen("merge1.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

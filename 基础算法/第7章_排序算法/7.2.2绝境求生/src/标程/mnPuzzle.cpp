@@ -34,8 +34,8 @@ int cal()
 
 int main()
 {
-  freopen("mnPuzzle.in","r",stdin);
-  freopen("mnPuzzle.out","w",stdout);
+  //freopen("mnPuzzle.in","r",stdin);
+  //freopen("mnPuzzle.out","w",stdout);
   int n,m,cnt,step,s;
   while(scanf("%d%d",&m,&n) && m)
   {

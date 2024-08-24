@@ -82,8 +82,8 @@ void Add(int idx,int &p)                      //ÃÌº”∂”¡–2
 
 int main()
 {
-  freopen("Puzzle8.in","r",stdin);
-  freopen("Puzzle8.out","w",stdout);
+  //freopen("Puzzle8.in","r",stdin);
+  //freopen("Puzzle8.out","w",stdout);
   string star;
   for(int i=0,t; i<=8; i++)
   {

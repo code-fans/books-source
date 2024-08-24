@@ -48,8 +48,8 @@ void Init(int result[],char in[])   //将字符数组in转成数字数组ans,四位数一格
 
 int main()
 {
-  freopen("mul.in","r",stdin);
-  freopen("mul.out","w",stdout);
+  //freopen("mul.in","r",stdin);
+  //freopen("mul.out","w",stdout);
   std::ios::sync_with_stdio(false); //取消cin与stdin的同步以加快读取速度
   char a[4*MAXN],b[4*MAXN];
   cin>>a>>b;

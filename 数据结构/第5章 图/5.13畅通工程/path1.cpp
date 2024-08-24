@@ -33,8 +33,8 @@ void spfa(int s)
 
 int main()
 {
-  freopen("path12.in","r",stdin);
-  freopen("path12.ans","w",stdout);
+  //freopen("path12.in","r",stdin);
+  //freopen("path12.ans","w",stdout);
   cin>>n>>m;
   int x,y,z;
   for(int i=0; i<m; i++)

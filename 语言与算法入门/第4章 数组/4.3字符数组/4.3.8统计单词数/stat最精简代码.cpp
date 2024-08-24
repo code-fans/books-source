@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("stat.in","r",stdin);
-  freopen("stat.out","w",stdout);
+  //freopen("stat.in","r",stdin);
+  //freopen("stat.out","w",stdout);
   string a,b;
   getline(cin,a);//¶ÁÈ¡stringÍÆ¼öÓÃgetline()
   getline(cin,b);

@@ -10,8 +10,8 @@ int sum[10000],money[10000];
 
 int main()
 {
-  freopen("Expense.in","r",stdin);
-  freopen("Expense.out","w",stdout);
+  //freopen("Expense.in","r",stdin);
+  //freopen("Expense.out","w",stdout);
   int n,m;
   while(~scanf("%d%d",&n,&m) && n)
   {

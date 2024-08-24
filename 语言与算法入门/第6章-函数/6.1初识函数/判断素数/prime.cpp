@@ -5,8 +5,8 @@ void prime(int number);//对子函数的声明
 
 int main()
 {
-  freopen("prime.in","r",stdin);
-  freopen("prime.out","w",stdout);
+  //freopen("prime.in","r",stdin);
+  //freopen("prime.out","w",stdout);
   int num;
   scanf("%d",&num);
   prime(num);

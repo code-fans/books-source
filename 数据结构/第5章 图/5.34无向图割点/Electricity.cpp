@@ -84,8 +84,8 @@ void solve(int N)
 
 int main()
 {
-  freopen("Electricity.in","r",stdin);
-  freopen("Electricity.out","w",stdout);
+  //freopen("Electricity.in","r",stdin);
+  //freopen("Electricity.out","w",stdout);
   int n, m;
   while (scanf("%d%d", &n, &m) == 2)
   {

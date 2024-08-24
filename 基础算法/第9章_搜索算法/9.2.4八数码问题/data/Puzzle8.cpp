@@ -138,8 +138,8 @@ void Init()
 
 int main()
 {
-  freopen("Puzzle8.in","r",stdin);
-  freopen("Puzzle8.out","w",stdout);
+  //freopen("Puzzle8.in","r",stdin);
+  //freopen("Puzzle8.out","w",stdout);
   Init();
   int final=Cantor(f);
   if (Q.top().cantor == final)

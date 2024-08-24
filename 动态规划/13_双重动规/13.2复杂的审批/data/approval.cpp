@@ -23,8 +23,8 @@ void DFS(int x,int y)                                 //DFSÊä³öÂ·¾¶
 
 int main()
 {
-  freopen("approval.in","r",stdin);
-  freopen("approval.out","w",stdout);
+  //freopen("approval.in","r",stdin);
+  //freopen("approval.out","w",stdout);
   memset(f,127/2,sizeof(f));
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)

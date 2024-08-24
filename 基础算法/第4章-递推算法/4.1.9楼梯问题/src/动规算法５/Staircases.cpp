@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("Staircases.in","r",stdin);
-  freopen("Staircases.out","w",stdout);
+  //freopen("Staircases.in","r",stdin);
+  //freopen("Staircases.out","w",stdout);
   int n;
   scanf("%d",&n);
   long long f[1005]= {1};

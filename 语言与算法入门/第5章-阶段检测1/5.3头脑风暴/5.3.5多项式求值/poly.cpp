@@ -5,8 +5,8 @@ int a[20];
 
 int main()
 {
-  freopen("poly.in","r",stdin);
-  freopen("poly.out","w",stdout);
+  //freopen("poly.in","r",stdin);
+  //freopen("poly.out","w",stdout);
   int n,x;
   cin>>n>>x;
   for(int i=0; i<=n; i++)

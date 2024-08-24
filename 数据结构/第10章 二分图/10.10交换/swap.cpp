@@ -21,8 +21,8 @@ int DFS(int u)
 
 int main()
 {
-  freopen("swap10.in","r",stdin);
-  freopen("swap10.ans","w",stdout);
+  //freopen("swap10.in","r",stdin);
+  //freopen("swap10.ans","w",stdout);
   while(scanf("%d", &n) != EOF)
   {
     memset(G, 0,sizeof(G));

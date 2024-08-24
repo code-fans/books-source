@@ -17,8 +17,8 @@ string s[M], sim, ans;
 
 int main()
 {
-// freopen("break.in","r",stdin);
-  freopen("break222.out","w",stdout);
+// //freopen("break.in","r",stdin);
+  //freopen("break222.out","w",stdout);
   scanf("%d", &n);
   for(int i = 1; i <= n; i ++)
     cin>>s[i];

@@ -24,8 +24,8 @@ int DFS(int pos,int last,bool ok,int mod,bool limit)//上一位数,当前数的余数
 
 int main()
 {
-  freopen("unlucky.in","r",stdin);
-  freopen("unlucky.out","w",stdout);
+  //freopen("unlucky.in","r",stdin);
+  //freopen("unlucky.out","w",stdout);
   memset(dp,-1,sizeof(dp));
   while (~scanf("%d",&n))            //没有输入返回-1,取反为0
   {

@@ -21,8 +21,8 @@ int Find(int key,int Max)      //¶þ·Ö²éÕÒ
 
 int main()
 {
-  freopen("robot.in","r",stdin);
-  freopen("robot.out","w",stdout);
+  //freopen("robot.in","r",stdin);
+  //freopen("robot.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

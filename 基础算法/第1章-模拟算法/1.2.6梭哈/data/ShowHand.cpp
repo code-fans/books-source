@@ -166,8 +166,8 @@ int Count(card t[])                    //计算玩家手上牌的分值
 
 int main()
 {
-  freopen("ShowHand.in","r",stdin);
-  freopen("ShowHand.out","w",stdout);
+  //freopen("ShowHand.in","r",stdin);
+  //freopen("ShowHand.out","w",stdout);
   for (int i; scanf("%d%d",&a[1].n,&a[1].f)==2;)
   {
     for (i = 2; i <= 5; i++)           //读牌

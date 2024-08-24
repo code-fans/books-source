@@ -94,8 +94,8 @@ void bulid(int w, int l)
 
 int main(void)
 {
-  freopen("ski5.in", "r", stdin);
-  freopen("ski5.ans", "w", stdout);
+  //freopen("ski5.in", "r", stdin);
+  //freopen("ski5.ans", "w", stdout);
   int w, l;
   while(scanf("%d %d", &w, &l) == 2)
   {

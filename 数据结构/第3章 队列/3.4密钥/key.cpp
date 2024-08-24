@@ -10,8 +10,8 @@ deque <man> dq;
 
 int main()
 {
-  freopen("key.in","r",stdin);
-  freopen("key.out","w",stdout);
+  //freopen("key.in","r",stdin);
+  //freopen("key.out","w",stdout);
   int n,m;
   cin>>n>>m;
   for(int Time=1; Time<=n; Time++)

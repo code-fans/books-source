@@ -17,8 +17,8 @@ void Out(int x,int y)                        //µİ¹éÊä³ö
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=0; i<=n; i++)

@@ -22,8 +22,8 @@ void Test(int row,int ld,int rd)
 
 int main()
 {
-  freopen("queen.in","r",stdin);
-  freopen("queen.out","w",stdout);
+  //freopen("queen.in","r",stdin);
+  //freopen("queen.out","w",stdout);
   cin>>n;
   upperlim=(1 << n)-1;//结果为11111111
   Test(0,0,0);        //参数代表纵列，左对角线，右对角线是否被占用

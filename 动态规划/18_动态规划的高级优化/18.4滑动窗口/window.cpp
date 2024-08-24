@@ -33,8 +33,8 @@ int Max_deque()
 
 int main()
 {
-  freopen("window.in","r",stdin);
-  freopen("window.out","w",stdout);
+  //freopen("window.in","r",stdin);
+  //freopen("window.out","w",stdout);
   cin>>n>>k;
   for(int i=1; i<=n; i++)
     scanf("%d",&w[i]);

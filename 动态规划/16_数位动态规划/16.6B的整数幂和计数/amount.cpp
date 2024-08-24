@@ -46,8 +46,8 @@ int Cal(int n)
 
 int main()
 {
-//  freopen("amount.in","r",stdin);
-//  freopen("amount.out","w",stdout);
+//  //freopen("amount.in","r",stdin);
+//  //freopen("amount.out","w",stdout);
   Init();
   scanf("%d%d%d%d",&X,&Y,&k,&b);
   printf("%d\n",Cal(Y)-Cal(X-1));

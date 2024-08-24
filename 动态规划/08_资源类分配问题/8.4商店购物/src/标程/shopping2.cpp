@@ -16,8 +16,8 @@ int Num,t;
 
 int main()
 {
-  freopen("shopping2.in","r",stdin);
-  freopen("shopping2.out","w",stdout);
+  //freopen("shopping2.in","r",stdin);
+  //freopen("shopping2.out","w",stdout);
   int i,j,n,l,a1,a2,a3,a4,a5;
   cin>>Num;
   memset(cost,0,sizeof(cost));

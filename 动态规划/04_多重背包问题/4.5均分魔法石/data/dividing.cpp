@@ -11,8 +11,8 @@ int dig[]= {1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768};
 
 int main()
 {
-  freopen("dividing.in","r",stdin);
-  freopen("dividing.out","w",stdout);
+  //freopen("dividing.in","r",stdin);
+  //freopen("dividing.out","w",stdout);
   for(int ncase=1; ; ncase++)
   {
     int  sum = 0;

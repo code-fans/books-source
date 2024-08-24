@@ -6,8 +6,8 @@ char str2[21];
 
 int main()
 {
-  freopen("stat.in","r",stdin);
-  freopen("stat.out","w",stdout);
+  //freopen("stat.in","r",stdin);
+  //freopen("stat.out","w",stdout);
   cin.getline(str2,20);
   cin.getline(str1,1000000);
   int len1=strlen(str1);

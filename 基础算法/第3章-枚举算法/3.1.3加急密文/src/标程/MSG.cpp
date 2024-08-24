@@ -9,8 +9,8 @@ char c3[]= {" have "};
 
 int main()
 {
-  freopen("MSG.in","r",stdin);
-  freopen("MSG.out","w",stdout);
+  //freopen("MSG.in","r",stdin);
+  //freopen("MSG.out","w",stdout);
   int Len;
   for(Len=0; scanf("%c",&s[Len])!=EOF; Len++);  //读入密文到文件末尾
   for(int t=1; t<=26; t++)

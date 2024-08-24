@@ -15,8 +15,8 @@ int Turn(int n)
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   int n;
   scanf("%d",&n);
   Turn(n);

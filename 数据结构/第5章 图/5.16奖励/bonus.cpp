@@ -8,8 +8,8 @@ vector<int> g[10005];
 
 int main()
 {
-  freopen("bonus.in","r",stdin);
-  freopen("bonus.out","w",stdout);
+  //freopen("bonus.in","r",stdin);
+  //freopen("bonus.out","w",stdout);
   int n,m;
   while(cin >> n >> m && n != 0)
   {

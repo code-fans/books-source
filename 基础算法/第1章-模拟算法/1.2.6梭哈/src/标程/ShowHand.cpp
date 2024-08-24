@@ -157,8 +157,8 @@ int judge(card a[])                       //判断牌型之后整理牌
 
 int main()
 {
-  freopen("ShowHand.in","r",stdin);
-  freopen("ShowHand.out","w",stdout);
+  //freopen("ShowHand.in","r",stdin);
+  //freopen("ShowHand.out","w",stdout);
   while (scanf("%d%d",&a[1].n,&a[1].f)==2)
   {
     int i;

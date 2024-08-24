@@ -26,8 +26,8 @@ int ans, last, cnt, tot, n;
 
 int main()
 {
-  freopen("dragons.in","r",stdin);
-  freopen("dragons.out","w",stdout);
+  //freopen("dragons.in","r",stdin);
+  //freopen("dragons.out","w",stdout);
 
   scanf("%d", &n);
   last = 0;

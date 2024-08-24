@@ -44,8 +44,8 @@ void DFS(int x,int y,int dep)
 
 int main()
 {
-  freopen("FlipGame.in","r",stdin);
-  freopen("FlipGame.out","w",stdout);
+  //freopen("FlipGame.in","r",stdin);
+  //freopen("FlipGame.out","w",stdout);
   char c;
   for(int i=1; i<=4; i++)
     for(int j=1; j<=4; j++)

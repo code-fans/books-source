@@ -22,8 +22,8 @@ void init()                                //×Ö·ûÓ³Éäµ½ÕûÊı
 
 int main()
 {
-  freopen("interview.in","r",stdin);
-  freopen("interview.out","w",stdout);
+  //freopen("interview.in","r",stdin);
+  //freopen("interview.out","w",stdout);
   init();
   int num;
   cin>>num;

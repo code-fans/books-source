@@ -28,8 +28,8 @@ void split(int k,int n)           //k为指向的位数,n为待划分的数
 
 int main()
 {
-  freopen("Distribution.in","r",stdin);
-  freopen("Distribution.out","w",stdout);
+  //freopen("Distribution.in","r",stdin);
+  //freopen("Distribution.out","w",stdout);
   scanf("%d",&Num[0]);            //例如输入7
   for(int i=1; i<=Num[0]/2; ++i)  //先拆分成两位加数
   {

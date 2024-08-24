@@ -12,8 +12,8 @@ int n,sum,Max;
 
 int main()
 {
-  freopen("Stone2.in","r",stdin);
-  freopen("Stone2.out","w",stdout);
+  //freopen("Stone2.in","r",stdin);
+  //freopen("Stone2.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
   {

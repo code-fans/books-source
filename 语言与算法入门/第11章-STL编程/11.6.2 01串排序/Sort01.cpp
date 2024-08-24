@@ -16,8 +16,8 @@ struct Comp
 
 int main()
 {
-  freopen("Sort01.in","r",stdin);
-  freopen("Sort01.out","w",stdout);
+  //freopen("Sort01.in","r",stdin);
+  //freopen("Sort01.out","w",stdout);
   multiset<string,Comp>ms;
   int n;
   cin>>n;

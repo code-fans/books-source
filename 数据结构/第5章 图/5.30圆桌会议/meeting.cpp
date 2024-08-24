@@ -76,8 +76,8 @@ void Hamilton()
 
 int main()
 {
-  freopen("meeting.in","r",stdin);
-  freopen("meeting.out","w",stdout);
+  //freopen("meeting.in","r",stdin);
+  //freopen("meeting.out","w",stdout);
   while(scanf("%d%d",&n,&m),n|m)             //当n,m不为0时
   {
     n<<=1;

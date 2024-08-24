@@ -6,8 +6,8 @@ int n,a,b,c,n9,sum;               //n9表示之前积累的9的个数，初始为0
 
 int main()
 {
-  freopen("add3.in","r",stdin);
-  freopen("add3.out","w",stdout);
+  //freopen("add3.in","r",stdin);
+  //freopen("add3.out","w",stdout);
 
   scanf("%d",&n);
   bool first=1;

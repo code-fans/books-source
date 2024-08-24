@@ -30,8 +30,8 @@ ll Getsum(ll x,ll *c)
 
 int main()
 {
-  freopen("simple3.in","r",stdin);
-  freopen("simple3.ans","w",stdout);
+  //freopen("simple3.in","r",stdin);
+  //freopen("simple3.ans","w",stdout);
   scanf("%lld%lld",&n,&m);
   for(int i=1; i<=n; i++)
   {

@@ -40,8 +40,8 @@ void Dp(int u,int father)                               //Ê÷ÐÎ¶¯¹æ
 
 int main()
 {
-  freopen("road.in","r",stdin);
-  freopen("road.out","w",stdout);
+  //freopen("road.in","r",stdin);
+  //freopen("road.out","w",stdout);
 
   int u,v,len;
   while(~scanf("%d%d%d",&u,&v,&len))

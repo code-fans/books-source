@@ -16,8 +16,8 @@ list<int> q;
 
 int main()
 {
-  freopen("sum.in","r",stdin);
-  freopen("sum.out","w",stdout);
+  //freopen("sum.in","r",stdin);
+  //freopen("sum.out","w",stdout);
   int n,m;
   while(scanf("%d%d",&n,&m)==2)
   {

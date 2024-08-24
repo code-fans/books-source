@@ -31,8 +31,8 @@ void Bellman_ford(int s)//bellman-ford
 
 int main()
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   Init();
   Bellman_ford(s);
   return 0;

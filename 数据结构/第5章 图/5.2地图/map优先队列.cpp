@@ -42,8 +42,8 @@ void Dijkstra(int start)
 
 int main()
 {
-  freopen("map.in","r",stdin);
-  freopen("map.out","w",stdout);
+  //freopen("map.in","r",stdin);
+  //freopen("map.out","w",stdout);
   scanf("%d",&n);
   for(int i=1; i<=n; i++)                //¶ÁÈëÍ¼
     for(int j=1; j<=n; j++)

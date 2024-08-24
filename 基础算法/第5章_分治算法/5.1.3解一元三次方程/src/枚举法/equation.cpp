@@ -6,8 +6,8 @@ int main()
 {
   double a,b,c,d,fx,x,num=0;
   int i;
-  freopen("equation.in","r",stdin);
-  freopen("equation.out","w",stdout);
+  //freopen("equation.in","r",stdin);
+  //freopen("equation.out","w",stdout);
   cin>>a>>b>>c>>d;
   cout.precision(2);//设精度，即小数点位数
   cout.setf(ios::fixed);// 以定点形式显示浮点数

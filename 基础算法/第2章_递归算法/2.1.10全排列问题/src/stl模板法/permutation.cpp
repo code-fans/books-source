@@ -15,8 +15,8 @@ void Print()
 
 int main()
 {
-  freopen("permutation.in","r",stdin);
-  freopen("permutation.out","w",stdout);
+  //freopen("permutation.in","r",stdin);
+  //freopen("permutation.out","w",stdout);
   cin>>n;
   Print();
   while(next_permutation(a,a+n))//产生下一个排列

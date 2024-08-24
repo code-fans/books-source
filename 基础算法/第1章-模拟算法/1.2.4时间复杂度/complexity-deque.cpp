@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("complexity.in","r",stdin);
-  freopen("complexity.out","w",stdout);
+  //freopen("complexity.in","r",stdin);
+  //freopen("complexity.out","w",stdout);
   int t,L;
   cin>>t;
   while(t--)

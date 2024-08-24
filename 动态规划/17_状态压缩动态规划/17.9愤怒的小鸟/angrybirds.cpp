@@ -7,8 +7,8 @@ int Bird[405],f[1048580];
 
 int main()
 {
-  freopen("angrybirds.in","r",stdin);
-  freopen("angrybirds.out","w",stdout);
+  //freopen("angrybirds.in","r",stdin);
+  //freopen("angrybirds.out","w",stdout);
   int t;
   scanf("%d",&t);
   while(t--)

@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  freopen("ball.in","r",stdin);
+  //freopen("ball.in","r",stdin);
   do
   {
     system("rand.exe");

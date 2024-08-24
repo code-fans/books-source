@@ -11,8 +11,8 @@ ULL Pow[maxn]= {1};                         //Pow[0]=1
 
 int main()
 {
-  freopen("name.in","r",stdin);
-  freopen("name.out","w",stdout);
+  //freopen("name.in","r",stdin);
+  //freopen("name.out","w",stdout);
   for (int i=1; i<=maxn; ++i)               //Ô¤´¦Àí¼ÆËãp^i
     Pow[i]=Pow[i-1]*p;
   while (~scanf("%s",c+1))

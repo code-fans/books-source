@@ -17,8 +17,8 @@ inline void ReadIn(int& x)
 
 int main()
 {
-  freopen("sum.in","r",stdin);
-  freopen("sum.out","w",stdout);
+  //freopen("sum.in","r",stdin);
+  //freopen("sum.out","w",stdout);
   ReadIn(n);
   for (int i=0; i<n; ReadIn(a[++i]));
   for (int i=1; i<=n; ++i)                //正序求上升数列

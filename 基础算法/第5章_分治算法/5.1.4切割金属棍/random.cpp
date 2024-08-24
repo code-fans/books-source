@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  freopen("cut10.in","w",stdout);
+  //freopen("cut10.in","w",stdout);
   srand(unsigned(time));
   int n=300;
   int k=10000;

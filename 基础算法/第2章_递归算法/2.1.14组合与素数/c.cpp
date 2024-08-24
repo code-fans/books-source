@@ -31,8 +31,8 @@ void Dfs(int s,int dep)
 
 int main()
 {
-  freopen("c.in","r",stdin);
-  freopen("c.out","w",stdout);
+  //freopen("c.in","r",stdin);
+  //freopen("c.out","w",stdout);
   cin>>n>>k;
   for(int i=1; i<=n; i++)
     cin>>b[i];

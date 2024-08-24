@@ -23,8 +23,8 @@ int Find(int x)
 
 int main ()
 {
-  freopen("paraboy.in","r",stdin);
-  freopen("paraboy.out","w",stdout);
+  //freopen("paraboy.in","r",stdin);
+  //freopen("paraboy.out","w",stdout);
   int t,x,y;
   scanf("%d",&t);
   while (t--)

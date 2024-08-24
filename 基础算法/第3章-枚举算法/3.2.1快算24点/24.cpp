@@ -47,8 +47,8 @@ void DFS(int dep)
 
 int main()
 {
-  freopen("24.in","r",stdin);
-  freopen("24.out","w",stdout);
+  //freopen("24.in","r",stdin);
+  //freopen("24.out","w",stdout);
   scanf("%d%d%d%d", &c[1],&c[2],&c[3],&c[4]);
   DFS(1);
   printf("No\n");

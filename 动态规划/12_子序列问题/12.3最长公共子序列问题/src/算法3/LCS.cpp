@@ -33,8 +33,8 @@ void dp()
 
 int main()
 {
-  freopen("LCS.in","r",stdin);
-  freopen("LCS.out","w",stdout);
+  //freopen("LCS.in","r",stdin);
+  //freopen("LCS.out","w",stdout);
   init();
   dp();
   return 0;

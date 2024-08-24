@@ -59,8 +59,8 @@ void compute(int m,int n,int delay,int repetend)
 
 int main()
 {
-  freopen("fraction.in","r",stdin);
-  freopen("fraction.out","w",stdout);
+  //freopen("fraction.in","r",stdin);
+  //freopen("fraction.out","w",stdout);
   int m,n;
   scanf("%d/%d",&m,&n);
   printf("%d/%d=0.",m,n);

@@ -48,8 +48,8 @@ void Output(int *ans,int len)
 
 int main()
 {
-  freopen("sample_div2.in","r",stdin);
-  freopen("sample_div2.out","w",stdout);
+  //freopen("sample_div2.in","r",stdin);
+  //freopen("sample_div2.out","w",stdout);
   string str;
   int b;
   cin>>str;                      //输入高精度被除数

@@ -16,8 +16,8 @@ int  Area(int a,int b,int c)//计算三角形面积
 
 int main()
 {
-  freopen("Triangle.in","r",stdin);
-  freopen("Triangle.out","w",stdout);
+  //freopen("Triangle.in","r",stdin);
+  //freopen("Triangle.out","w",stdout);
   int n;
   while(~scanf("%d",&n))
   {

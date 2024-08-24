@@ -81,8 +81,8 @@ void Doit()
 
 int main()
 {
-  freopen("queen.in","r",stdin);
-  freopen("queen.out","w",stdout);
+  //freopen("queen.in","r",stdin);
+  //freopen("queen.out","w",stdout);
   init();
   Doit();
 

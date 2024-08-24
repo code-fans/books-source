@@ -20,8 +20,8 @@ bool Check(int x)                //判断x状态是否为回文
 
 int main()
 {
-  freopen("palindrome.in","r",stdin);
-  freopen("palindrome.out","w",stdout);
+  //freopen("palindrome.in","r",stdin);
+  //freopen("palindrome.out","w",stdout);
   int N;
   cin>>N;
   while(N--)

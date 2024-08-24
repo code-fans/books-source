@@ -14,8 +14,8 @@ int Calc(int pos)
 
 int main()
 {
-  freopen("beads.in","r",stdin);
-  freopen("beads.out","w",stdout);
+  //freopen("beads.in","r",stdin);
+  //freopen("beads.out","w",stdout);
   cin>>n>>s;
   for(int i = 0; i < n; i++)
     if(s[(i-1+n)%n]!=s[i] && s[(i-1+n)%n]!='w')

@@ -8,8 +8,8 @@ int n,now;                   //now:当前位置
 
 int main()
 {
-//  freopen("budget.in","r",stdin);
-//  freopen("budget.out","w",stdout);
+//  //freopen("budget.in","r",stdin);
+//  //freopen("budget.out","w",stdout);
   cin>>d1>>c>>d2>>p[0]>>n;        //距离,油箱容量,每升油行驶距离,起点油价,油站数
   double Power=c*d2;              //Power指的是加满油最多能走的里程
   for(int i=1; i<=n; i++)

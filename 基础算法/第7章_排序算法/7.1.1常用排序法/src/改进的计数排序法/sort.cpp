@@ -14,8 +14,8 @@ int c[N+1];//c为辅助数组
 int main()
 {
   int n,i,p=0;
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   cin>>n;
   for(i=1; i<=n; i++) //统计
   {

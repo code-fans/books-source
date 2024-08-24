@@ -91,8 +91,8 @@ void update(int a,int b)
 
 int main()
 {
-  freopen("coprime1.in","r",stdin);
-  freopen("coprime1.ans","w",stdout);
+  //freopen("coprime1.in","r",stdin);
+  //freopen("coprime1.ans","w",stdout);
   init();
   while (~scanf("%d%d",&n,&m)&&n+m)
   {

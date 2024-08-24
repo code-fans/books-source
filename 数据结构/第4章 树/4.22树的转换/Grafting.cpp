@@ -20,8 +20,8 @@ void Dfs(int tree1,int tree2)           //tree1代表树1高度，tree2代表树2高度
 
 int main()
 {
-  freopen("Grafting.in","r",stdin);
-  freopen("Grafting.out","w",stdout);
+  //freopen("Grafting.in","r",stdin);
+  //freopen("Grafting.out","w",stdout);
   int T=0;
   scanf("%s",s);
   while (s[0]!='#')

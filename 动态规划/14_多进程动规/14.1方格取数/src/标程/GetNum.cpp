@@ -38,8 +38,8 @@ void Dp()
 
 int main()
 {
-  freopen("GetNum.in","r",stdin);
-  freopen("GetNum.out","w",stdout);
+  //freopen("GetNum.in","r",stdin);
+  //freopen("GetNum.out","w",stdout);
   cin>>n;
   n++;                               //给二维表多一行一列，保证起点无数据
   while(cin>>x>>y>>z,x && y && z)

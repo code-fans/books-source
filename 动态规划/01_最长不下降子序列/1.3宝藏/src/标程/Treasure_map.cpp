@@ -14,8 +14,8 @@ int Cmp(node a, node b)              //按x值从小到大排,相等则按y从小到大排
 
 int main()
 {
-  freopen("Treasure_map.in","r",stdin);
-  freopen("Treasure_map.out","w",stdout);
+  //freopen("Treasure_map.in","r",stdin);
+  //freopen("Treasure_map.out","w",stdout);
   int n,m,p;
   scanf("%d%d%d", &n, &m, &p);
   vector <int> v;                    //此处vector当堆栈使用

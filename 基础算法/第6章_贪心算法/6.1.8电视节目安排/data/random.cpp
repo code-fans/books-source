@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-// freopen("tv.in","r",stdin);
-  freopen("tv.in","w",stdout);
+// //freopen("tv.in","r",stdin);
+  //freopen("tv.in","w",stdout);
   srand(time(0));
   int n,T;
   cin>>T>>n;

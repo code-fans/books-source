@@ -11,8 +11,8 @@ bool Map[21][21];
 
 int main()
 {
-  freopen("river.in","r",stdin);
-  freopen("river.out","w",stdout);
+  //freopen("river.in","r",stdin);
+  //freopen("river.out","w",stdout);
   int n,m,x,y;
   scanf("%d%d%d%d",&n,&m,&x,&y);
   for(int i=0; i<9; ++i)

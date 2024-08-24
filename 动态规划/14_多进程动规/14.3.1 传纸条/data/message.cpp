@@ -12,8 +12,8 @@ int Max(int a, int b, int c, int d)//返回4个值的最大值
 
 int main()
 {
-  freopen("message.in","r",stdin);
-  freopen("message.out","w",stdout);
+  //freopen("message.in","r",stdin);
+  //freopen("message.out","w",stdout);
   int n,m;
   cin >> n >> m;
   for (int i=1; i<=n; i++)

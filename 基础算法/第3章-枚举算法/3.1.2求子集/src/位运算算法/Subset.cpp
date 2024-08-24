@@ -16,8 +16,8 @@ void Subset(int n)
 
 int main()
 {
-  freopen("Subset.in","r",stdin);
-  freopen("Subset.out","w",stdout);
+  //freopen("Subset.in","r",stdin);
+  //freopen("Subset.out","w",stdout);
   cin>>N;
   for(int i=0; i<(1<<N); i++)       //循环2^N次，枚举i从000..000到111..111
     Subset(i);

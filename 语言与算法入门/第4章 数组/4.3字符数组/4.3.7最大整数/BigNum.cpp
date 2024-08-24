@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("BigNum.in","r",stdin);
-  freopen("BigNum.out","w",stdout);
+  //freopen("BigNum.in","r",stdin);
+  //freopen("BigNum.out","w",stdout);
   char s[101][30],t1[65],t2[65];
   int n;
   scanf("%d",&n);

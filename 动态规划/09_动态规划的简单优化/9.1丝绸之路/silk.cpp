@@ -6,8 +6,8 @@ int f[1002],d[1002];
 
 int main()
 {
-  freopen("silk.in","r",stdin);
-  freopen("silk.out","w",stdout);
+  //freopen("silk.in","r",stdin);
+  //freopen("silk.out","w",stdout);
   memset(f,127/2,sizeof(f));
   f[0]=0;					       //到达第0个城市的最小花费为0
   int N,M;

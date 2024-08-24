@@ -44,8 +44,8 @@ int Query(int x, int y)
 
 int main()
 {
-  freopen("war.in","r",stdin);
-  freopen("war.out","w",stdout);
+  //freopen("war.in","r",stdin);
+  //freopen("war.out","w",stdout);
   cin>>N>>M;
   for(int i = 1; i <= N; i++)
     fa[i] = i, siz[i] = 1;

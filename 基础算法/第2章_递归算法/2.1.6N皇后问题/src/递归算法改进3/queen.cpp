@@ -41,8 +41,8 @@ void place(int x,int y)
 }
 int main()
 {
-  freopen("queen.in","r",stdin);
-  freopen("queen.out","w",stdout);
+  //freopen("queen.in","r",stdin);
+  //freopen("queen.out","w",stdout);
   cin>>n;
   total=0;
   num=0;

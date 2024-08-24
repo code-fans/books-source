@@ -42,8 +42,8 @@ int Find(int START,int END)
 
 int main()
 {
-  freopen("k1.in","r",stdin);
-  freopen("k1.out","w",stdout);
+  //freopen("k1.in","r",stdin);
+  //freopen("k1.out","w",stdout);
   scanf("%d%d",&m,&k);
   for(int i=1; i<=m; i++)
   {

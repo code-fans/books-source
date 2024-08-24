@@ -26,8 +26,8 @@ void Add(int i,int c[])
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   int m,k,option,x,y;
   cin>>m>>k;
   while(k--)

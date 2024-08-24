@@ -31,8 +31,8 @@ void Calc(double l,double r)  //二分查找解
 
 int main()
 {
-  freopen("equation.in","r",stdin);
-  freopen("equation.out","w",stdout);
+  //freopen("equation.in","r",stdin);
+  //freopen("equation.out","w",stdout);
   cin>>a>>b>>c>>d;
   Calc(-100,100);
   sort(ans+1,ans+4);          //三个根从小到大排序

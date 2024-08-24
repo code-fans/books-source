@@ -52,8 +52,8 @@ void KM()
 
 int main()
 {
-  freopen("max.in","r",stdin);
-  freopen("max.out","w",stdout);
+  //freopen("max.in","r",stdin);
+  //freopen("max.out","w",stdout);
   while(~scanf("%d",&n))
   {
     memset(A,0,sizeof(A));

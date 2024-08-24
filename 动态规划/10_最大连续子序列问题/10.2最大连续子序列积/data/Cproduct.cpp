@@ -7,8 +7,8 @@ long long a[1001],g[1001],f[1001];
 
 int main()
 {
-  freopen("Cproduct.in","r",stdin);
-  freopen("Cproduct.out","w",stdout);
+  //freopen("Cproduct.in","r",stdin);
+  //freopen("Cproduct.out","w",stdout);
   int n;
   cin>>n;
   for(int i=1; i<=n; i++)

@@ -33,8 +33,8 @@ void Init(int n)
 
 int main()
 {
-  freopen("horse.in","r",stdin);
-  freopen("horse.out","w",stdout);
+  //freopen("horse.in","r",stdin);
+  //freopen("horse.out","w",stdout);
   for(int n; scanf("%d",&n) && n;)
   {
     for(int i=1; i<=n; i++)

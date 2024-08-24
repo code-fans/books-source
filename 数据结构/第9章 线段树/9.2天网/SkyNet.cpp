@@ -51,8 +51,8 @@ int Query(int left,int right,int num)                     //Ñ¯ÎÊ²Ù×÷
 
 int main()
 {
-  freopen("SkyNet.in","r",stdin);
-  freopen("SkyNet.out","w",stdout);
+  //freopen("SkyNet.in","r",stdin);
+  //freopen("SkyNet.out","w",stdout);
   int N,M;
   while(~scanf("%d%d",&N,&M))
   {

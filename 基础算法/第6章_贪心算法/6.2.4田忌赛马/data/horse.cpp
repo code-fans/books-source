@@ -14,8 +14,8 @@ int S(int i,int j)
 
 int main()
 {
-  freopen("horse.in","r",stdin);
-  freopen("horse.out","w",stdout);
+  //freopen("horse.in","r",stdin);
+  //freopen("horse.out","w",stdout);
 
   for(int n; scanf("%d",&n)  && n;)
   {

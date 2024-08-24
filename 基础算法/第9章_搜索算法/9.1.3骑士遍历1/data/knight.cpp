@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("knight.in","r",stdin);
-  freopen("knight.out","w",stdout);
+  //freopen("knight.in","r",stdin);
+  //freopen("knight.out","w",stdout);
   int k=0,num=0,x=1,y=1,X,Y;               //num为步数，A点从x=1,y=1开始
   int step[1000];                        //存储每走一步的方向
   int dx[5]= {0, 1, 2,2,1};            //控制x方向的增量数组

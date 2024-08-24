@@ -6,8 +6,8 @@ int len[205];
 
 int main()
 {
-  freopen("demon.in","r",stdin);
-  freopen("demon.out","w",stdout);
+  //freopen("demon.in","r",stdin);
+  //freopen("demon.out","w",stdout);
   int n,k;
   cin>>n>>k;
   if(k>=2*n-1)

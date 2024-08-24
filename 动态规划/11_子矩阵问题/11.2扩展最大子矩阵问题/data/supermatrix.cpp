@@ -34,8 +34,8 @@ int Cut(int n,int m)
 
 int main()
 {
-  freopen("supermatrix12.in","r",stdin);
-  freopen("supermatrix12.ans","w",stdout);
+  //freopen("supermatrix12.in","r",stdin);
+  //freopen("supermatrix12.ans","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; ++i)
     for(int j=1; j<=m; ++j)

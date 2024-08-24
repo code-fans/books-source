@@ -37,8 +37,8 @@ void DFS(int num)
 
 int main()
 {
-  freopen("color.in","r",stdin);
-  freopen("color.out","w",stdout);
+  //freopen("color.in","r",stdin);
+  //freopen("color.out","w",stdout);
   int t;
   scanf("%d",&t);
   while(t--)

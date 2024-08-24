@@ -28,8 +28,8 @@ LL Calc(LL MID)                           //计算Ｙ值
 
 int main()
 {
-  freopen("qc.in","r",stdin);
-  freopen("qc.out","w",stdout);
+  //freopen("qc.in","r",stdin);
+  //freopen("qc.out","w",stdout);
   scanf("%lld %lld %lld",&n,&m,&s);
   LL Start=0ll,End=0ll;                   //上界和下界, long long型赋值后面要加ll
   for(int i=1; i<=n; ++i)

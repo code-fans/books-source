@@ -16,8 +16,8 @@ void Trans(int L1, int R1, int L2, int R2)
 
 int main()
 {
-  freopen("tree2.in","r",stdin);
-  freopen("tree2.out","w",stdout);
+  //freopen("tree2.in","r",stdin);
+  //freopen("tree2.out","w",stdout);
   cin>>s1>>s2;
   Trans(0,s1.size()-1,0,s2.size()-1);
   puts("");

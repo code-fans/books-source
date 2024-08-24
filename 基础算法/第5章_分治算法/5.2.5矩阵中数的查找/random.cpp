@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  freopen("matrix1.in","w",stdout);
+  //freopen("matrix1.in","w",stdout);
   srand(time(0));
   int n=50;
   cout<<n<<endl;

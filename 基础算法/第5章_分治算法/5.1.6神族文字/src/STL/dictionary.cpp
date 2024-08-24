@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("dictionary.in","r",stdin);
-  freopen("dictionary.out","w",stdout);
+  //freopen("dictionary.in","r",stdin);
+  //freopen("dictionary.out","w",stdout);
   string english,foreign,s;
   map<string,string>translate;//记录Foreign到English的映射
   while(getline(cin,s))//输入字典

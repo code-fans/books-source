@@ -53,8 +53,8 @@ void Update(int id,int pos)              //更新所有包含id这个数的区间的val值
 
 int main()
 {
-  freopen("samsara.in","r",stdin);
-  freopen("samsara.out","w",stdout);
+  //freopen("samsara.in","r",stdin);
+  //freopen("samsara.out","w",stdout);
   int n;
   while(scanf("%d",&n) == 1)
   {

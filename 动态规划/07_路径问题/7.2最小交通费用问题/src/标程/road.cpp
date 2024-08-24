@@ -18,8 +18,8 @@ void Floyd()
 
 int main()
 {
-  freopen("road.in" ,"r",stdin);
-  freopen("road.out","w",stdout);
+  //freopen("road.in" ,"r",stdin);
+  //freopen("road.out","w",stdout);
   scanf("%d %d",&N,&M);
   memset(D,-1,sizeof(D));
   for (int i=1; i<=M; i++)

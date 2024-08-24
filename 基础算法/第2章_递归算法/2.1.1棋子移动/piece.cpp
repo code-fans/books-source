@@ -22,8 +22,8 @@ void Move(int k)
 
 int main()
 {
-  freopen("piece.in","r",stdin);
-  freopen("piece.out","w",stdout);
+  //freopen("piece.in","r",stdin);
+  //freopen("piece.out","w",stdout);
   int N;
   cin>>N;
   Move(N);

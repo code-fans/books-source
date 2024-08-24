@@ -8,8 +8,8 @@ int maxans[MAXN],minans[MAXN];
 
 int main()
 {
-  freopen("window.in","r",stdin);
-  freopen("window.out","w",stdout);
+  //freopen("window.in","r",stdin);
+  //freopen("window.out","w",stdout);
   while (scanf("%d%d",&n,&k)!=EOF)
   {
     int maxhead=0,minhead=0,maxtail=0,mintail=0;

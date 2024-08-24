@@ -4,8 +4,8 @@ using namespace std;
 int dp[20][5],ans[20];
 int main()
 {
-  freopen("revelation1.in","r",stdin);
-  freopen("revelation1.ans","w",stdout);
+  //freopen("revelation1.in","r",stdin);
+  //freopen("revelation1.ans","w",stdout);
   int i,j,k,m,n,p,q,x,y,z,T,now,cnt,tot;
   dp[0][0]=1;
   for (i=0; i<=15; i++)

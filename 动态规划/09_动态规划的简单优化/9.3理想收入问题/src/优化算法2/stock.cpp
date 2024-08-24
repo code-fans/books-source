@@ -6,8 +6,8 @@ double v[100010],p[100010];
 
 int main()
 {
-  freopen("stock.in","r",stdin);
-  freopen("stock.out","w",stdout);
+  //freopen("stock.in","r",stdin);
+  //freopen("stock.out","w",stdout);
   int n;
   cin>>n;
   for(int i=1; i<=n; i++)

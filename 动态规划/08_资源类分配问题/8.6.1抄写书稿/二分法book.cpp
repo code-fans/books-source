@@ -4,8 +4,8 @@ int a[505], b[505], c[505];
 
 int main()
 {
-  freopen("book.in","r",stdin);
-  freopen("book.out","w",stdout);
+  //freopen("book.in","r",stdin);
+  //freopen("book.out","w",stdout);
   int n, k, i, j;
   while(scanf("%d%d",&n,&k)==2)
   {

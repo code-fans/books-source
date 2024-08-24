@@ -7,8 +7,8 @@ int W[40],use[40];
 
 int main()
 {
-  freopen("Backpack.in","r",stdin);
-  freopen("Backpack.out","w",stdout);
+  //freopen("Backpack.in","r",stdin);
+  //freopen("Backpack.out","w",stdout);
   cin>>S>>N;
   for(int i=0; i<N; i++)
     cin>>W[i];

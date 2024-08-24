@@ -29,8 +29,8 @@ void DFS(int digit)        //digit表示当前位置
 
 int main()
 {
-  freopen("Subset.in","r",stdin);
-  freopen("Subset.out","w",stdout);
+  //freopen("Subset.in","r",stdin);
+  //freopen("Subset.out","w",stdout);
   scanf("%d",&n);
   DFS(1);
   for(set<string>::iterator ii=s.begin(); ii!=s.end(); ii++)

@@ -33,8 +33,8 @@ int work(int max_time)
 
 int main()
 {
-  freopen("pie.in","r",stdin);
-  freopen("pie.out","w",stdout);
+  //freopen("pie.in","r",stdin);
+  //freopen("pie.out","w",stdout);
   int n,i,time,location,max_time;
   while (scanf("%d", &n) != EOF && n != 0)
   {

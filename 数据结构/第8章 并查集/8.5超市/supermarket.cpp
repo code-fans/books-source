@@ -14,8 +14,8 @@ struct goods
 
 int main()
 {
-  freopen("supermarket.in","r",stdin);
-  freopen("supermarket.out","w",stdout);
+  //freopen("supermarket.in","r",stdin);
+  //freopen("supermarket.out","w",stdout);
   while (cin>>n)
   {
     memset(dp,0,sizeof(dp));

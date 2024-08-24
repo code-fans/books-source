@@ -28,8 +28,8 @@ void DFS(int x,int y)
 
 int main()
 {
-  freopen("flow.in","r",stdin);
-  freopen("flow.out","w",stdout);
+  //freopen("flow.in","r",stdin);
+  //freopen("flow.out","w",stdout);
   memset(l,127,sizeof(l));      //³õÊ¼»¯×ó±ß½ç
   scanf("%d%d",&N,&M);
   for (int i=1; i<=N; i++)

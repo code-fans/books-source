@@ -6,8 +6,8 @@ void Square(int x);      //对子函数的声明
 
 int main()
 {
-  freopen("square.in","r",stdin);
-  freopen("square.out","w",stdout);
+  //freopen("square.in","r",stdin);
+  //freopen("square.out","w",stdout);
   int x;
   while(cin>>x)
     Square(x);

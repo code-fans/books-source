@@ -44,8 +44,8 @@ int BFS()                                  //นใหั
 
 int main()
 {
-  freopen("FlipGame.in","r",stdin);
-  freopen("FlipGame.out","w",stdout);
+  //freopen("FlipGame.in","r",stdin);
+  //freopen("FlipGame.out","w",stdout);
   int state=0;
   char s[5];
   for(int i=0; i<4; i++)

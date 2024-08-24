@@ -20,8 +20,8 @@ void Work(int n,int l1,int l2,int l3)
 
 int main()
 {
-  freopen("zipper.in","r",stdin);
-  freopen("zipper.out","w",stdout);
+  //freopen("zipper.in","r",stdin);
+  //freopen("zipper.out","w",stdout);
   int n;
   cin>>n;
   for(int i=1; i<=n; ++i)

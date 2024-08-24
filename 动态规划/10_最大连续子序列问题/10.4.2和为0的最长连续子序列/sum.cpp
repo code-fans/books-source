@@ -9,8 +9,8 @@ using namespace std;
 
 int main()
 {
-  freopen("sum.in","r",stdin);
-  freopen("sum.out","w",stdout);
+  //freopen("sum.in","r",stdin);
+  //freopen("sum.out","w",stdout);
   int n,Max=0;
   cin>>n;
   vector<int> dp(n+1);           //多定义一个0

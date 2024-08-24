@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-  freopen("k210.in","w",stdout);
+  //freopen("k210.in","w",stdout);
   srand(time(0));
   int a[n],b[n];
   set <int> s1,s2;

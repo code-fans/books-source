@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("ballclock10.in","r",stdin);
-  freopen("ballclock10.in","w",stdout);
+  //freopen("ballclock10.in","r",stdin);
+  //freopen("ballclock10.in","w",stdout);
   int n;
   srand(time(0));
   for(int i=0; i<=100; i++)

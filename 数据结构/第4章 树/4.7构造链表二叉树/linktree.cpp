@@ -60,8 +60,8 @@ void Print(b_tree root)                   //µÝ¹é´òÓ¡¶þ²æÊ÷
 
 int main()
 {
-  freopen("linktree.in","r",stdin);
-  freopen("linktree.out","w",stdout);
+  //freopen("linktree.in","r",stdin);
+  //freopen("linktree.out","w",stdout);
   int n;
   b_tree root=NULL;
   cin>>n;

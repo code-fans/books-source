@@ -5,8 +5,8 @@ int data[101][52][52];
 
 int main()
 {
-  freopen("message.in","r",stdin);
-  freopen("message.out","w",stdout);    
+  //freopen("message.in","r",stdin);
+  //freopen("message.out","w",stdout);    
   int m,n,i,j,a[100][100],k,x1,x2,t=0,mm;
   scanf("%d%d",&m,&n);
   for(i=1;i<=m;i++)

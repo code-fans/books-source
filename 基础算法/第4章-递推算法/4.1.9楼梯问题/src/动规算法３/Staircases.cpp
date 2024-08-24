@@ -7,8 +7,8 @@ int n;
 
 int main()
 {
-  freopen("Staircases.in","r",stdin);
-  freopen("Staircases.out","w",stdout);
+  //freopen("Staircases.in","r",stdin);
+  //freopen("Staircases.out","w",stdout);
   cin>>n;
   f[1][1]=1;
   for(int i=2; i<=n; ++i)

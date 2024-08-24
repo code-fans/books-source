@@ -8,8 +8,8 @@ long long dp[16][1<<16];
 
 int main()
 {
-  freopen("emmm.in","r",stdin);
-  freopen("emmm.out","w",stdout);
+  //freopen("emmm.in","r",stdin);
+  //freopen("emmm.out","w",stdout);
   scanf("%d%d",&N,&K);
   for(int i=0; i<N; i++)
     scanf("%d",&a[i]);

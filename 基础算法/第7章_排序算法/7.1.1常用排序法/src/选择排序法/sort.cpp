@@ -33,8 +33,8 @@ void select_sort(int n)
 
 int main()
 {  
-   freopen("sort.in","r",stdin);
-   freopen("sort.out","w",stdout);
+   //freopen("sort.in","r",stdin);
+   //freopen("sort.out","w",stdout);
    int i,n;
    scanf("%d",&n);
    for(i=1;i<=n;i++)

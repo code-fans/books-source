@@ -20,8 +20,8 @@ void count(int m)
 
 int main()
 {
-  freopen("people.in","r",stdin);
-  freopen("people.out","w",stdout);
+  //freopen("people.in","r",stdin);
+  //freopen("people.out","w",stdout);
   scanf("%d",&n);
   for(i=1; i<=n; i++)
     ans[i]=-1;

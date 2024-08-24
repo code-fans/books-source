@@ -33,8 +33,8 @@ int Find(int s1, int e1, int s2, int e2, int kth)
 
 int main()
 {
-  freopen("k2.in","r",stdin);
-  freopen("k2.out","w",stdout);
+  //freopen("k2.in","r",stdin);
+  //freopen("k2.out","w",stdout);
   int n, m, k;
   scanf("%d %d %d", &n, &m, &k);
   for(int i = 0; i < n; ++ i)

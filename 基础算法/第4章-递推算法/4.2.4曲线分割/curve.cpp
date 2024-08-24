@@ -13,8 +13,8 @@ int f(int n)
 
 int main()
 {
-  freopen("curve5.in","r",stdin);
-  freopen("curve5.ans","w",stdout);  
+  //freopen("curve5.in","r",stdin);
+  //freopen("curve5.ans","w",stdout);  
   int n;
   cin>>n;
   cout<<f(n)<<endl;

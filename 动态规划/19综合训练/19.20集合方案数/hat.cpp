@@ -16,8 +16,8 @@ void GetMod(int &ans,int b)
 
 int main()
 {
-  freopen("hat.in","r",stdin);
-  freopen("hat.out","w",stdout);
+  //freopen("hat.in","r",stdin);
+  //freopen("hat.out","w",stdout);
   scanf("%d%d",&n,&m);
   sum=(1<<(--m))-1;
   for(int i=1; i<=sum; i++)

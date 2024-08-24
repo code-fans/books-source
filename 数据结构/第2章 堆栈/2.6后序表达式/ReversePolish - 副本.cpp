@@ -99,8 +99,8 @@ double Compvalue()                             //计算后缀表达式的值
 
 int main()
 {
-  freopen("ReversePolish.in","r",stdin);
-  freopen("ReversePolish.out","w",stdout);
+  //freopen("ReversePolish.in","r",stdin);
+  //freopen("ReversePolish.out","w",stdout);
 
   Trans();                                     //转成后缀表达式
   //PutExp();                                  //输出后序表达式

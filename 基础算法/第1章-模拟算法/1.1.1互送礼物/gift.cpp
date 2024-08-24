@@ -6,8 +6,8 @@ map<string,int>ans;
 
 int main()
 {
-  freopen("gift.in","r",stdin);
-  freopen("gift.out","w",stdout);
+  //freopen("gift.in","r",stdin);
+  //freopen("gift.out","w",stdout);
   int n,money;
   cin>>n;
   string name[15],s,p;

@@ -5,8 +5,8 @@ const int N=100;
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   char str1[N],str2[N];
   cin.getline(str1,N-1);
   int len=strlen(str1);

@@ -70,8 +70,8 @@ double Query(int pos,int l,int r,int T)
 
 int main()
 {
-  freopen("company.in","r",stdin);
-  freopen("company.out","w",stdout);
+  //freopen("company.in","r",stdin);
+  //freopen("company.out","w",stdout);
   int n=Read(),index=1;
   char s[10];
   for (int i=1; i<=n; i++)

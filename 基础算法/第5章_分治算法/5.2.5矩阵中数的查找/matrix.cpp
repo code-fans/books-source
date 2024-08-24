@@ -33,8 +33,8 @@ long long Judge(long long Mid)
 
 int main()
 {
-  freopen("matrix.in","r",stdin);
-  freopen("matrix.out","w",stdout);
+  //freopen("matrix.in","r",stdin);
+  //freopen("matrix.out","w",stdout);
   long long T,M,mid,ans;
   for(scanf("%lld",&T); T; T--)
   {

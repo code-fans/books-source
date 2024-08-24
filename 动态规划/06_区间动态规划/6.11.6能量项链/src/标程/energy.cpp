@@ -27,8 +27,8 @@ void matrixch(int p[],int n) //核心算法
 int main()
 {
   int i;  
-  freopen("energy.in","r",stdin);
-  freopen("energy.out","w",stdout);
+  //freopen("energy.in","r",stdin);
+  //freopen("energy.out","w",stdout);
 
   scanf("%d",&n); 
   for(i=0;i<=n-1;i++)//从0开始 

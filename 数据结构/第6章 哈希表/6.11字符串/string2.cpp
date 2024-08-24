@@ -18,8 +18,8 @@ ull Get(int l, int r)
 
 int main()
 {
-  freopen("string21.in","r",stdin);
-  freopen("string21.ans","w",stdout);
+  //freopen("string21.in","r",stdin);
+  //freopen("string21.ans","w",stdout);
   base[0] = 1;
   for(int i = 1; i < maxn; ++i) base[i] = base[i-1]*seed;
   while(~scanf("%d%d",&m,&l))

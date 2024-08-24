@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  //freopen("catmouse.in","r",stdin);
-  //freopen("catmouse.out","w",stdout);
+  ////freopen("catmouse.in","r",stdin);
+  ////freopen("catmouse.out","w",stdout);
   int N,x,y,X,Y;                             //x,y为老鼠的坐标,X,Y为猫的坐标
   cin>>N;                                    //scanf要注意回车键的处理
   for (int k = 0; k < N; k++)

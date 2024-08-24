@@ -39,8 +39,8 @@ void MergeSort(int l,int r)
 
 int main()
 {
-  freopen("match.in","r",stdin);
-  freopen("match.out","w",stdout);
+  //freopen("match.in","r",stdin);
+  //freopen("match.out","w",stdout);
   scanf("%d",&n);
   for(int i=1; i<=n; i++)
   {

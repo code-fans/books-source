@@ -7,8 +7,8 @@ int state,X0,Y0;
 
 int main()
 {
-  freopen("Puzzle8.in","r",stdin);
-  freopen("Puzzle8.out","w",stdout);
+  //freopen("Puzzle8.in","r",stdin);
+  //freopen("Puzzle8.out","w",stdout);
 
   for(int i=0,t; i<=8; i++)
   {

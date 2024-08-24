@@ -6,8 +6,8 @@ int f[N],a[N];
 
 int main()
 {
-  freopen("missile.in","r",stdin);
-  freopen("missile.out","w",stdout);
+  //freopen("missile.in","r",stdin);
+  //freopen("missile.out","w",stdout);
   int n=1,ans1=0,ans2=0;
   for(; scanf("%d",&a[n])!=EOF; n++);
   for(int i=1; i<n; i++)                 //第一问，反向LIS

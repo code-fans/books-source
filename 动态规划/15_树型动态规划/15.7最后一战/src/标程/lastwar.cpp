@@ -39,8 +39,8 @@ void dp(int x)
  
 int main()
 {
-  freopen("lastwar.in","r",stdin);
-  freopen("lastwar.out","w",stdout);  
+  //freopen("lastwar.in","r",stdin);
+  //freopen("lastwar.out","w",stdout);  
   scanf("%d",&n);
   memset(data,0,sizeof(data)); //存每个点放置士兵数 
   memset(f,0,sizeof(f)); //dp数组，F[i,j]含义如上述分析

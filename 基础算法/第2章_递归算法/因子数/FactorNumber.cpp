@@ -42,8 +42,8 @@ void fac()
 
 int main()
 {
-  freopen("FactorNumber.in","r",stdin);
-  freopen("FactorNumber.out","w",stdout);
+  //freopen("FactorNumber.in","r",stdin);
+  //freopen("FactorNumber.out","w",stdout);
   int i,n,k;
   long long sum;
   pri();

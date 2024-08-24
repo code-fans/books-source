@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-// freopen("change.in","r",stdin);
-  freopen("change.in","w",stdout);
+// //freopen("change.in","r",stdin);
+  //freopen("change.in","w",stdout);
   srand(time(0));
   int n,m;
   cin>>n>>m;

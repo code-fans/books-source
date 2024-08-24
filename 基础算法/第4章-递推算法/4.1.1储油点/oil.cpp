@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("oil.in","r",stdin);
-  freopen("oil.out","w",stdout);
+  //freopen("oil.in","r",stdin);
+  //freopen("oil.out","w",stdout);
   double oil[10],dis[10];
   dis[1]=500;                     //保存最后一个储油点距终点的距离
   oil[1]=500;                     //储油点1需储油500

@@ -7,8 +7,8 @@ long v,n,i,j,s,f;
 long t[30+1];//保存每物品的体积 
 int main()
 {
-  freopen("pack2.in","r",stdin);
-  freopen("pack2.out","w",stdout);  
+  //freopen("pack2.in","r",stdin);
+  //freopen("pack2.out","w",stdout);  
   scanf("%ld%ld",&v,&n);
   for(i=1;i<=n;i++)
     scanf("%ld",&t[i]);

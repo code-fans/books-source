@@ -84,8 +84,8 @@ void sov()
 
 int main()
 {
-  freopen("watch.in","r",stdin);
-  freopen("watch.out","w",stdout);
+  //freopen("watch.in","r",stdin);
+  //freopen("watch.out","w",stdout);
 
   while(~scanf("%d%d",&n,&m) && n)
   {

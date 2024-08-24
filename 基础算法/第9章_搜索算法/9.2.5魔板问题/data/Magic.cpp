@@ -42,8 +42,8 @@ void C(string x)
 
 int main()
 {
-  freopen("Magic.in","r",stdin);
-  freopen("Magic.out","w",stdout);
+  //freopen("Magic.in","r",stdin);
+  //freopen("Magic.out","w",stdout);
   char c;
   for(int i=0; i<8; i++)
   {

@@ -45,8 +45,8 @@ int Greedy()
 
 int main()
 {
-  freopen("comm6.in","r",stdin);
-  freopen("comm6.ans","w",stdout);
+  //freopen("comm6.in","r",stdin);
+  //freopen("comm6.ans","w",stdout);
   scanf("%d",&n);
   int u,v;
   for(int i=1; i<n; i++)

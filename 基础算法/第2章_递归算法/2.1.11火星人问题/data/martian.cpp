@@ -31,8 +31,8 @@ int DFS(int pos)                 //pos为当前位置,从前往后扫描
 
 int main()
 {
-  freopen("martian.in","r",stdin);
-  freopen("martian.out","w",stdout);
+  //freopen("martian.in","r",stdin);
+  //freopen("martian.out","w",stdout);
   cin>>n>>m;
   for(int i=1; i<=n; i++)
     cin>>a[i];

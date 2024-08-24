@@ -13,8 +13,8 @@ void Output(int c[],int len,int j=0)
 
 int main()
 {
-  freopen("sample_div.in","r",stdin);
-  freopen("sample_div.out","w",stdout);
+  //freopen("sample_div.in","r",stdin);
+  //freopen("sample_div.out","w",stdout);
   int a[MAXN],c[MAXN];
   int x=0,b;             //x±íÊ¾ÓàÊı 
   string str;

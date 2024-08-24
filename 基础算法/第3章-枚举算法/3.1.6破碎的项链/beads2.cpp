@@ -7,8 +7,8 @@ int Left, Right, White, ans;
 
 int main()
 {
-  freopen("beads.in","r",stdin);
-  freopen("beads.out","w",stdout);
+  //freopen("beads.in","r",stdin);
+  //freopen("beads.out","w",stdout);
   int n;
   scanf("%d%s",&n,s);
   memcpy(s+n,s,n);          //从s+n处拷贝s，共n个 

@@ -44,8 +44,8 @@ void PostOrder(int root)                //ºóÐò±éÀú
 
 int main()
 {
-  freopen("postorder.in","r",stdin);
-  freopen("postorder.out","w",stdout);
+  //freopen("postorder.in","r",stdin);
+  //freopen("postorder.out","w",stdout);
   cin>>n;
   int node[n+1];
   for(int i=1; i<=n; i++)

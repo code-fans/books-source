@@ -12,8 +12,8 @@ struct Extent
 
 int main()
 {
-    freopen("ChoicePoint.in","r",stdin);
-    freopen("ChoicePoint.out","w",stdout);
+    //freopen("ChoicePoint.in","r",stdin);
+    //freopen("ChoicePoint.out","w",stdout);
     int z,n,cnt,end;
     scanf("%d",&z);
     while(z--)

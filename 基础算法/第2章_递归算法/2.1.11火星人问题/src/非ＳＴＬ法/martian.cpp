@@ -6,8 +6,8 @@ int n,m,j,k,a[10010];
 
 int main()
 {
-  freopen("martian.in","r",stdin);
-  freopen("martian.out","w",stdout);
+  //freopen("martian.in","r",stdin);
+  //freopen("martian.out","w",stdout);
   cin>>n>>m;
   for(int i=1; i<=n; i++)
     cin>>a[i];

@@ -7,8 +7,8 @@ long long Stack[100010];
 
 int main()
 {
-  freopen("expr.in","r",stdin);
-  freopen("expr.out","w",stdout);
+  //freopen("expr.in","r",stdin);
+  //freopen("expr.out","w",stdout);
   long long Top=0,num,Ans=0;
   char ch;
   cin>>Stack[0];

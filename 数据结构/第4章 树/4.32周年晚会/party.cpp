@@ -21,8 +21,8 @@ void Dfs(int now,int fa)
 
 int main()
 {
-//  freopen("party.in","r",stdin);
-//  freopen("party.out","w",stdout);
+//  //freopen("party.in","r",stdin);
+//  //freopen("party.out","w",stdout);
   cin>>n;
   int rt=1;
   for(int i=1; i<=n; i++)

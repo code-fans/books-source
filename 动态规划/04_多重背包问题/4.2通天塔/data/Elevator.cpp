@@ -15,8 +15,8 @@ bool Cmp(node a,node b)
 
 int main()
 {
-  freopen("Elevator.in","r",stdin);
-  freopen("Elevator.out","w",stdout);
+  //freopen("Elevator.in","r",stdin);
+  //freopen("Elevator.out","w",stdout);
   int k;
   cin>>k;
   for(int i=0; i<k; i++)

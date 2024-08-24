@@ -38,8 +38,8 @@ void BFS(int x,int y)
 
 int main()
 {
-  freopen("flow.in","r",stdin);
-  freopen("flow.out","w",stdout);
+  //freopen("flow.in","r",stdin);
+  //freopen("flow.out","w",stdout);
   cin>>N>>M;
   for(int i=1; i<=N; i++)
     for(int j=1; j<=M; j++)

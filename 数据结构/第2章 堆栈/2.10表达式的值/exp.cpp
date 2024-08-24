@@ -24,8 +24,8 @@ inline void Calc(char op, dps &a, dps &b)
 
 int main()
 {
-  freopen("exp.in" ,"r", stdin);
-  freopen("exp.out", "w", stdout);
+  //freopen("exp.in" ,"r", stdin);
+  //freopen("exp.out", "w", stdout);
   int len, Opti=1, Dpi=1;
   string str;
   cin>>len>>str;

@@ -6,8 +6,8 @@ stack<int> st;                                 //µ¥µ÷Õ»
 
 int main()
 {
-  freopen("rain.in","r",stdin);
-  freopen("rain.out","w",stdout);
+  //freopen("rain.in","r",stdin);
+  //freopen("rain.out","w",stdout);
   scanf("%d",&n);
   for(int i = 0 ; i < n ; i++)
     cin >> height[i];

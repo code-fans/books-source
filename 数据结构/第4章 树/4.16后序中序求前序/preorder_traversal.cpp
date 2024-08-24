@@ -78,8 +78,8 @@ void print2(b_tree root)                       //Ç°Ðò±éÀú
 int main()
 {
 
-  freopen("preorder_traversal4.in","r",stdin);
-  freopen("tree4.in","w",stdout);
+  //freopen("preorder_traversal4.in","r",stdin);
+  //freopen("tree4.in","w",stdout);
   int n;
   b_tree root=NULL;
   cin>>n;

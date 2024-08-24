@@ -6,8 +6,8 @@ int g[21][21][21],Long[21];
 
 int main()
 {
-  freopen("record.in","r",stdin);
-  freopen("record.out","w",stdout);
+  //freopen("record.in","r",stdin);
+  //freopen("record.out","w",stdout);
   int n,m,t;
   scanf("%d%d%d",&n,&m,&t);
   for (int i=1; i<=n; i++)

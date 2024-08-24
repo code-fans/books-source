@@ -24,8 +24,8 @@ double Limit(int y,int d)            //找出所给坐标对应的圆心允许范围
 
 int main()
 {
-  freopen("radar.in","r",stdin);
-  freopen("radar.out","w",stdout);
+  //freopen("radar.in","r",stdin);
+  //freopen("radar.out","w",stdout);
   int n,d,k,x,y;
   for(int Case=1; cin>>n>>d,n; Case++)      //n为0则退出
   {

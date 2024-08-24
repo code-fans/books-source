@@ -5,8 +5,8 @@ int a[35000];
 
 int main()
 {
-  freopen("sum.in","r",stdin);
-  freopen("sum.out","w",stdout);
+  //freopen("sum.in","r",stdin);
+  //freopen("sum.out","w",stdout);
   int i,n,sum=-2147483647,b=0;
   cin>>n;
   for(i=1; i<=n; ++i)

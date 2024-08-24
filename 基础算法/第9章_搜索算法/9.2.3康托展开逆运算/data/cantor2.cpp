@@ -28,8 +28,8 @@ int Cantor(int m,int n)
 
 int main()
 {
-  freopen("cantor2.in","r",stdin);
-  freopen("cantor2.out","w",stdout);
+  //freopen("cantor2.in","r",stdin);
+  //freopen("cantor2.out","w",stdout);
   int num,n;
   cin>>num>>n;
   printf("%d\n",Cantor(n,num));

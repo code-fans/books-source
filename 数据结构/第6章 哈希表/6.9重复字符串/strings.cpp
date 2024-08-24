@@ -34,8 +34,8 @@ bool check(int x)
 }
 int main()
 {
-  freopen("strings.in","r",stdin);
-  freopen("strings.out","w",stdout);
+  //freopen("strings.in","r",stdin);
+  //freopen("strings.out","w",stdout);
   while(1)
   {
     scanf("%s",s+1);

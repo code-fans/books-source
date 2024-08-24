@@ -28,8 +28,8 @@ void search(int s)//Éî¶ÈËÑË÷
 
 void init()
 {
-  freopen("fence.in","r",stdin);
-  freopen("fence.out","w",stdout);
+  //freopen("fence.in","r",stdin);
+  //freopen("fence.out","w",stdout);
   cin>>n;
   for(i=1;i<=n;i++)
   {

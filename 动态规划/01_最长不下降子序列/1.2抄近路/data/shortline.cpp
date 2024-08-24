@@ -15,8 +15,8 @@ bool Cmp(p a,p b)
 
 int main ()
 {
-  freopen("shortline.in","r",stdin);
-  freopen("shortline.out","w",stdout);
+  //freopen("shortline.in","r",stdin);
+  //freopen("shortline.out","w",stdout);
   scanf("%d%d%d",&x,&y,&n);
   for (int i=0; i<n; i++)
     scanf("%d%d",&P[i].x,&P[i].y);

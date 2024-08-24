@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  freopen("rain10.in","w",stdout);
+  //freopen("rain10.in","w",stdout);
   srand(time(0));
   int x=10000;
   cout<<x<<endl;

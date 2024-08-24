@@ -26,8 +26,8 @@ void Half()                              //二分查找法
 
 int main ()
 {
-  freopen("half.in","r",stdin);
-  freopen("half.out","w",stdout);
+  //freopen("half.in","r",stdin);
+  //freopen("half.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     cin>>a[i];

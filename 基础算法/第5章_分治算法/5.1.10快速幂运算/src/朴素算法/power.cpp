@@ -14,8 +14,8 @@ unsigned long long Power(unsigned long long n,unsigned long long p)
 
 int main()
 {
-  freopen("power.in","r",stdin);
-  freopen("power.out","w",stdout);
+  //freopen("power.in","r",stdin);
+  //freopen("power.out","w",stdout);
   int n,p;
   cin>>n>>p;
   cout<<Power(n,p)<<endl;

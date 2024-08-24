@@ -6,8 +6,8 @@ int dp[5001],sum[5001];
 
 int main()
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   int n;
   cin>>n;
   for(int i=1; i<=n; i++)

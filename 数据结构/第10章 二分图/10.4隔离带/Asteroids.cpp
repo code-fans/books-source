@@ -23,8 +23,8 @@ int Dfs(int x)
 
 int main()
 {
-  freopen("Asteroids.in","r",stdin);
-  freopen("Asteroids.out","w",stdout);
+  //freopen("Asteroids.in","r",stdin);
+  //freopen("Asteroids.out","w",stdout);
   int x,y,Ans=0;
   scanf("%d%d",&n,&k);
   for(int i=0; i<k; i++)

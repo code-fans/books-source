@@ -28,8 +28,8 @@ void DFS(int now)
 
 int main()
 {
-  freopen("watchcow.in", "r", stdin);
-  freopen("watchcow.out", "w", stdout);
+  //freopen("watchcow.in", "r", stdin);
+  //freopen("watchcow.out", "w", stdout);
   scanf("%d%d", &V, &E);
   memset(head, -1, sizeof(head));
   for(int i=1,u,v; i<=E; i++)

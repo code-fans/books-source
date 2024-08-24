@@ -5,8 +5,8 @@ int f[200][200];
 
 int main()
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   int n,m,k,s;
   int a[105],b[105];
   while(~scanf("%d%d%d%d",&n,&m,&k,&s))

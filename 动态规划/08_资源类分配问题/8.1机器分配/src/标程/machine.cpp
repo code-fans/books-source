@@ -20,8 +20,8 @@ void Show(int x,int machine)    //处理到第x个公司，剩machine台机器没分配
 
 int main()
 {
-  freopen("machine.in","r",stdin);
-  freopen("machine.out","w",stdout);
+  //freopen("machine.in","r",stdin);
+  //freopen("machine.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)
     for(int j=1; j<=m; j++)

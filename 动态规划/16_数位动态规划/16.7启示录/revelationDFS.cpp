@@ -40,8 +40,8 @@ LL Cal(LL x)
 
 int main()
 {
-  freopen("revelation.in","r",stdin);
-  freopen("revelation.out","w",stdout);
+  //freopen("revelation.in","r",stdin);
+  //freopen("revelation.out","w",stdout);
   int T;
   scanf("%d",&T);
   while(T--)

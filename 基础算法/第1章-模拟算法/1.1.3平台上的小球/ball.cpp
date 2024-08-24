@@ -6,8 +6,8 @@ int n,H[1001],L[1001],R[1001];
 
 int main()
 {
-  freopen("ball.in","r",stdin);
-  freopen("ball.out","w",stdout);
+  //freopen("ball.in","r",stdin);
+  //freopen("ball.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     scanf("%d%d%d",&H[i],&L[i],&R[i]);

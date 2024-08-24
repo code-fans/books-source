@@ -77,8 +77,8 @@ double Cal(int i)                       //计算二叉树形式的表达式值
 
 int main()
 {
-  freopen("cal.in","r",stdin);
-  freopen("cal.out","w",stdout);
+  //freopen("cal.in","r",stdin);
+  //freopen("cal.out","w",stdout);
   while(cin>>str)
   {
     Index=0;                            //结点下标数初始为0

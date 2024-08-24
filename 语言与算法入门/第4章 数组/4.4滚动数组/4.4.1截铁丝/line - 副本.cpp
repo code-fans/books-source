@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("line.in","r",stdin);
-  freopen("line.out","w",stdout);
+  //freopen("line.in","r",stdin);
+  //freopen("line.out","w",stdout);
   long long d[3]= {1,1};
   long long x,sum=2;
   scanf("%lld",&x);

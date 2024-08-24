@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  freopen("mouse.in","w",stdout);
+  //freopen("mouse.in","w",stdout);
   long long n;
   cin>>n;
   cout<<n<<endl;

@@ -19,8 +19,8 @@ void exchange(int *q1,int *q2,int *q3)
 
 int main()
 {
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   int *_point1,*_point2,*_point3,a,b,c;
   scanf("%d %d %d",&a,&b,&c);
   _point1=&a;

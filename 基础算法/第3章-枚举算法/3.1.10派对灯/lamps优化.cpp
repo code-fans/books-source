@@ -38,8 +38,8 @@ int Check(int s)
 
 int main()
 {
-  freopen("lamps.in","r",stdin);
-  freopen("lamps.out","w",stdout);
+  //freopen("lamps.in","r",stdin);
+  //freopen("lamps.out","w",stdout);
   memset(flag,-1,sizeof(flag));
   scanf("%d%d",&n,&c);
   for(int k; scanf("%d",&k) && k!=-1; flag[Loc(k)]=1);

@@ -23,8 +23,8 @@ bool Judge()
 
 int main()
 {
-  freopen("Expense.in","r",stdin);
-  freopen("Expense.out","w",stdout);
+  //freopen("Expense.in","r",stdin);
+  //freopen("Expense.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)
   {

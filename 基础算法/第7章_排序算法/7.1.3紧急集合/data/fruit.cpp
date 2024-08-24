@@ -6,8 +6,8 @@ priority_queue<int,vector<int>,greater<int> >q;
 
 int main()
 {
-  freopen("fruit.in","r",stdin);
-  freopen("fruit.out","w",stdout);
+  //freopen("fruit.in","r",stdin);
+  //freopen("fruit.out","w",stdout);
   int n,ans=0;
   cin>>n;
   for(int i=1,t; i<=n; i++)

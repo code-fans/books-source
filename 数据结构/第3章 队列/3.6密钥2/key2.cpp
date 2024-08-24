@@ -11,8 +11,8 @@ deque <man> v;
 
 int main()
 {
-  freopen("key2.in","r",stdin);
-  freopen("key2.out","w",stdout);
+  //freopen("key2.in","r",stdin);
+  //freopen("key2.out","w",stdout);
   int n,m;
   cin>>n>>m;
   printf("0\n");

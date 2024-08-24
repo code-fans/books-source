@@ -28,8 +28,8 @@ int Dp(int x,int m)
 
 int main()
 {
-  freopen("mine.in","r",stdin);
-  freopen("mine.out","w",stdout);
+  //freopen("mine.in","r",stdin);
+  //freopen("mine.out","w",stdout);
   scanf("%d%d",&n,&m);
   memset(vis,-1,sizeof(vis));
   for(int i=1; i<=n; i++)

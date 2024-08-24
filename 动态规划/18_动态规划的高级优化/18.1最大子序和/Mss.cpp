@@ -7,8 +7,8 @@ list<int> Q;                           //此处使用STL里的list做单调队列
 
 int main()
 {
-  freopen("Mss.in","r",stdin);
-  freopen("Mss.out","w",stdout);
+  //freopen("Mss.in","r",stdin);
+  //freopen("Mss.out","w",stdout);
   Q.push_front(0);
   int n,m;
   cin>>n>>m;

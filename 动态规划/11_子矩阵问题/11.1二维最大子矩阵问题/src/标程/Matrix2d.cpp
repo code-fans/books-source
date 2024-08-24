@@ -27,8 +27,8 @@ int Solve()
 
 int main()
 {
-  freopen("Matrix2d.in","r",stdin);
-  freopen("Matrix2d.out","w",stdout);
+  //freopen("Matrix2d.in","r",stdin);
+  //freopen("Matrix2d.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1,x; i<=n; i++)
     for(int j=1; j<=m; j++)

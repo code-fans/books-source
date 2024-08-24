@@ -23,8 +23,8 @@ double Slope(int k,int j)
 
 int main()
 {
-  freopen("Land.in","r",stdin);
-  freopen("Land.out","w",stdout);
+  //freopen("Land.in","r",stdin);
+  //freopen("Land.out","w",stdout);
   scanf("%d",&n);
   for(int i=1; i<=n; i++)
     scanf("%d%d",&a[i].x,&a[i].y);

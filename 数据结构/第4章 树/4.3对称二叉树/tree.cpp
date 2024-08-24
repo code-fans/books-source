@@ -32,8 +32,8 @@ int Dfs(int x,int y,int s)//找对称二叉树 s代表节点数 x,y为正在访问的节点标号
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   m=Read();
   for(int i=1; i<=m; i++)
     node[i]=Read();

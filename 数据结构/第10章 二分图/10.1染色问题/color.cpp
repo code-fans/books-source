@@ -35,8 +35,8 @@ int Bfs(int x)                              //非递归方式的BFS
 
 int main()
 {
-  freopen("color.in","r",stdin);
-  freopen("color.out","w",stdout);
+  //freopen("color.in","r",stdin);
+  //freopen("color.out","w",stdout);
   int t;
   cin>>t;
   while(t--)

@@ -17,8 +17,8 @@ void Floyd()
 
 int main()
 {
-  freopen("cost.in","r",stdin);
-  freopen("cost.out","w",stdout);
+  //freopen("cost.in","r",stdin);
+  //freopen("cost.out","w",stdout);
   memset(a,60,sizeof(a));              //¸³ÖµÎª1010580540
   int m,u,v,s,t;
   cin>>n>>m;

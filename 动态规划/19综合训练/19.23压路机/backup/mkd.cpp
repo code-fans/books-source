@@ -7,7 +7,7 @@ int R(int x){return ((rand()<<15)+rand())%x+1;}
 int get(){return !flag?1:flag==1?R(2)-1:flag==2?R(2)&1?R(10):R(100):R(100);}
 int main()
 {
-//	freopen("roller.in","w",stdout);
+//	//freopen("roller.in","w",stdout);
 	srand(time(0)); Sleep(1000);
 	scanf("%d%d%d",&N,&M,&flag);
 	rep(_,10){

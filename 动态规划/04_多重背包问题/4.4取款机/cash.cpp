@@ -6,8 +6,8 @@ int w[110],dp[100010];                //dp[j]表示cash为j时能得到的最大金额
 
 int main()
 {
-  freopen("cash.in","r",stdin);
-  freopen("cash.out","w",stdout);
+  //freopen("cash.in","r",stdin);
+  //freopen("cash.out","w",stdout);
   int cash,N,n,d;
   while(scanf("%d%d",&cash,&N)!=EOF)
   {

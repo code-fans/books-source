@@ -18,8 +18,8 @@ int Try(int k)
 
 int main()
 {
-//  freopen("map.in","r",stdin);
-//  freopen("map.out","w",stdout);
+//  //freopen("map.in","r",stdin);
+//  //freopen("map.out","w",stdout);
   cin>>m;
   char c;
   getchar();

@@ -6,8 +6,8 @@ int dp[201],c[50],w[50];
 
 int main()
 {
-  freopen("Mbag.in","r",stdin);
-  freopen("Mbag.out","w",stdout);
+  //freopen("Mbag.in","r",stdin);
+  //freopen("Mbag.out","w",stdout);
   int V, N,count=0;
   scanf("%d%d",&V,&N);
   for(int i=0,s,v,n; i<N; ++i)

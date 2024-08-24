@@ -30,8 +30,8 @@ void Dfs(int x)
 
 int main()
 {
-  freopen("dfs.in","r",stdin);
-  freopen("dfs.out","w",stdout);
+  //freopen("dfs.in","r",stdin);
+  //freopen("dfs.out","w",stdout);
   int n,m,u,v;
   cin>>n>>m;
   memset(Head,-1,sizeof(Head));

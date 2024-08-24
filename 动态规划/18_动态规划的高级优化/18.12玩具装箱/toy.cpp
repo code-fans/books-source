@@ -15,8 +15,8 @@ double Slop(int j1,int j2)
 
 int main()
 {
-  freopen("toy.in","r",stdin);
-  freopen("toy.out","w",stdout);
+  //freopen("toy.in","r",stdin);
+  //freopen("toy.out","w",stdout);
 
   int n,L;
   scanf("%d%d",&n,&L);

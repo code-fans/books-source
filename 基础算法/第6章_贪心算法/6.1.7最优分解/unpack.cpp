@@ -29,8 +29,8 @@ long long Fun(int n)
 
 int main()
 {
-  freopen("unpack.in","r",stdin);
-  freopen("unpack.out","w",stdout);
+  //freopen("unpack.in","r",stdin);
+  //freopen("unpack.out","w",stdout);
   int n;
   scanf("%d",&n);
   printf("%lld\n",Fun(n));

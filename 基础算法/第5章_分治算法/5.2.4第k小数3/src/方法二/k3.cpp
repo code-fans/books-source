@@ -45,8 +45,8 @@ long long FindKth(long long ll,long long rr,long long k)
 
 int main()
 {
-  freopen("k3.in","r",stdin);
-  freopen("k3.out","w",stdout);
+  //freopen("k3.in","r",stdin);
+  //freopen("k3.out","w",stdout);
   long long k;
   while(scanf("%lld%lld%lld",&n,&m,&k)!=EOF)
   {

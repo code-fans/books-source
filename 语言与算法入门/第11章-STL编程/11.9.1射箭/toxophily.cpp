@@ -6,8 +6,8 @@ map <int,int> Map;
 
 int main()
 {
-  freopen("toxophily.in","r",stdin);
-  freopen("toxophily.out","w",stdout);
+  //freopen("toxophily.in","r",stdin);
+  //freopen("toxophily.out","w",stdout);
   int t,n,v,m;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

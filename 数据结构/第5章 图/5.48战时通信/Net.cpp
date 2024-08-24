@@ -91,8 +91,8 @@ double Zhu_Liu(int root,int N,int M)
 
 int main()
 {
-  freopen("Net.in","r",stdin);
-  freopen("Net.out","w",stdout);
+  //freopen("Net.in","r",stdin);
+  //freopen("Net.out","w",stdout);
   while(~scanf("%d%d",&n,&m))
   {
     for(int i=0; i<n; i++)

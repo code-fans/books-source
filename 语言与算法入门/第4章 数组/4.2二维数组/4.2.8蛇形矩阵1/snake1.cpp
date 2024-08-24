@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("snake1.in","r",stdin);
-  freopen("snake1.out","w",stdout);
+  //freopen("snake1.in","r",stdin);
+  //freopen("snake1.out","w",stdout);
   int x=1,y,n,num=1;
   int a[N][N]= {0};
   cin>>n;

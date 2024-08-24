@@ -24,8 +24,8 @@ void dg(int i,int j)
 
 int main()
 {
-  freopen("book.in","r",stdin);
-  freopen("book.out","w",stdout);
+  //freopen("book.in","r",stdin);
+  //freopen("book.out","w",stdout);
   while(scanf("%d%d",&m,&k)==2)
   {
     if(m==0 && k==0)

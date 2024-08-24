@@ -105,8 +105,8 @@ void Work()
 
 int main()
 {
-  freopen("cp.in","r",stdin);
-  freopen("cp.out","w",stdout);
+  //freopen("cp.in","r",stdin);
+  //freopen("cp.out","w",stdout);
   Init();
   Work();
   for (int i=1; i<=N; ++i)                  //Êä³ö

@@ -37,8 +37,8 @@ void dfs(int x)
 }
 int main()
 {
-  freopen("promotion4.in","r",stdin);
-  freopen("promotion4.ans","w",stdout);
+  //freopen("promotion4.in","r",stdin);
+  //freopen("promotion4.ans","w",stdout);
   int i , x;
   scanf("%d" , &n);
   for(i = 1 ; i <= n ; i ++ ) scanf("%d" , &a[i].w) , a[i].id = i;

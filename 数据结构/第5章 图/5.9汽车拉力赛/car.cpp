@@ -9,8 +9,8 @@ int n,m,a,b,c,dist[maxn][maxn],ans=INF,t[maxn];
 
 int main()
 {
-  freopen("car.in","r",stdin);
-  freopen("car.out","w",stdout);
+  //freopen("car.in","r",stdin);
+  //freopen("car.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)
     scanf("%d",&t[i]);

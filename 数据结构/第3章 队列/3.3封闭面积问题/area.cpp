@@ -31,8 +31,8 @@ void BFS(int x, int y)
 
 int main()
 {
-  freopen("area.in", " r", stdin);
-  freopen("area.out", "w", stdout);
+  //freopen("area.in", " r", stdin);
+  //freopen("area.out", "w", stdout);
   for(int i = 1; i <= 10; ++i)
     for(int j = 1; j <= 10; ++j)
       scanf("%d", &Map[i][j]);

@@ -27,8 +27,8 @@ int HalfFind(node num,int l,int r)
 
 int main()
 {
-  freopen("Treasure_map.in","r",stdin);
-  freopen("Treasure_map.out","w",stdout);
+  //freopen("Treasure_map.in","r",stdin);
+  //freopen("Treasure_map.out","w",stdout);
   scanf("%d %d %d",&n,&m,&p);
   for(int i=1; i<=p; i++)
     scanf("%d %d",&T[i].x,&T[i].y);

@@ -21,8 +21,8 @@ void test(int row,int ld,int rd)
 
 int main()
 {
-  freopen("queen.in","r",stdin);
-  freopen("queen.out","w",stdout);
+  //freopen("queen.in","r",stdin);
+  //freopen("queen.out","w",stdout);
   int n;
   cin>>n;
   upperlim=(1 << n)-1;//½á¹ûÎª11111111

@@ -26,8 +26,8 @@ void Place(int x)//µÝ¹éº¯Êý
 
 int main()
 {
-  freopen("queen.in","r",stdin);
-  freopen("queen.out","w",stdout);
+  //freopen("queen.in","r",stdin);
+  //freopen("queen.out","w",stdout);
   cin>>n;
   Place(1);
   cout<<num<<endl;

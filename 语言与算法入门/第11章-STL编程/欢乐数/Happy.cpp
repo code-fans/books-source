@@ -6,8 +6,8 @@ int f=0;
 
 int main()
 {
-  freopen("Happy.in","r",stdin);
-  freopen("Happy.out","w",stdout);
+  //freopen("Happy.in","r",stdin);
+  //freopen("Happy.out","w",stdout);
   scanf("%d",&n);
   for(i=0; i<n; i++)
     scanf("%d", &s[i]);

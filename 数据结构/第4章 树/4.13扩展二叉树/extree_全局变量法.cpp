@@ -39,8 +39,8 @@ void Postorder(int i)                            //ºóĞòÊä³ö
 
 int main()
 {
-  freopen("extree.in","r",stdin);
-  freopen("extree.out","w",stdout);
+  //freopen("extree.in","r",stdin);
+  //freopen("extree.out","w",stdout);
   gets(Node+1);
   CreateTree();
   Inorder(1);

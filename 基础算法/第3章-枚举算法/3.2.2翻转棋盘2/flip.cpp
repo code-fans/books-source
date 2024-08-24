@@ -40,8 +40,8 @@ void Dfs(int row,int step,int value)
 
 int main()
 {
-  freopen("flip.in","r",stdin);
-  freopen("flip.out","w",stdout);
+  //freopen("flip.in","r",stdin);
+  //freopen("flip.out","w",stdout);
   cin >> n;
   char ch;
   for(int i = 1; i <= n; i++)

@@ -27,8 +27,8 @@ int Create(int *node,int len)
 
 int main()
 {
-  freopen("arraytree.in","r",stdin);
-  freopen("arraytree.out","w",stdout);
+  //freopen("arraytree.in","r",stdin);
+  //freopen("arraytree.out","w",stdout);
   int n;
   cin>>n;
   int node[n+1];

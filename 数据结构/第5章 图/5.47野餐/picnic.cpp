@@ -153,8 +153,8 @@ void init()
 
 int main()
 {
-  freopen("picnic.in","r",stdin);
-  freopen("picnic.out","w",stdout);
+  //freopen("picnic.in","r",stdin);
+  //freopen("picnic.out","w",stdout);
   init();
   solve();
   return 0;

@@ -13,8 +13,8 @@ void print()
 
 int main()   
 {  
-  freopen("martian.in","r",stdin);
-  freopen("martian.out","w",stdout);  
+  //freopen("martian.in","r",stdin);
+  //freopen("martian.out","w",stdout);  
   cin>>n>>m;
   for(int i=0;i<n;i++)
     cin>>martian[i];

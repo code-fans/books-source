@@ -18,8 +18,8 @@ void DFS(int cur,int k,int n)//刚划走了cur份
 
 int main()
 {
-  freopen("Numdismantle.in","r",stdin);
-  freopen("Numdismantle.out","w",stdout);
+  //freopen("Numdismantle.in","r",stdin);
+  //freopen("Numdismantle.out","w",stdout);
   scanf("%d%d",&n,&k);
   DFS(1,k,n);
   printf("%d\n",cnt);

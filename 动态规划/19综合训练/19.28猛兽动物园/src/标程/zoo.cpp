@@ -98,8 +98,8 @@ void Solve()
 
 int main()
 {
-  freopen("zoo.in","r",stdin);
-  freopen("zoo.out","w",stdout);    
+  //freopen("zoo.in","r",stdin);
+  //freopen("zoo.out","w",stdout);    
   Init();
   Solve();
   return 0;

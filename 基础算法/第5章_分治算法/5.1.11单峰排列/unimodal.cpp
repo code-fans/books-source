@@ -17,8 +17,8 @@ int Pow(int a,int p)//二分求快速幂
 
 int main()
 {
-  freopen("unimodal.in","r",stdin);
-  freopen("unimodal.out","w",stdout);
+  //freopen("unimodal.in","r",stdin);
+  //freopen("unimodal.out","w",stdout);
   int p;
   scanf("%d",&p);
   printf("%d\n",Pow(2,p-1));

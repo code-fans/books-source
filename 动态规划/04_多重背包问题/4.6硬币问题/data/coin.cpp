@@ -7,8 +7,8 @@ int a[102],c[102];       //a代表第i个硬币的价值,c代表个数
 
 int main()
 {
-  freopen("coin.in","r",stdin);
-  freopen("coin.out","w",stdout);
+  //freopen("coin.in","r",stdin);
+  //freopen("coin.out","w",stdout);
   int n,m;
   while(cin>>n>>m,n||m)
   {

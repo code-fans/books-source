@@ -38,8 +38,8 @@ int Mul(int u[],int v[],int ansn[])        //u*v=ansn
 
 int main()
 {
-  freopen("evolution.in","r",stdin);
-  freopen("evolution.out","w",stdout);
+  //freopen("evolution.in","r",stdin);
+  //freopen("evolution.out","w",stdout);
   ans[MAXN]=1;                                   //ans将为最终的结果,初始为1
   cin>>s>>N;
   for(int i=0,len=s.size(); i<len; i++)

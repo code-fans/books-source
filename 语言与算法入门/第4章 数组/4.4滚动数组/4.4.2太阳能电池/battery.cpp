@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("battery.in","r",stdin);
-  freopen("battery.out","w",stdout);
+  //freopen("battery.in","r",stdin);
+  //freopen("battery.out","w",stdout);
   int n;
   int f[3]= {1,1};
   scanf("%d",&n);

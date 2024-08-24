@@ -49,8 +49,8 @@ void work()
 
 int main()
 {
-  freopen("clock.in","r",stdin);
-  freopen("clock.out","w",stdout);
+  //freopen("clock.in","r",stdin);
+  //freopen("clock.out","w",stdout);
   work();
   return 0;
 }

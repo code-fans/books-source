@@ -62,8 +62,8 @@ void Do()
 
 int main()
 {
-  freopen("fence.in","r",stdin);
-  freopen("fence.out","w",stdout);
+  //freopen("fence.in","r",stdin);
+  //freopen("fence.out","w",stdout);
   Init();
   Do();
   fclose(stdin); fclose(stdout);

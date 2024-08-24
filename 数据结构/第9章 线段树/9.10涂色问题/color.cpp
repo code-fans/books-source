@@ -92,8 +92,8 @@ void query(int lt, int rt, int id)
 }
 int main()
 {
-  freopen("color.in","r",stdin);
-  freopen("color.out","w",stdout);
+  //freopen("color.in","r",stdin);
+  //freopen("color.out","w",stdout);
   int n,m;
   while(~scanf("%d%d",&n,&m) && (n!=0 || m!=0) )
   {

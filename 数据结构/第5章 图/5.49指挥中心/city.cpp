@@ -77,8 +77,8 @@ long long Zhu_Liu(int root,int N,int E)
 
 int main()
 {
-  freopen("city1.in","r",stdin);
-  freopen("city1.ans","w",stdout);
+  //freopen("city1.in","r",stdin);
+  //freopen("city1.ans","w",stdout);
   while(scanf("%d%d", &n, &m) != EOF)
   {
     long long sum = 0;

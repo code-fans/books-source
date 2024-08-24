@@ -67,8 +67,8 @@ void remove(int k)//ÔÚ¶ÑÖÐÉ¾³ýopt[k]
 int main()
 {
   int i;
-  freopen("balefire.in","r",stdin);
-  freopen("balefire.out","w",stdout);
+  //freopen("balefire.in","r",stdin);
+  //freopen("balefire.out","w",stdout);
   cin>>n>>m;
   for(i=1;i<=n;i++)
     cin>>value[i];

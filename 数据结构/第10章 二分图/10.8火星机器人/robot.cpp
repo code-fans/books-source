@@ -36,8 +36,8 @@ void Floyd(int n)                              //ÇóÍ¼µÄ±Õ°ü
 
 int main()
 {
-  freopen("robot.in","r",stdin);
-  freopen("robot.out","w",stdout);
+  //freopen("robot.in","r",stdin);
+  //freopen("robot.out","w",stdout);
   while(~scanf("%d%d",&n,&m) && (n||m))
   {
     memset(G,0,sizeof(G));

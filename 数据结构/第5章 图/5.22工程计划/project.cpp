@@ -75,8 +75,8 @@ void Work()
 
 int main()
 {
-  freopen("project.in","r",stdin);
-  freopen("project.out","w",stdout);
+  //freopen("project.in","r",stdin);
+  //freopen("project.out","w",stdout);
   Work();
   return 0;
 }

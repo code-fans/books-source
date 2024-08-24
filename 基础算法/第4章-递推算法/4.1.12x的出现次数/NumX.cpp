@@ -11,8 +11,8 @@ using namespace std;
 
 int main()
 {
-  freopen("NumX.in","r",stdin);
-  freopen("NumX.out","w",stdout);
+  //freopen("NumX.in","r",stdin);
+  //freopen("NumX.out","w",stdout);
   long long n,x,m=1,ans=0;
   scanf("%lld%lld",&n,&x);
   while(m<=n)

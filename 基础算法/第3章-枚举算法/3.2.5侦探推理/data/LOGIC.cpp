@@ -162,8 +162,8 @@ int Judge(int g,int day)//参数为罪犯，星期数
 
 int main()
 {
-  freopen("LOGIC.in","r",stdin);
-  freopen("LOGIC.out","w",stdout);
+  //freopen("LOGIC.in","r",stdin);
+  //freopen("LOGIC.out","w",stdout);
   int i,j,index,BadManNum=0;
   string temp,BadMan;
   char word[250];

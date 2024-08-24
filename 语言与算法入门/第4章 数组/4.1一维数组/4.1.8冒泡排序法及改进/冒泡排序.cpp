@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   int a[10005],n;//在没赋初值的情况下，数组a里的各元素值未知
   scanf("%d",&n);
   for(int i=1; i<=n; i++)//从下标1即a[1]开始，a[0]不参与运算

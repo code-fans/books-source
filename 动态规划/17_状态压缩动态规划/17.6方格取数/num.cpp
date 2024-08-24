@@ -31,8 +31,8 @@ void Init(int m)
 
 int main()
 {
-  freopen("num.in","r",stdin);
-  freopen("num.out","w",stdout);
+  //freopen("num.in","r",stdin);
+  //freopen("num.out","w",stdout);
   while(cin>>n)
   {
     for(int i=0; i<n; i++)

@@ -7,8 +7,8 @@ int hotel[K], fit[K], last[K];
 
 int main()
 {
-  freopen("hotel.in","r",stdin);
-  freopen("hotel.out","w",stdout);
+  //freopen("hotel.in","r",stdin);
+  //freopen("hotel.out","w",stdout);
   scanf("%d %d %d", &n, &k, &price);
   for(int i=1; i<=n; i++)
   {

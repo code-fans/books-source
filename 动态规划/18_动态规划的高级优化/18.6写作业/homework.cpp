@@ -23,8 +23,8 @@ int Judge(int lim)
 
 int main()
 {
-  freopen("homework.in","r",stdin);
-  freopen("homework.out","w",stdout);
+  //freopen("homework.in","r",stdin);
+  //freopen("homework.out","w",stdout);
   cin>>n>>t;
   for(int i=1; i<=n; i++)
     cin>>a[i];

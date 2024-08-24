@@ -48,7 +48,7 @@ map<int,int> Mps;
 int main(){
 	srand((int)time(0));
 	for(int k=1;k<=10;k++){
-		freopen((NAME+NUM[k]+".in").c_str(),"w",stdout);
+		//freopen((NAME+NUM[k]+".in").c_str(),"w",stdout);
 		int N=(k<=3)?(5):(2000);
 		int D=ran(1,10),U=ran(1,10),S=ran(1,2001);
 		printf("%d %d %d %d\n",N,D,U,S);

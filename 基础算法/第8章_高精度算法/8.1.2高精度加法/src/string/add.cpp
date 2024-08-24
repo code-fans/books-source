@@ -17,8 +17,8 @@ string Add(string a,string b)
 
 int main()
 {
-  freopen("add.in","r",stdin);
-  freopen("add.out","w",stdout);
+  //freopen("add.in","r",stdin);
+  //freopen("add.out","w",stdout);
   string s1,s2;
   cin>>s1>>s2;
   cout<<Add(s1,s2)<<endl;

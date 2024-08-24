@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("ball.in","r",stdin);
-  freopen("ball1.out","w",stdout);
+  //freopen("ball.in","r",stdin);
+  //freopen("ball1.out","w",stdout);
   double sum,h;
   cin>>h;
   cout<<setprecision(3)<<fixed<<3*h-h/256<<endl;

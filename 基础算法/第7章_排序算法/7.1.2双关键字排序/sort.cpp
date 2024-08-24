@@ -26,8 +26,8 @@ void QuickSort(int L,int R)
 
 int main()
 {
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=0; i<n; i++)

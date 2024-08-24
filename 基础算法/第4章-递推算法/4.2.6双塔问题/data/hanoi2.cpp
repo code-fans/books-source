@@ -9,8 +9,8 @@ int a[31]= {1,1};               //a[0]存储最高位的下标，a[1]=1即初始值为1
 
 int main()
 {
-  freopen("hanoi2.in","r",stdin);
-  freopen("hanoi2.out","w",stdout);
+  //freopen("hanoi2.in","r",stdin);
+  //freopen("hanoi2.out","w",stdout);
   int n;
   cin>>n;
   cout<<int(pow(2,n+1))-2<<endl;

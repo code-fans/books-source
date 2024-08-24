@@ -14,8 +14,8 @@ int Check(int n)
 
 int main()
 {
-  freopen("telephone.in","r",stdin);
-  freopen("telephone.out","w",stdout);
+  //freopen("telephone.in","r",stdin);
+  //freopen("telephone.out","w",stdout);
   int n;
   scanf("%d",&n);
   while (~scanf("%d",&n))   //scanf读取数据失败返回-1，取反为0

@@ -27,8 +27,8 @@ void Combin(int M,int N)
 
 int main()
 {
-  freopen("combin.in","r",stdin);
-  freopen("combin.out","w",stdout);
+  //freopen("combin.in","r",stdin);
+  //freopen("combin.out","w",stdout);
   int m, n;
   scanf("%d%d",&m,&n);
   m=m+n-2;

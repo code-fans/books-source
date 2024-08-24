@@ -35,8 +35,8 @@ int Find(int x)
 
 int main()
 {
-  freopen("supermarket.in","r",stdin);
-  freopen("supermarket.out","w",stdout);
+  //freopen("supermarket.in","r",stdin);
+  //freopen("supermarket.out","w",stdout);
   int n;
   while(scanf("%d",&n)==1)
   {

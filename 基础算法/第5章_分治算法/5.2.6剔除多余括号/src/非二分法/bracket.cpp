@@ -56,8 +56,8 @@ void Work()                         //еп╤ою╗╨ейг╥Я©ии╬ЁЩ
 
 int main()
 {
-  freopen("bracket.in","r",stdin);
-  freopen("bracket.out","w",stdout);
+  //freopen("bracket.in","r",stdin);
+  //freopen("bracket.out","w",stdout);
   scanf("%s",s);
   len=strlen(s);
   Work();

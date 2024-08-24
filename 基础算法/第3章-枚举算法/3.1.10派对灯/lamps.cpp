@@ -7,8 +7,8 @@ set<string> ans;
 
 int main()
 {
-  freopen("lamps.in","r",stdin);
-  freopen("lamps.out","w",stdout);
+  //freopen("lamps.in","r",stdin);
+  //freopen("lamps.out","w",stdout);
   int n,C;
   scanf("%d%d",&n,&C);
   memset(result,-1,sizeof(result));

@@ -13,8 +13,8 @@ bool Judge(double t)
 
 int main()
 {
-  freopen("ladders.in","r",stdin);
-  freopen("ladders.out","w",stdout);
+  //freopen("ladders.in","r",stdin);
+  //freopen("ladders.out","w",stdout);
   while(scanf("%lf%lf%lf",&x,&y,&c)==3)
   {
     double low=0,mid;             //ÏÂ½çÎª0

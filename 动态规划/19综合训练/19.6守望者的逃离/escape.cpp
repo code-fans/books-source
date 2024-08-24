@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-  freopen("escape.in","r",stdin);
-  freopen("escape.out","w",stdout);
+  //freopen("escape.in","r",stdin);
+  //freopen("escape.out","w",stdout);
 
   int m,s,t,now=0;
   cin>>m>>s>>t;

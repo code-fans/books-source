@@ -6,8 +6,8 @@ int Remainder[101];               // remainder:存放除法的余数
 int quotient[101];                // quotient:依次存放商的每一位
 int main()
 {
-  freopen("fraction.in","r",stdin);
-  freopen("fraction.out","w",stdout);
+  //freopen("fraction.in","r",stdin);
+  //freopen("fraction.out","w",stdout);
   int m,n,i,j;
   scanf("%d/%d",&m,&n);           //输入被除数和除数
   cout<<m<<'/'<<n<<"=0.";

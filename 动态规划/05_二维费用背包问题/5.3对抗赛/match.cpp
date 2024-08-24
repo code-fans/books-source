@@ -6,8 +6,8 @@ bool dp[110][10000];
 
 int main()
 {
-  freopen("match.in","r",stdin);
-  freopen("match.out","w",stdout);
+  //freopen("match.in","r",stdin);
+  //freopen("match.out","w",stdout);
   int N,sum=0;
   cin>>N;
   int M=N>>1;

@@ -27,8 +27,8 @@ int Search(int Left,int Right)  //在Left~Right这一段查找
 
 int main()
 {
-  freopen("half.in","r",stdin);
-  freopen("half.out","w",stdout);
+  //freopen("half.in","r",stdin);
+  //freopen("half.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; ++i)       //从下标1开始
     cin>>a[i];

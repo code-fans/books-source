@@ -38,8 +38,8 @@ ll Work(ll x)
 
 int main()
 {
-  freopen("statistics5.in","r",stdin);
-  freopen("statistics5.ans","w",stdout);
+  //freopen("statistics5.in","r",stdin);
+  //freopen("statistics5.ans","w",stdout);
   int T;
   scanf("%d",&T);
   memset(dp,-1,sizeof(dp));

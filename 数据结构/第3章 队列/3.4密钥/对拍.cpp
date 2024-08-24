@@ -6,8 +6,8 @@ int a[100000];
 
 int main()
 {
-  freopen("key10.in","r",stdin);
-  freopen("key10.ans","w",stdout);
+  //freopen("key10.in","r",stdin);
+  //freopen("key10.ans","w",stdout);
   int n,m;
   cin>>n>>m;
   for(int i=1; i<=n; i++)

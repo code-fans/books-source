@@ -34,8 +34,8 @@ int DFS(int pos,int k)
 
 int main()
 {
-  freopen("martian.in","r",stdin);
-  freopen("martian.out","w",stdout);
+  //freopen("martian.in","r",stdin);
+  //freopen("martian.out","w",stdout);
   cin>>n>>m;
   for(int i=1; i<=n; i++)
     cin>>s[i];

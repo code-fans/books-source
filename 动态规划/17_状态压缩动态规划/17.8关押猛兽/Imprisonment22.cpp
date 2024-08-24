@@ -52,8 +52,8 @@ void DP()
 
 int main()
 {
-  freopen("Imprisonment.in","r",stdin);
-  freopen("Imprisonment.out","w",stdout);
+  //freopen("Imprisonment.in","r",stdin);
+  //freopen("Imprisonment.out","w",stdout);
   for(int i=0; i<12; ++i)
     bin[i]=int(pow(2,i));//1,2,4,8...
   while(~scanf("%d%d",&n,&m),n+m)

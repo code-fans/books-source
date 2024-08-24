@@ -7,8 +7,8 @@ deque<pii> que;
 
 int main()
 {
-  freopen("grass.in","r",stdin);
-  freopen("grass.out","w",stdout);
+  //freopen("grass.in","r",stdin);
+  //freopen("grass.out","w",stdout);
   int n, k;
   scanf("%d%d", &n, &k);
   for(int i=1; i<=n; i++)

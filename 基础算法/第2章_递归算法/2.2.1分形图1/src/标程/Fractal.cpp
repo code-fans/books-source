@@ -21,8 +21,8 @@ void Dg(int n,int x,int y)
 
 int main()
 {
-  freopen("Fractal.in","r",stdin);
-  freopen("Fractal.out","w",stdout);
+  //freopen("Fractal.in","r",stdin);
+  //freopen("Fractal.out","w",stdout);
   int i,j,n,size;
   while(scanf("%d",&n)!=EOF)
   {

@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("ShortestPath.in","r",stdin);
-  freopen("ShortestPath.out","w",stdout);
+  //freopen("ShortestPath.in","r",stdin);
+  //freopen("ShortestPath.out","w",stdout);
   int n;
   scanf("%d",&n);
   int a[n+1][n+1];

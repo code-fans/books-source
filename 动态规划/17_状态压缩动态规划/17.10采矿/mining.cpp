@@ -125,8 +125,8 @@ void bfs()
 
 int main()
 {
-  freopen("mining.in","r",stdin);
-  freopen("mining.out","w",stdout);
+  //freopen("mining.in","r",stdin);
+  //freopen("mining.out","w",stdout);
   register int i,j;
   scanf("%d%d%d",&n,&m,&K);
   for (i=1; i<=n; i++)

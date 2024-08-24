@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("stock.in","r",stdin);
-  freopen("stock.out","w",stdout);
+  //freopen("stock.in","r",stdin);
+  //freopen("stock.out","w",stdout);
   int n;
   scanf("%d",&n);
   double v[n+1],f[n+1];

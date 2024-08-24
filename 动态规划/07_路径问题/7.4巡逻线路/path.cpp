@@ -28,8 +28,8 @@ double Dis(double x1,double y1,double x2,double y2)
 
 int main()
 {
-  freopen("path.in","r",stdin);
-  freopen("path.out","w",stdout);
+  //freopen("path.in","r",stdin);
+  //freopen("path.out","w",stdout);
   int n,b1,b2;
   scanf("%d%d%d",&n,&b1,&b2);
   b1++;

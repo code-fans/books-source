@@ -34,8 +34,8 @@ long long cal(long long x)                //计算0~x之间有多少符合要求的数
 
 int main()
 {
-//  freopen("num.in","r",stdin);
-//  freopen("num.out","w",stdout);
+//  //freopen("num.in","r",stdin);
+//  //freopen("num.out","w",stdout);
   cin>>n>>s>>t;
   for(int i=0; i<M; ++i)
     f[i][0]=1,f[0][i]=1;

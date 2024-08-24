@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
   srand(time(0));
-  freopen("Assemble6.in","w",stdout);
+  //freopen("Assemble6.in","w",stdout);
   int t=99;
   cout<<t<<endl;
   for(int ij=1; ij<=t; ij++)

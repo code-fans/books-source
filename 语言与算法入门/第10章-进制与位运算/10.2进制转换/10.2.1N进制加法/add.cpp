@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("add.in","r",stdin);
-  freopen("add.out","w",stdout);
+  //freopen("add.in","r",stdin);
+  //freopen("add.out","w",stdout);
   string w="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",a,b;
   int N,x[100],y[100];
   cin>>N>>a>>b;

@@ -9,8 +9,8 @@ int dp[2500000];
 
 int main()
 {
-  freopen("Stone1.in","r",stdin);
-  freopen("Stone1.out","w",stdout);
+  //freopen("Stone1.in","r",stdin);
+  //freopen("Stone1.out","w",stdout);
   int n;
   scanf("%d",&n);
   int sum = 0;

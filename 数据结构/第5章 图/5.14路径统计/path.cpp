@@ -8,8 +8,8 @@ bool visit[N];
 
 int main()
 {
-  freopen("path.in","r",stdin);
-  freopen("path.out","w",stdout);
+  //freopen("path.in","r",stdin);
+  //freopen("path.out","w",stdout);
   int n,m,x,y,z;
   scanf("%d%d", &n,&m);
   memset(edg,127,sizeof(edg));

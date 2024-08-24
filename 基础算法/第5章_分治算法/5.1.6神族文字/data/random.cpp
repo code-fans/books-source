@@ -3,7 +3,7 @@ using namespace std;
 string ss[100000];
 int main()
 {
-  freopen("dictionary10.in", "w", stdout);
+  //freopen("dictionary10.in", "w", stdout);
   srand(unsigned(time(0)));
   set <string> s;
   int n=100000;

@@ -28,8 +28,8 @@ int Solve(int a)
 
 int main()
 {
-  freopen("tower.in","r",stdin);
-  freopen("tower.out","w",stdout);
+  //freopen("tower.in","r",stdin);
+  //freopen("tower.out","w",stdout);
   int T=0,x,y,z;
   while(cin>>n,n)
   {

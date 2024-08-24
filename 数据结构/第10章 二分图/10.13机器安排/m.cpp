@@ -25,8 +25,8 @@ int DFS(int x)
 
 int main()
 {
-  freopen("m.in","r",stdin);
-  freopen("m.out","w",stdout);
+  //freopen("m.in","r",stdin);
+  //freopen("m.out","w",stdout);
   int a,b,c,i,sum;
   while(~scanf("%d",&n1))
   {

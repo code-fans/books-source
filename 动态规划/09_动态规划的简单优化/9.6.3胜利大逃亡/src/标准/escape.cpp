@@ -17,8 +17,8 @@ inline int Read(int x=0,char c=getchar())
 
 int main()
 {
-  freopen("escape.in","r",stdin);
-  freopen("escape.out","w",stdout);
+  //freopen("escape.in","r",stdin);
+  //freopen("escape.out","w",stdout);
   int m,n,p;
   cin>>m>>n>>p;
   int T=m+n-1;                           //走动次数

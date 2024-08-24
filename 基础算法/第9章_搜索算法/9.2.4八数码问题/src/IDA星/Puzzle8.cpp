@@ -69,8 +69,8 @@ bool DFS(int state[], int zero, int dep=0)     //depÎªËÑË÷Éî¶È
 
 int main()
 {
-  freopen("Puzzle8.in","r",stdin);
-  freopen("Puzzle8.out","w",stdout);
+  //freopen("Puzzle8.in","r",stdin);
+  //freopen("Puzzle8.out","w",stdout);
   int start[9], zero;
   for(int i=0; i<9; i++)
   {

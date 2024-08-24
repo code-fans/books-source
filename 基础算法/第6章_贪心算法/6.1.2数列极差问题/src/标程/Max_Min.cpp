@@ -10,8 +10,8 @@ bool Cmp (const int a, const int b)
 
 int main()
 {
-  freopen("Max_Min.in","r",stdin);
-  freopen("Max_Min.out","w",stdout);
+  //freopen("Max_Min.in","r",stdin);
+  //freopen("Max_Min.out","w",stdout);
   int n, a[50001], b[50001];
   while (scanf("%d", &n) == 1 && n)
   {

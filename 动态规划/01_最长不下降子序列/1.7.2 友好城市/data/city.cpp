@@ -17,8 +17,8 @@ int Cmp(node a,node b)
 
 int main()
 {
-  freopen("city.in","r",stdin);
-  freopen("city.out","w",stdout);
+  //freopen("city.in","r",stdin);
+  //freopen("city.out","w",stdout);
   scanf("%*d%*d%d",&n,&n,&n);      //x,y是无用的
   for(int i=1; i<=n; i++)
     scanf("%d%d",&p[i].c,&p[i].d);

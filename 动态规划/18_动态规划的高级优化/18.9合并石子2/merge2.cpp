@@ -24,8 +24,8 @@ void Init()
 
 int main()
 {
-  freopen("merge2.in","r",stdin);
-  freopen("merge2.out","w",stdout);
+  //freopen("merge2.in","r",stdin);
+  //freopen("merge2.out","w",stdout);
   Init();
   for(int i=Num-1; i>0; i--)
     for(int j=i+1; j<=Num; j++)

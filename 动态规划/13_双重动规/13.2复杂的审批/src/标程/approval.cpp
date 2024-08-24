@@ -18,8 +18,8 @@ long long f[101][501],ans;
 
 int main()
 {
-  freopen("approval.in","r",stdin);
-  freopen("approval.out","w",stdout);  
+  //freopen("approval.in","r",stdin);
+  //freopen("approval.out","w",stdout);  
   int i,j;
   int w,x,y;
   unsigned long long tmp;

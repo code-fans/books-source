@@ -14,8 +14,8 @@ int m,c,s,cow[201],d[201][201],f[51][201];
 
 int main()
 {
-  freopen ("barn.in","r", stdin);
-  freopen ("barn.out","w",stdout);
+  //freopen ("barn.in","r", stdin);
+  //freopen ("barn.out","w",stdout);
   cin>>m>>s>>c;
   for(int i=1; i<=c; i++)
     cin>>cow[i];

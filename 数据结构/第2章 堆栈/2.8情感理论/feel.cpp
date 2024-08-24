@@ -8,8 +8,8 @@ int n,top,l,r;
 
 int main()
 {
-  freopen("feel.in","r",stdin);
-  freopen("feel.out","w",stdout);
+  //freopen("feel.in","r",stdin);
+  //freopen("feel.out","w",stdout);
   scanf("%d", &n);
   for (int i=1; i<=n; i++)                           //从下标1开始保存
   {

@@ -66,8 +66,8 @@ void print(b_tree root)//Ç°Ðò±éÀú
 
 int main()
 {
-  freopen("inorder_traversal.in","r",stdin);
-  freopen("inorder_traversal.out","w",stdout);
+  //freopen("inorder_traversal.in","r",stdin);
+  //freopen("inorder_traversal.out","w",stdout);
   int n,i;
   b_tree root=NULL;  
   cin>>n;

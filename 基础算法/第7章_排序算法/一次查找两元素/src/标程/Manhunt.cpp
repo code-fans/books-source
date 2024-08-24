@@ -8,8 +8,8 @@ int Prisoner[MAX+1];
 
 int main()
 {
-  freopen("Manhunt.in","r",stdin);
-  freopen("Manhunt.out","w",stdout);  
+  //freopen("Manhunt.in","r",stdin);
+  //freopen("Manhunt.out","w",stdout);  
   std::ios::sync_with_stdio(false);//取消cin与stdin的同步
   int N,m1,m2,temp;
   m1=m2=2147483647; 

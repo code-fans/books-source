@@ -6,8 +6,8 @@ int a[100005],f[100005];
 
 int main()
 {
-  freopen("LIS.in","r",stdin);
-  freopen("LIS.out","w",stdout);
+  //freopen("LIS.in","r",stdin);
+  //freopen("LIS.out","w",stdout);
   int n,longest=0;
   memset(f,-1,sizeof(f));              //要初始化为-1
   cin>>n;

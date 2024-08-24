@@ -73,8 +73,8 @@ void comb(int m,int k)/*从2开始递归打出所有组合*/
 
 main()
 {  
-  freopen("Stamp.in","r",stdin);
-  freopen("Stamp.out","w",stdout);
+  //freopen("Stamp.in","r",stdin);
+  //freopen("Stamp.out","w",stdout);
   scanf("%d %d",&N,&KK);
  
   comb(2,KK-1);

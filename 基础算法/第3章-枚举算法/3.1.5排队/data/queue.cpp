@@ -5,8 +5,8 @@ int a[30002],f[30002],g[30002];
 
 int main()
 {
-  freopen("queue.in","r",stdin);
-  freopen("queue.out","w",stdout);
+  //freopen("queue.in","r",stdin);
+  //freopen("queue.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n; ++i)

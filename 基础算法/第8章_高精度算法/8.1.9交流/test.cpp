@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("chat.in","r",stdin); //Dev-C++智能平台需加此行以保持运行
-  freopen("chat.in","w",stdout); //Dev-C++智能平台需加此行以保持运行
+  //freopen("chat.in","r",stdin); //Dev-C++智能平台需加此行以保持运行
+  //freopen("chat.in","w",stdout); //Dev-C++智能平台需加此行以保持运行
   int i=0;
   do
   {

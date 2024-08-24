@@ -54,8 +54,8 @@ void tarjan(int x)
 
 int main()
 {
-  freopen("teacher.in","r",stdin);
-  freopen("teacher.out","w",stdout);
+  //freopen("teacher.in","r",stdin);
+  //freopen("teacher.out","w",stdout);
   int n,m,t,f;
   scanf("%d%d",&n,&m);
   int a,b;

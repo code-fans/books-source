@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-  freopen("a.in","r",stdin);
-  freopen("robot10.in","w",stdout);
+  //freopen("a.in","r",stdin);
+  //freopen("robot10.in","w",stdout);
 
   int m,n;
   srand(time(0));

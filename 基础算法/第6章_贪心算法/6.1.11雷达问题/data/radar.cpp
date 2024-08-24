@@ -14,8 +14,8 @@ int Cmp(IsLand x,IsLand y)
 
 int main()
 {
-  freopen("radar.in","r",stdin);
-  freopen("radar.out","w",stdout);
+  //freopen("radar.in","r",stdin);
+  //freopen("radar.out","w",stdout);
   int n,d,x,y;
   for(int Case=1; cin>>n>>d,n; Case++)      //nÎª0ÔòÍË³ö
   {

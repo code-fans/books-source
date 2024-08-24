@@ -6,8 +6,8 @@ long long f1[35]= {1},f2[35]= {1};
 
 int main()
 {
-  freopen("embattle.in","r",stdin);
-  freopen("embattle.out","w",stdout);
+  //freopen("embattle.in","r",stdin);
+  //freopen("embattle.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n+1; i++)

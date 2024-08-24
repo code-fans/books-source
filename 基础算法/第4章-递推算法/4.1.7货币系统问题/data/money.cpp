@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("money.in","r",stdin);
-  freopen("money.out","w",stdout);
+  //freopen("money.in","r",stdin);
+  //freopen("money.out","w",stdout);
   int v,n,p;
   scanf("%d%d",&v,&n);
   int f[1001]= {1};

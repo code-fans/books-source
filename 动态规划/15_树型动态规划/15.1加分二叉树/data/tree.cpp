@@ -34,8 +34,8 @@ int Search(int l,int r)       //寻找区间(l,r)之间的最大值
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   scanf("%d",&n);
   for(int i=1; i<=n; i++)
     scanf("%d",&dp[i][i]),root[i][i]=i;

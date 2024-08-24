@@ -45,8 +45,8 @@ void MakeTopo(int alph,int tmp)          //创建拓扑关系
 
 int main()
 {
-  freopen("picture.in","r",stdin);
-  freopen("picture.out","w",stdout);
+  //freopen("picture.in","r",stdin);
+  //freopen("picture.out","w",stdout);
   scanf("%d%d\n",&h,&w);
   for(int i=1; i<=h; i++)
     scanf("%s",&Map[i][1]);

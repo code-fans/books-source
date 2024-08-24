@@ -5,8 +5,8 @@ int father[105];
 
 int main()
 {
-  freopen("treasure.in","r",stdin);
-  freopen("treasure.out","w",stdout);
+  //freopen("treasure.in","r",stdin);
+  //freopen("treasure.out","w",stdout);
   int n,m,x,y,Root,sum,Max=0,MaxRoot;
   cin>>n>>m;
   for(int i=1; i<=m; ++i)

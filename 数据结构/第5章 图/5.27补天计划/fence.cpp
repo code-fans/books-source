@@ -50,8 +50,8 @@ void Dfs(int x)
 
 int main()
 {
-  freopen("fence.in","r",stdin);
-  freopen("fence.out","w",stdout);
+  //freopen("fence.in","r",stdin);
+  //freopen("fence.out","w",stdout);
   Init();
   Dfs(st);
   for (int i=ans_tot; i>=1; i--)

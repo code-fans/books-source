@@ -7,8 +7,8 @@ set<string> P[20];
 
 int main()
 {
-  freopen("Prefix.in","r",stdin);
-  freopen("Prefix.out","w",stdout);
+  //freopen("Prefix.in","r",stdin);
+  //freopen("Prefix.out","w",stdout);
   for (string s; cin>>s,s!=".";)
   {
     P[s.size()].insert(s);          //存入长度相同的的集合中

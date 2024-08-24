@@ -3,7 +3,7 @@ using namespace std;
 int f[10]= {1,2,3,4,5,6,7,8,9,0};
 int main()
 {
-  freopen("sub.in","w",stdout);
+  //freopen("sub.in","w",stdout);
   srand(time(0));
   int n;
   cin>>n;

@@ -35,8 +35,8 @@ void DFS(int step, int sum)
 
 int main()
 {
-  freopen("sudoku.in","r",stdin);
-  freopen("sudoku.out","w",stdout);
+  //freopen("sudoku.in","r",stdin);
+  //freopen("sudoku.out","w",stdout);
   for(int i=0; i<=8; i++)                   //生成分值矩阵
     for(int j=0; j<=8; j++)
       score[i][j]=min(min(i,j),min(8-i,8-j))+6;

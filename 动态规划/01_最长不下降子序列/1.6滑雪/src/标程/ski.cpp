@@ -24,8 +24,8 @@ int Search(int x,int y)              //求到[x,y]点的最长路径
 
 int main()
 {
-  freopen("ski.in","r",stdin);
-  freopen("ski.out","w",stdout);
+  //freopen("ski.in","r",stdin);
+  //freopen("ski.out","w",stdout);
   scanf("%d%d",&r,&c);
   for(int i=1; i<=r; i++)
     for(int j=1; j<=c; j++)

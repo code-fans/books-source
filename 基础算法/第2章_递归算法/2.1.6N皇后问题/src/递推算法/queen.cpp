@@ -20,8 +20,8 @@ int Try(int k)//判断该位置是否可安置皇后
 
 int main()
 {
-  freopen("queen.in","r",stdin);
-  freopen("queen.out","w",stdout);
+  //freopen("queen.in","r",stdin);
+  //freopen("queen.out","w",stdout);
   cin>>n;
   for(k=1,x[k]=0; k>0;)
   {

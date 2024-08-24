@@ -51,8 +51,8 @@ void DFS(int dep)                         //DFS产生所有方法的组合
 
 int main()
 {
-  freopen("clock.in","r",stdin);
-  freopen("clock.out","w",stdout);
+  //freopen("clock.in","r",stdin);
+  //freopen("clock.out","w",stdout);
   for(int i=0; i<9; i++)
     cin>>Clock[i];
   DFS(0);

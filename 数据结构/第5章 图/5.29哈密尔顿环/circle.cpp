@@ -32,8 +32,8 @@ void Dfs(int last, int cur,int len)   //last:上次访问的点,cur:正访问的点
 
 int main()
 {
-  freopen("circle.in","r",stdin);
-  freopen("circle.out","w",stdout);
+  //freopen("circle.in","r",stdin);
+  //freopen("circle.out","w",stdout);
 
   int n,m;
   scanf("%d%d",&n,&m);

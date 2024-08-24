@@ -31,8 +31,8 @@ int f( int m, int n)
 
 int main()
 {
-  freopen("apple.in","r",stdin);
-  freopen("apple.out","w",stdout);
+  //freopen("apple.in","r",stdin);
+  //freopen("apple.out","w",stdout);
   int t, m, n;
   cin>>t;
   while( t-- )

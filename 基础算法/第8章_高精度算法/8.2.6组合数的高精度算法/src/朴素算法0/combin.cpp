@@ -16,8 +16,8 @@ long long  Combin(int m,int n)
 
 main()
 {
-  freopen("combin.in","r",stdin);
-  freopen("combin.out","w",stdout);
+  //freopen("combin.in","r",stdin);
+  //freopen("combin.out","w",stdout);
   int m,n,t;
   cin>>m>>n;
   m+=n-2;

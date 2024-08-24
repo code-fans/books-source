@@ -23,8 +23,8 @@ void Dp(int man)
 
 int main()
 {
-  freopen("party.in","r",stdin);
-  freopen("party.out","w",stdout);
+  //freopen("party.in","r",stdin);
+  //freopen("party.out","w",stdout);
   int man,leader,Max=0;
   cin>>N;
   for(int cnt=1; cnt<=N; cnt++)       //输入每个人的价值

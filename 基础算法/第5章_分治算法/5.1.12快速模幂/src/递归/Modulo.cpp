@@ -17,8 +17,8 @@ int Pow(int a, int b)
 
 int main()
 {
-  freopen("Modulo.in", "r", stdin);
-  freopen("Modulo.out","w",stdout);
+  //freopen("Modulo.in", "r", stdin);
+  //freopen("Modulo.out","w",stdout);
   scanf("%d%d%d", &a, &b, &c);
   printf("%d\n", Pow(a,b)%c);
   return 0;

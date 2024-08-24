@@ -16,8 +16,8 @@ bool cmp(node x, node y)
 
 int main()
 {
-  freopen("supermarket.in","r",stdin);
-  freopen("supermarket.out","w",stdout);
+  //freopen("supermarket.in","r",stdin);
+  //freopen("supermarket.out","w",stdout);
 
   int n;
   while(cin >> n)

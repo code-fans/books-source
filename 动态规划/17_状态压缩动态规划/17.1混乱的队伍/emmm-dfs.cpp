@@ -25,8 +25,8 @@ ll Dfs(int d,int state,int pre)
 
 int main()
 {
-  freopen("emmm.in","r",stdin);
-  freopen("emmm.out","w",stdout);
+  //freopen("emmm.in","r",stdin);
+  //freopen("emmm.out","w",stdout);
   scanf("%d%d",&n,&k);
   for(int i=1; i<=n; i++)
     scanf("%d",a+i);

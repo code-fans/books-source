@@ -50,8 +50,8 @@ double Slope(int k, int j)
 
 int main()
 {
-  freopen("Warehouse.in","r",stdin);
-  freopen("Warehouse.out","w",stdout);
+  //freopen("Warehouse.in","r",stdin);
+  //freopen("Warehouse.out","w",stdout);
   n=Readint();
   for (int i=1; i<=n; i++)
   {

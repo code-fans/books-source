@@ -9,8 +9,8 @@ int dep[MAXN],cnt[MAXN];
 
 int main()
 {
-  freopen("SortPath.in","r",stdin);
-  freopen("SortPath.out","w",stdout);
+  //freopen("SortPath.in","r",stdin);
+  //freopen("SortPath.out","w",stdout);
   int N,M,x,y;
   scanf("%d%d",&N,&M);
   for(int i=1; i<=M; i++)

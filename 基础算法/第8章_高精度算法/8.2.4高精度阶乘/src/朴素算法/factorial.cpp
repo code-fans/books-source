@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("factorial.in","r",stdin);
-  freopen("factorial.out","w",stdout);
+  //freopen("factorial.in","r",stdin);
+  //freopen("factorial.out","w",stdout);
   int data[50001]= {0,1};
   int n,digit=1;                             //Î»Êý
   scanf("%d",&n);

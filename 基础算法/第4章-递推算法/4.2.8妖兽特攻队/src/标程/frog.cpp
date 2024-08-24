@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("frog.in","r",stdin);
-  freopen("frog.out","w",stdout);  
+  //freopen("frog.in","r",stdin);
+  //freopen("frog.out","w",stdout);  
   int i,j,k,m,n;
   cin>>n>>m;
   m++;

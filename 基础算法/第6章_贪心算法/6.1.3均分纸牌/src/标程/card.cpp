@@ -6,8 +6,8 @@ int a[101];
 
 int main()
 {
-  freopen("card.in","r",stdin);
-  freopen("card.out","w",stdout);
+  //freopen("card.in","r",stdin);
+  //freopen("card.out","w",stdout);
   int n,sum=0;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

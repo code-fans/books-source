@@ -102,8 +102,8 @@ void Combin(int m[],int n,int c[])
 int m[10000010],n,ans[10000010];
 int main()
 {
-  freopen("combin.in","r",stdin);
-  freopen("combin.out","w",stdout);
+  //freopen("combin.in","r",stdin);
+  //freopen("combin.out","w",stdout);
   string instr;
   cin>>instr>>n;
   StrToInt(instr,m);

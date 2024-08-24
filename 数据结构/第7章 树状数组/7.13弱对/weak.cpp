@@ -60,8 +60,8 @@ void dfs2(int u,ll dep,ll num0)
 int T;
 int main()
 {
-  freopen("weak1.in","r",stdin);
-  freopen("weak1.ans","w",stdout);
+  //freopen("weak1.in","r",stdin);
+  //freopen("weak1.ans","w",stdout);
   scanf("%d",&T);
   while(T--)
   {

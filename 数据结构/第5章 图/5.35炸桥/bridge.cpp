@@ -34,8 +34,8 @@ int Dfs(int u,int fa)                  //fa存储的是u的父亲边，而不是父结点
 
 int main()
 {
-  freopen("bridge.in","r",stdin);
-  freopen("bridge.out","w",stdout);
+  //freopen("bridge.in","r",stdin);
+  //freopen("bridge.out","w",stdout);
   int t,n,m;
   while(~scanf("%d%d",&n,&m) && n+m)
   {

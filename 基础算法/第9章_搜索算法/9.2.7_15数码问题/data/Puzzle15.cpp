@@ -98,8 +98,8 @@ bool Dfs(int zero,int dep=0)
 
 int main()
 {
-  freopen("Puzzle15.in","r",stdin);
-  freopen("Puzzle15.out","w",stdout);
+  //freopen("Puzzle15.in","r",stdin);
+  //freopen("Puzzle15.out","w",stdout);
   for(t=Read(); t; t--)
   {
     int cnt=0;

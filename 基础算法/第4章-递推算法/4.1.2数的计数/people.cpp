@@ -7,8 +7,8 @@ int n,i,j;
 long double f[1000+1];
 int main()
 {
-  freopen("people.in","r",stdin);
-  freopen("people.out","w",stdout);
+  //freopen("people.in","r",stdin);
+  //freopen("people.out","w",stdout);
   cin>>n;
   f[1]=1;
   for(i=2;i<=n;i++)

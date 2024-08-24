@@ -19,8 +19,8 @@ void Union(int X,int Y)//合并两个集合
 
 int main()
 {
-  freopen("relation.in","r",stdin);
-  freopen("relation.out","w",stdout);
+  //freopen("relation.in","r",stdin);
+  //freopen("relation.out","w",stdout);
   cin>>n>>m>>q;
   for(int i=1; i<=n; i++) //初始化
     father[i]=i;//建立新的集合，其仅有的成员是i

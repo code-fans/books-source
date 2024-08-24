@@ -14,8 +14,8 @@ int Out(string val)
 
 int main()
 {
-  freopen("break.in","r",stdin);
-  freopen("break.out","w",stdout);
+  //freopen("break.in","r",stdin);
+  //freopen("break.out","w",stdout);
   scanf("%d",&n);
   for (int i = 1; i <= n; i++)
     cin>>s[i];

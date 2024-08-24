@@ -16,8 +16,8 @@ void Dfs(int limit,int apple,int dish)
 
 int main()
 {
-  freopen("apple.in","r",stdin);
-  freopen("apple.out","w",stdout);
+  //freopen("apple.in","r",stdin);
+  //freopen("apple.out","w",stdout);
   cin>>t;
   for(int i=1; i<=t; i++)
   {

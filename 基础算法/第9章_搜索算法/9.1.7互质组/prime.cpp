@@ -11,8 +11,8 @@ int GCD(int a,int b)
 
 int main()
 {
-  freopen("prime.in","r",stdin);
-  freopen("prime.out","w",stdout);
+  //freopen("prime.in","r",stdin);
+  //freopen("prime.out","w",stdout);
   for(int i=0; i<20; i++)
     Group[i]=1;
   scanf("%d",&n);

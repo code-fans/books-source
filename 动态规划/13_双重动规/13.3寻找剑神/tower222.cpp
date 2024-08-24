@@ -6,8 +6,8 @@ int a[1000][1000],dp[1000][1000];//d[i][j]表示从（i，j）这个位置到达底层的最短距
 
 int main()
 {
-  freopen("tower.in","r",stdin);
-  freopen("tower.out","w",stdout);
+  //freopen("tower.in","r",stdin);
+  //freopen("tower.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=0; i<n; i++)

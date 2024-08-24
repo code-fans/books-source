@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("sample_div.in","r",stdin);
-  freopen("sample_div.out","w",stdout);
+  //freopen("sample_div.in","r",stdin);
+  //freopen("sample_div.out","w",stdout);
   int a[MAXN],c[MAXN];
   int x=0,b,i,j=1,len;
   string str;

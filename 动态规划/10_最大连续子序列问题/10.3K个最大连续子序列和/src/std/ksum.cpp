@@ -6,8 +6,8 @@ int f[11][1001];                            //注意此处的行列定义是相反的
 
 int main()
 {
-  freopen("ksum.in","r",stdin);
-  freopen("ksum.out","w",stdout);
+  //freopen("ksum.in","r",stdin);
+  //freopen("ksum.out","w",stdout);
   int k,n;
   cin>>n>>k;
   for(int i=1; i<=n; ++i)

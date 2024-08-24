@@ -19,8 +19,8 @@ inline int Read(int &x)                  //以字符串形式读入数字可提速
 
 int main()
 {
-//  freopen("LCS2.in","r",stdin);
-//  freopen("LCS2.out","w",stdout);
+//  //freopen("LCS2.in","r",stdin);
+//  //freopen("LCS2.out","w",stdout);
   Read(n);
   for (int i=1; i<=n; i++)
   {

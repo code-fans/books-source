@@ -20,8 +20,8 @@ int DP(int i)
 }
 int main()
 {
-  freopen("rec.in","r",stdin);
-  freopen("rec.out","w",stdout);
+  //freopen("rec.in","r",stdin);
+  //freopen("rec.out","w",stdout);
   cin>>T;
   while(T--)
   {

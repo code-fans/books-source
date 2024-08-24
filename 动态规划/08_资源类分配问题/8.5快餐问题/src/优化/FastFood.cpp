@@ -7,8 +7,8 @@ int f[11][maxn][maxn][maxn];
 
 int main()
 {
-  freopen("FastFood.in","r",stdin);
-  freopen("FastFood.out","w",stdout);
+  //freopen("FastFood.in","r",stdin);
+  //freopen("FastFood.out","w",stdout);
   scanf("%d%d%d%d%d%d%d",&A,&B,&C,&p1,&p2,&p3,&n);
   for(int i=1; i<=n; i++)
   {

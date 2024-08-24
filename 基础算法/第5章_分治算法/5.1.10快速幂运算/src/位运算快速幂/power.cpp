@@ -20,8 +20,8 @@ unsigned long long Pow(unsigned long long X, unsigned long long n)//·Çµİ¹é
 
 int main()
 {
-  freopen("power.in","r",stdin);
-  freopen("power.out","w",stdout);
+  //freopen("power.in","r",stdin);
+  //freopen("power.out","w",stdout);
   int X,n;
   cin>>X>>n;
   cout<<Pow(X,n)<<endl;

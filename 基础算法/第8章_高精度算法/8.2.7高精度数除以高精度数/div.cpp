@@ -94,8 +94,8 @@ void Output(string x)             //按规定格式输出答案
 
 int main()
 {
-  freopen("div.in","r",stdin);
-  freopen("div.out","w",stdout);
+  //freopen("div.in","r",stdin);
+  //freopen("div.out","w",stdout);
   cin>>s1>>s2;
   for(int i=0; i<=9; i++)
     test[i]=Offzero(Mul(s2,i),1);           //预先算出s2*0~s2*9的值

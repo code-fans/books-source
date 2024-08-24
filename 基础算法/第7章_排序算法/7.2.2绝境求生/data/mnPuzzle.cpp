@@ -27,8 +27,8 @@ void MergeSort(int l,int r)
 
 int main()
 {
-  freopen("mnPuzzle.in","r",stdin);
-  freopen("mnPuzzle.out","w",stdout);
+  //freopen("mnPuzzle.in","r",stdin);
+  //freopen("mnPuzzle.out","w",stdout);
   int n,m,zero,s;
   while(cin>>n>>m && !(n==0 && m==0))
   {

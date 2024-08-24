@@ -22,8 +22,8 @@ void Push(int day,int x,int y,double p)      //Èë¶ÓÁÐ
 
 int main()
 {
-  freopen("encounter.in","r",stdin);
-  freopen("encounter.out","w",stdout);
+  //freopen("encounter.in","r",stdin);
+  //freopen("encounter.out","w",stdout);
   cin>>n;
   if(!(n%4==1))
   {

@@ -8,7 +8,7 @@ char b[101][101];
 
 int main()
 {
-  freopen("virus10.in","w",stdout);
+  //freopen("virus10.in","w",stdout);
   srand(time(0));
   int n=100;
   cout<<n<<endl;

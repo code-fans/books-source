@@ -54,8 +54,8 @@ int Solve(int n)
 
 int main()
 {
-  freopen("ballclock4.in","r",stdin);
-  freopen("ballclock4.ans","w",stdout);
+  //freopen("ballclock4.in","r",stdin);
+  //freopen("ballclock4.ans","w",stdout);
   int n;
   while (cin >> n, n != 0)
     if (solved[n] != 0)                 //如果之前已计算过，直接输出结果

@@ -9,8 +9,8 @@ int a[MAXN], b[MAXN], c[MAXN];// 0 bc, 1 ac, 2 ab
 
 int main() 
 {
-  freopen("juggle.in","r",stdin);
-  freopen("juggle.out","w",stdout);  
+  //freopen("juggle.in","r",stdin);
+  //freopen("juggle.out","w",stdout);  
   int n, m;
   scanf("%d%d", &n, &m);
   for (int i = 1; i <= n; i++) 

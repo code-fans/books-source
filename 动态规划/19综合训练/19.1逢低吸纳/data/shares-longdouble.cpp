@@ -12,8 +12,8 @@ long double num[5005]= {1}; //num[0]=1  num[i]:以a[i]为结尾的LIS长度相同方案个数
 
 int main()
 {
-  freopen("shares.in","r",stdin);
-  freopen("shares.out","w",stdout);
+  //freopen("shares.in","r",stdin);
+  //freopen("shares.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     cin>>a[i];

@@ -6,8 +6,8 @@ using namespace std;
  
 int main()
 {
-  freopen("robot.in","r",stdin);
-  freopen("robot.out","w",stdout);
+  //freopen("robot.in","r",stdin);
+  //freopen("robot.out","w",stdout);
   int i, j, n, top, temp;
   int stack[SIZE];
   cin >> n;

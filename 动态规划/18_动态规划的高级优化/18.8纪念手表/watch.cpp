@@ -51,8 +51,8 @@ void Dp()
 
 int main()
 {
-  freopen("watch.in","r",stdin);
-  freopen("watch.out","w",stdout);
+  //freopen("watch.in","r",stdin);
+  //freopen("watch.out","w",stdout);
   while(cin>>n>>m && n>0)
   {
     memset(dp,0,sizeof(dp));

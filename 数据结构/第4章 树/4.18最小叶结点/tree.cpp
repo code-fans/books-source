@@ -38,8 +38,8 @@ void DFS(int u, int sum)
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   while(~scanf("%d",&in_order[0]))          //读取失败返回-1，-1取反为0
   {
     n=1;

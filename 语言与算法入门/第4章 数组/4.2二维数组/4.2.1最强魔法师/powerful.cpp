@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("powerful.in","r",stdin);
-  freopen("powerful.out","w",stdout);
+  //freopen("powerful.in","r",stdin);
+  //freopen("powerful.out","w",stdout);
   int a[101][101];
   int m,n,row=0,colum=0;
   cin>>m>>n;

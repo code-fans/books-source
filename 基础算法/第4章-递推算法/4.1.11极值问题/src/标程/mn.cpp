@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("mn.in","r",stdin);
-  freopen("mn.out","w",stdout);
+  //freopen("mn.in","r",stdin);
+  //freopen("mn.out","w",stdout);
   int k,m,m1=1,m2=1,temp;
   scanf("%d",&k);
   while (m2+m1<k)

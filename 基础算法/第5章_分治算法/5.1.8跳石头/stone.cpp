@@ -19,8 +19,8 @@ int Check(int len)
 
 int main()
 {
-  freopen("stone.in","r",stdin);
-  freopen("stone.out","w",stdout);
+  //freopen("stone.in","r",stdin);
+  //freopen("stone.out","w",stdout);
   cin>>L>>n>>m;
   for(int i = 1; i <= n; i++)
     cin>>a[i];

@@ -7,8 +7,8 @@ int n,j;
 
 int main()
 {
-  freopen("budget.in","r",stdin);
-  freopen("budget.out","w",stdout);
+  //freopen("budget.in","r",stdin);
+  //freopen("budget.out","w",stdout);
   cin>>d1>>c>>d2>>p[0]>>n;
   for(int i=1; i<=n; i++)
   {

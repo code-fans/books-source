@@ -6,8 +6,8 @@ int f[MM][8],n,kind;
 
 int main()
 {
-  freopen("Numdismantle.in","r",stdin);
-  freopen("Numdismantle.out","w",stdout);
+  //freopen("Numdismantle.in","r",stdin);
+  //freopen("Numdismantle.out","w",stdout);
   cin>>n>>kind;
   f[1][1]=1;
   for(int i=2; i<=n; ++i)

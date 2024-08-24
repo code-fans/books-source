@@ -24,8 +24,8 @@ string Add(string a,string b)
 
 int main()
 {
-  freopen("shares.in","r",stdin);
-  freopen("shares.out","w",stdout);
+  //freopen("shares.in","r",stdin);
+  //freopen("shares.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     cin>>a[i];

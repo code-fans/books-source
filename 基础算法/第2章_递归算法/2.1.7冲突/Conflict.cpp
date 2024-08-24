@@ -38,8 +38,8 @@ void Placed(int cnt)
 
 int main()
 {
-  freopen("Conflict.in","r",stdin);
-  freopen("Conflict.out","w",stdout);
+  //freopen("Conflict.in","r",stdin);
+  //freopen("Conflict.out","w",stdout);
   while(cin>>n && n)
   {
     maxn=0;

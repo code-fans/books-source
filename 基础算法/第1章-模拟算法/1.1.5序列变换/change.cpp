@@ -18,8 +18,8 @@ inline int Read()                        //以字符串形式读入数字可提速
 
 int main()
 {
-  freopen("change.in","r",stdin);
-  freopen("change.out","w",stdout);
+  //freopen("change.in","r",stdin);
+  //freopen("change.out","w",stdout);
   int n,m,x,y,ans;
   n=Read();
   m=Read();

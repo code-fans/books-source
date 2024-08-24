@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  freopen("Net2.in","r",stdin);
-  freopen("Net2.out","w",stdout);
+  //freopen("Net2.in","r",stdin);
+  //freopen("Net2.out","w",stdout);
   int n,in[MAXN];//in[]统计点的度数
   bool vis[MAXN];
   while(scanf("%d",&n)!=EOF)

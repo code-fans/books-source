@@ -8,8 +8,8 @@ char b[101][101];
 
 int main()
 {
-  freopen("virus.in","r",stdin);
-  freopen("virus.out","w",stdout);
+  //freopen("virus.in","r",stdin);
+  //freopen("virus.out","w",stdout);
   int n,m,ans=0;
   cin>>n;
   for(int i=1; i<=n; i++)

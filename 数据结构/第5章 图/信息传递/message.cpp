@@ -36,8 +36,8 @@ void Tarjan(int x)
 
 int main()
 {
-  freopen("message.in","r",stdin);
-  freopen("message.out","w",stdout);
+  //freopen("message.in","r",stdin);
+  //freopen("message.out","w",stdout);
   scanf("%d",&n);
   for(int i=1,x; i<=n; i++)
   {

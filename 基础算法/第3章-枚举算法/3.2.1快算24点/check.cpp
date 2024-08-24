@@ -29,7 +29,7 @@ bool Judge(int a[])
 
 int main()
 {
-  freopen("24.in","r",stdin);       //Dev-C++智能开发平台需加此句
+  //freopen("24.in","r",stdin);       //Dev-C++智能开发平台需加此句
   FILE *in1=fopen("24.out","r");    //读入程序输出的结果,另一种读文件的写法
   FILE *in2=fopen("24.in","r");     //读入输入数据
   int a[5],hash[20000]= {0};

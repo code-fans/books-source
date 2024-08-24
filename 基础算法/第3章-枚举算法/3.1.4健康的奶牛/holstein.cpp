@@ -6,8 +6,8 @@ int need[505],feed[505][505],save[50005][505];
 
 int main()
 {
-  freopen("holstein.in","r",stdin);
-  freopen("holstein.out","w",stdout);
+  //freopen("holstein.in","r",stdin);
+  //freopen("holstein.out","w",stdout);
   int V,G,ansN=0x7f7f7f7f,pos;    //ansN为答案，即最少饲料数
   cin>>V;
   for(int i=1; i<=V; i++)

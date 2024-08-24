@@ -29,8 +29,8 @@ void Try(int digit)
 
 int main()
 {
-  freopen("Subset.in","r",stdin);
-  freopen("Subset.out","w",stdout);
+  //freopen("Subset.in","r",stdin);
+  //freopen("Subset.out","w",stdout);
   scanf("%d",&n);
   Try(1);
   return 0;

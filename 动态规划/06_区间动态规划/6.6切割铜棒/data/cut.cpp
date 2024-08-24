@@ -6,8 +6,8 @@ int cut[55],dp[55][55];
 
 int main()
 {
-  freopen("cut.in","r",stdin);
-  freopen("cut.out","w",stdout);
+  //freopen("cut.in","r",stdin);
+  //freopen("cut.out","w",stdout);
   int L,N;
   while (cin>>L>>N)
   {

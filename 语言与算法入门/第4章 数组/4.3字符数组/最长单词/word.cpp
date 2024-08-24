@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("word.in","r",stdin);
-  freopen("word.out","w",stdout);
+  //freopen("word.in","r",stdin);
+  //freopen("word.out","w",stdout);
   char s[30000];
   int i=0,j,Long=0,m=0;
   cin.getline(s,30000-1);

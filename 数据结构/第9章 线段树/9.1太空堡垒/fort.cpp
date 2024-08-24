@@ -49,8 +49,8 @@ void Update(int i,int j,int num)          //第i个堡垒增加或减少j个飞船
 
 int main()
 {
-  freopen("fort.in","r",stdin);
-  freopen("fort.out","w",stdout);
+  //freopen("fort.in","r",stdin);
+  //freopen("fort.out","w",stdout);
   int a,b,n,t,Case=0;
   cin>>t;
   while(t--)

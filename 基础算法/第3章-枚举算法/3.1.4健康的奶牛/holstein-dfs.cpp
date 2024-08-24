@@ -34,8 +34,8 @@ void DFS(int cur)                   //选出第cur种饲料
 
 int main()
 {
-  freopen("holstein.in","r",stdin);
-  freopen("holstein.out","w",stdout);
+  //freopen("holstein.in","r",stdin);
+  //freopen("holstein.out","w",stdout);
   cin>>V;
   for(int i=1; i<=V; i++)
     cin>>need[i];

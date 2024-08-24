@@ -31,8 +31,8 @@ void mul(int i)
 
 int main()
 {
-  freopen("factorial.in","r",stdin);
-  freopen("factorial.out","w",stdout);
+  //freopen("factorial.in","r",stdin);
+  //freopen("factorial.out","w",stdout);
   int n;
   scanf("%d",&n);
   a[MAXN]=1;

@@ -28,8 +28,8 @@ void Union(int a,int b)          //合并两个不同集合的元素
 
 int main()
 {
-  freopen("relation.in","r",stdin);
-  freopen("relation.out","w",stdout);
+  //freopen("relation.in","r",stdin);
+  //freopen("relation.out","w",stdout);
   int N,M,Q,a,b;
   cin>>N>>M>>Q;
   for(int i=1; i<=N; i++)       //初始化

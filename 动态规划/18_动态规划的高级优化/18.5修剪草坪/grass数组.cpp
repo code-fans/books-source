@@ -11,8 +11,8 @@ int a[N],n,m,k,q[N];
 
 int main()
 {
-  freopen("grass.in","r",stdin);
-  freopen("grass.out","w",stdout);
+  //freopen("grass.in","r",stdin);
+  //freopen("grass.out","w",stdout);
   scanf("%d%d",&n,&k);
   for (int i = 1; i <= n; ++i)
   {

@@ -12,8 +12,8 @@ inline int d(int i,int j)                 //内联函数加速
 
 int main()
 {
-  freopen("merge2.in","r",stdin);
-  freopen("merge2.out","w",stdout);
+  //freopen("merge2.in","r",stdin);
+  //freopen("merge2.out","w",stdout);
   int n;
   scanf("%d",&n);
   for (int i=1; i<=n; i++)

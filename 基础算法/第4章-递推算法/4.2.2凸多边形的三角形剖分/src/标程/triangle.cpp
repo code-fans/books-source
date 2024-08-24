@@ -5,8 +5,8 @@ int  c[50];
 
 int main()
 {
-  freopen("triangle.in","r",stdin);
-  freopen("triangle.out","w",stdout);
+  //freopen("triangle.in","r",stdin);
+  //freopen("triangle.out","w",stdout);
   int n;
   cin>>n;
   c[2]=1;

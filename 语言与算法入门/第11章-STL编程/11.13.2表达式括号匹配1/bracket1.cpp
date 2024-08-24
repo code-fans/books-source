@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("bracket1.in","r",stdin);
-  freopen("bracket1.out","w",stdout);
+  //freopen("bracket1.in","r",stdin);
+  //freopen("bracket1.out","w",stdout);
   string s;
   stack <char> st;
   cin>>s;

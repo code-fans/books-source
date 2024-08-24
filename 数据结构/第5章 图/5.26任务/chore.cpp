@@ -31,8 +31,8 @@ int Solve(int p)
 
 int main()
 {
-  freopen("chore.in","r",stdin);
-  freopen("chore.out","w",stdout);
+  //freopen("chore.in","r",stdin);
+  //freopen("chore.out","w",stdout);
   scanf("%d",&N);
   memset(first,-1,sizeof(first));
   idx = 0;

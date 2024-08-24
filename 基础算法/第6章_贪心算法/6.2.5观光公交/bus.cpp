@@ -39,8 +39,8 @@ int Calc(int k)
 
 int main()
 {
-//  freopen("bus.in","r",stdin);
-//  freopen("bus.out","w",stdout);
+//  //freopen("bus.in","r",stdin);
+//  //freopen("bus.out","w",stdout);
   scanf("%d%d%d",&n,&m,&k); //景点数、乘客数和氮气加速器个数
   for(int i=1; i<n; ++i)
     scanf("%d",&Time[i]);   //从第i个景点开往第i＋1个景点所需要的时间

@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("mid.in","r",stdin);
-  freopen("mid.out","w",stdout);
+  //freopen("mid.in","r",stdin);
+  //freopen("mid.out","w",stdout);
   int a,b,c;
   cin>>a>>b>>c;
   if((a-b)*(b-c)>=0)

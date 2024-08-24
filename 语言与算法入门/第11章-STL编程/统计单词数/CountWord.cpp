@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("CountWord.in","r",stdin);
-  freopen("CountWord.out","w",stdout);
+  //freopen("CountWord.in","r",stdin);
+  //freopen("CountWord.out","w",stdout);
   set<string>word;
   string s="";
   char c;

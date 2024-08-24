@@ -17,8 +17,8 @@ int Test(int n)                      //递推，成功返回1，失败返回0
 
 int main()
 {
-  freopen("bomp.in","r",stdin);
-  freopen("bomp.out","w",stdout);
+  //freopen("bomp.in","r",stdin);
+  //freopen("bomp.out","w",stdout);
   int n;
   scanf("%d",&n);
   for (int i=1; i<=n; i++)

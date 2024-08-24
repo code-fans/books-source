@@ -6,8 +6,8 @@ int a[5005];
 
 int main()
 {
-  freopen("samsara.in","r",stdin);
-  freopen("samsara.out","w",stdout);
+  //freopen("samsara.in","r",stdin);
+  //freopen("samsara.out","w",stdout);
   int n;
   while (scanf ("%d",&n)!=-1)
   {

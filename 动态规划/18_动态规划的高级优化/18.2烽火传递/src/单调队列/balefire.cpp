@@ -7,8 +7,8 @@ int q[1000010],w[1000010],f[1000010];   //数组模拟队列（也可用STL容器）
 
 int main()
 {
-  freopen("balefire.in","r",stdin);
-  freopen("balefire.out","w",stdout);
+  //freopen("balefire.in","r",stdin);
+  //freopen("balefire.out","w",stdout);
   int n,m;
   scanf("%d%d",&n,&m);
   for (int i=1; i<=n; ++i)

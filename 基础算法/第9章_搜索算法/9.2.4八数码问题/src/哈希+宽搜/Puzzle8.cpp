@@ -66,8 +66,8 @@ void BFS(int c,int p)
 
 int main()
 {
-  freopen("Puzzle8.in","r",stdin);
-  freopen("Puzzle8.out","w",stdout);
+  //freopen("Puzzle8.in","r",stdin);
+  //freopen("Puzzle8.out","w",stdout);
   final = Cantor();                      //将目标状态存入final
   for(int i = 0; i < 9; i++)             //初状态转为9位数存入n
     scanf("%d", &s[i]);

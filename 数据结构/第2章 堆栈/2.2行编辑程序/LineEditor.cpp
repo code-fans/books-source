@@ -8,8 +8,8 @@ int p;
 
 int main()
 {
-  freopen("LineEditor.in","r",stdin);
-  freopen("LineEditor.out","w",stdout);
+  //freopen("LineEditor.in","r",stdin);
+  //freopen("LineEditor.out","w",stdout);
   getline(cin,s);
   int Len=s.size();
   for(int i=0; i<Len; ++i)

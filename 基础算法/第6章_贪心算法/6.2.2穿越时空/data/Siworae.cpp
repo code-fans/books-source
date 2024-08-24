@@ -10,8 +10,8 @@ struct Wall
 
 int main()
 {
-  freopen("Siworae.in","r",stdin);
-  freopen("Siworae.out","w",stdout);
+  //freopen("Siworae.in","r",stdin);
+  //freopen("Siworae.out","w",stdout);
   int t,n,k;
   for(scanf("%d",&t); t; t--)
   {

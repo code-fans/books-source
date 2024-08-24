@@ -26,8 +26,8 @@ int Dg(int n)
 
 int main()
 {
-  freopen("pow.in","r",stdin);
-  freopen("pow.out","w",stdout);
+  //freopen("pow.in","r",stdin);
+  //freopen("pow.out","w",stdout);
   int n;
   cin>>n;
   Dg(n);//直接调用

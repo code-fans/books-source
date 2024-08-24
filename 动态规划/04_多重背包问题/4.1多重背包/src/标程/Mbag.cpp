@@ -6,8 +6,8 @@ int n[101],w[101],c[101],dp[101];
 
 int main()
 {
-  freopen("Mbag.in","r",stdin);
-  freopen("Mbag.out","w",stdout);
+  //freopen("Mbag.in","r",stdin);
+  //freopen("Mbag.out","w",stdout);
   int V,N,ans=1e-9;
   scanf("%d%d",&V,&N);
   for(int i=0; i<N; i++)

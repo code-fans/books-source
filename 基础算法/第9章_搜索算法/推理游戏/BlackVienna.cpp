@@ -52,8 +52,8 @@ void men(int r,char l[])
 
 int main()
 {
-  freopen("BlackVienna.in","r",stdin);
-  freopen("BlackVienna.out","w",stdout);
+  //freopen("BlackVienna.in","r",stdin);
+  //freopen("BlackVienna.out","w",stdout);
   while(scanf("%d",&T)!=EOF && T>0)
   {
     for(int i=0; i<=Three; i++)

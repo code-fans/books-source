@@ -6,8 +6,8 @@ int a[10],b[10];
 
 int main()
 {
-  freopen("clock.in","r",stdin);
-  freopen("clock.out","w",stdout);
+  //freopen("clock.in","r",stdin);
+  //freopen("clock.out","w",stdout);
   for(int i=1; i<=9; i++)
     cin>>a[i];
   for(int p1=0; p1<=3; p1++)

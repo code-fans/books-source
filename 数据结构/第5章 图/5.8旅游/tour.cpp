@@ -27,8 +27,8 @@ void Floyd()
 
 int main()
 {
-  freopen("tour.in","r",stdin);
-  freopen("tour.out","w",stdout);
+  //freopen("tour.in","r",stdin);
+  //freopen("tour.out","w",stdout);
   long long u,v,w;
   while(~scanf("%lld%lld",&n,&m))
   {

@@ -6,8 +6,8 @@ map<int,int>m;
 
 int main()
 {
-  freopen("pretty.in","r",stdin);
-  freopen("pretty.out","w",stdout);
+  //freopen("pretty.in","r",stdin);
+  //freopen("pretty.out","w",stdout);
   int n,i=0,p=0;
   while(1)
   {

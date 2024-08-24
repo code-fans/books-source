@@ -33,8 +33,8 @@ void Output(int ans[])                 //输出相加的结果
 
 int main()
 {
-  //freopen("add.in","r",stdin);
-  //freopen("add.out","w",stdout);
+  ////freopen("add.in","r",stdin);
+  ////freopen("add.out","w",stdout);
   int a[MAXN]= {0},b[MAXN]= {0},ans[MAXN]= {0};
   string str1,str2;
   cin>>str1>>str2;

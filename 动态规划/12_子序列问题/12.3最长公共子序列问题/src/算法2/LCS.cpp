@@ -30,8 +30,8 @@ void Init()
 
 int main()
 {
-  freopen("LCS.in","r",stdin);
-  freopen("LCS.out","w",stdout);
+  //freopen("LCS.in","r",stdin);
+  //freopen("LCS.out","w",stdout);
   Init();
   Dp();
   return 0;

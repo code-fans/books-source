@@ -7,8 +7,8 @@ int n,m;
 
 int main()
 {
-  freopen("course.in","r",stdin);
-  freopen("course.out","w",stdout);
+  //freopen("course.in","r",stdin);
+  //freopen("course.out","w",stdout);
   while(scanf("%d %d",&n,&m) && n && m)
   {
     for(int i = 1; i <= n; i++)

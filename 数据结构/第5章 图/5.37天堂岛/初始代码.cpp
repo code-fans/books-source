@@ -23,8 +23,8 @@ int tarjan(int u,int fa)
 
 int main()
 {
-  freopen("island.in","r",stdin);
-  freopen("island.out","w",stdout);
+  //freopen("island.in","r",stdin);
+  //freopen("island.out","w",stdout);
   scanf("%d%d",&n,&m);
   for(int i=1; i<=n; i++)
     Map[i].clear();

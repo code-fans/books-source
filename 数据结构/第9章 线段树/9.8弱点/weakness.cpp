@@ -49,8 +49,8 @@ void query(int l, int r, int n)
 
 int main()
 {
-  freopen("weakness.in","r",stdin);
-  freopen("weakness.out","w",stdout);
+  //freopen("weakness.in","r",stdin);
+  //freopen("weakness.out","w",stdout);
   int m,t,i,x,y;
   while(~scanf("%d%d",&m,&t))
   {

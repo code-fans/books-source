@@ -105,8 +105,8 @@ void out(int y,int x)
 
 int main()
 {
-  freopen("labyrinth.in","r",stdin);
-  freopen("labyrinth.out","w",stdout);
+  //freopen("labyrinth.in","r",stdin);
+  //freopen("labyrinth.out","w",stdout);
   in();
   int judd=dfs(1,1,0);
   if(judd==1)out(m,n);

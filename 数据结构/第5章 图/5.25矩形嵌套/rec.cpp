@@ -21,8 +21,8 @@ int dp(int i)
 
 int main()
 {
-  freopen("rec.in","r",stdin);
-  freopen("rec.out","w",stdout);
+  //freopen("rec.in","r",stdin);
+  //freopen("rec.out","w",stdout);
   int Case;
   scanf("%d",&Case);
   while(Case--)

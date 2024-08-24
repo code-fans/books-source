@@ -14,8 +14,8 @@ int next_combination(int combin,int n)//根据前一组合枚举下一组合
 
 int main()
 {
-  freopen("combination.in","r",stdin);
-  freopen("combination.out","w",stdout);
+  //freopen("combination.in","r",stdin);
+  //freopen("combination.out","w",stdout);
   int M,N;
   cin>>M>>N;
   if(N==0)

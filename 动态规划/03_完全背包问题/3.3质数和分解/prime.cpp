@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("prime.in","r",stdin);
-  freopen("prime.out","w",stdout);
+  //freopen("prime.in","r",stdin);
+  //freopen("prime.out","w",stdout);
   int n=0,m,prime[300],f[300];
   bool b[300];
   memset(b,1,sizeof(b));

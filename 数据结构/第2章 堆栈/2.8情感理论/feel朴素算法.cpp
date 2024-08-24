@@ -7,8 +7,8 @@ LL n, num[MAXN], a[MAXN], b[MAXN], sum[MAXN];
 
 int main()
 {
-  freopen("feel.in","r",stdin);
-  freopen("feel.out","w",stdout);
+  //freopen("feel.in","r",stdin);
+  //freopen("feel.out","w",stdout);
   cin>>n;
   sum[0] = 0;
   for (int i = 1; i <= n; ++i)//求前序列和

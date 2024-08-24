@@ -14,8 +14,8 @@ bool In(int x,int y)                   //判断是否越界
 
 int main()
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   int x, y, d, step;                   //x,y为人的位置，d为前进方向
   for (int i = 1; i <= 8; ++ i)
   {

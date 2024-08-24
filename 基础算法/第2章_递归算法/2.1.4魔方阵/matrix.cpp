@@ -29,8 +29,8 @@ int Fun(int m)
 
 int main()
 {
-  freopen("matrix.in","r",stdin);
-  freopen("matrix.out","w",stdout);
+  //freopen("matrix.in","r",stdin);
+  //freopen("matrix.out","w",stdout);
   Fun(1);                             //从数字1开始填
   printf("%d\n",num);
   return 0;

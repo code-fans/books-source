@@ -26,8 +26,8 @@ bool Cmp(st a,st b)
 
 int main()
 {
-  freopen("mouse.in","r",stdin);
-  freopen("mouse.out","w",stdout);
+  //freopen("mouse.in","r",stdin);
+  //freopen("mouse.out","w",stdout);
   ios::sync_with_stdio(false);
   cin.tie(0);
   priority_queue<int> q;               //优先队列默认从大到小保存数据

@@ -34,8 +34,8 @@ int Hash()
 
 int main()
 {
-  freopen("FindChar.in","r",stdin);
-  freopen("FindChar.out","w",stdout);
+  //freopen("FindChar.in","r",stdin);
+  //freopen("FindChar.out","w",stdout);
   int t;
   scanf("%d",&t);
   getchar();                                  //消去回车符

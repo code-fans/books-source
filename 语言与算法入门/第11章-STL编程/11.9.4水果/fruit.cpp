@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("fruit.in","r",stdin);
-  freopen("fruit.out","w",stdout);
+  //freopen("fruit.in","r",stdin);
+  //freopen("fruit.out","w",stdout);
   int T,n,count;
   cin>>T;
   while (T--)

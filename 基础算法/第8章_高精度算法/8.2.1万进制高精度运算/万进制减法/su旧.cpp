@@ -61,8 +61,8 @@ int Compare(int x[],int y[])        //x比y大，返回1，x比y小，返回-1，相等返回0
 
 int main()
 {
-  freopen("sub.in","r",stdin);
-  freopen("sub.out","w",stdout);
+  //freopen("sub.in","r",stdin);
+  //freopen("sub.out","w",stdout);
   std::ios::sync_with_stdio(false); //取消cin与stdin的同步以加快读取速度
   char a[4*Max],b[4*Max];
   cin>>a>>b;

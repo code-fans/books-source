@@ -41,8 +41,8 @@ void Dfs(int u,int lenth)
 
 int main()
 {
-  freopen("road.in","r",stdin);
-  freopen("road.out","w",stdout);
+  //freopen("road.in","r",stdin);
+  //freopen("road.out","w",stdout);
   int l,r,len;
   memset(head,-1,sizeof(head));
   while(scanf("%d%d%d",&l,&r,&len)!= EOF)

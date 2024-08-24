@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("stairs.in","r",stdin);
-  freopen("stairs.out","w",stdout);
+  //freopen("stairs.in","r",stdin);
+  //freopen("stairs.out","w",stdout);
   unsigned long long F[75]= {0,1,2,4};
   for(int i=4; i<=73; i++)
     F[i]=F[i-3]+F[i-2]+F[i-1];

@@ -15,8 +15,8 @@ void Out(int u)                                         //µÝ¹éÊä³ö×ÓÐòÁÐ
 
 int main()
 {
-  freopen("LCIS.in","r",stdin);
-  freopen("LCIS.out","w",stdout);
+  //freopen("LCIS.in","r",stdin);
+  //freopen("LCIS.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     cin>>a[i];

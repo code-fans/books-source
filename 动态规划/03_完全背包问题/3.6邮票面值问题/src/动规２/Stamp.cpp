@@ -42,8 +42,8 @@ void search(int dep,int max)//max表示前dep-1种邮票最多能连续凑到max的数额
 
 int main()
 {
-  freopen("Stamp.in","r",stdin);
-  freopen("Stamp.out","w",stdout);  
+  //freopen("Stamp.in","r",stdin);
+  //freopen("Stamp.out","w",stdout);  
   int i,j;
   scanf("%d%d",&n,&k);
   val[1]=1; //一开始只确定了第一种邮票,第一种邮票必然是1

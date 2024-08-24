@@ -21,8 +21,8 @@ bool Dfs(int v, int c)
 
 int main()
 {
-  freopen("color.in","r",stdin);
-  freopen("color.out","w",stdout);
+  //freopen("color.in","r",stdin);
+  //freopen("color.out","w",stdout);
   int t;
   cin>>t;
   while(t--)

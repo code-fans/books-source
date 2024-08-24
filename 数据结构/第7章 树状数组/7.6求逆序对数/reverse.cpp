@@ -45,8 +45,8 @@ int GetSum(int k)                   //ÇóºÍ
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   n=Read();
   for(int i=1; i<=n; ++i)
   {

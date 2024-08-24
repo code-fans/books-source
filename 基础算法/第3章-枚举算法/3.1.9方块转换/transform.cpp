@@ -56,8 +56,8 @@ int Init(int n,char a[][MAX])
 
 int main()
 {
-  freopen("transform.in", "r", stdin);
-  freopen("transform.out", "w",stdout);
+  //freopen("transform.in", "r", stdin);
+  //freopen("transform.out", "w",stdout);
   int N;
   char a[MAX][MAX], b[MAX][MAX];
   scanf("%d\n",&N);

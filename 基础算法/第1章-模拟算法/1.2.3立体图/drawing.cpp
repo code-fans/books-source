@@ -24,8 +24,8 @@ void Block(int x,int y)
 
 int main()
 {
-  freopen("drawing.in","r",stdin);
-  freopen("drawing.out","w",stdout);
+  //freopen("drawing.in","r",stdin);
+  //freopen("drawing.out","w",stdout);
   scanf("%d%d",&m,&n);
   for(int i=1; i<=m; i++)
     for(int j=0; j<n; j++)

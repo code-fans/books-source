@@ -26,8 +26,8 @@ int getsum(int x)
 
 int main()
 {
-  freopen("stars.in","r",stdin);
-  freopen("stars.out","w",stdout);	
+  //freopen("stars.in","r",stdin);
+  //freopen("stars.out","w",stdout);	
   int n,x,y;
   scanf("%d",&n);
   for(int i=0; i<n; i++)

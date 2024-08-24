@@ -48,8 +48,8 @@ void init_input()
 
 int main()
 {
-  freopen("Network.in","r",stdin);
-  freopen("Network.out","w",stdout);
+  //freopen("Network.in","r",stdin);
+  //freopen("Network.out","w",stdout);
   while (~scanf("%d",&n) && n)
   {
     init_input();                  // ‰»Î≥ı ºªØ

@@ -37,8 +37,8 @@ int Dp()
 
 int main()
 {
-  freopen("subset.in","r",stdin);
-  freopen("subset.out","w",stdout);
+  //freopen("subset.in","r",stdin);
+  //freopen("subset.out","w",stdout);
   for(int t=Read(),Case=0; t; t--)
   {
     n=Read();

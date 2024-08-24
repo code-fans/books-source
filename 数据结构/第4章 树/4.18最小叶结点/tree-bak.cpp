@@ -27,8 +27,8 @@ void DFS(int L1,int R1,int L2,int R2,int value)
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   char ch;
   while(~scanf("%d",&inorder[0]))          //读取失败返回-1，-1取反为0
   {

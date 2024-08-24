@@ -5,8 +5,8 @@ long long Stack[100005],sum[100005];
 
 int main()
 {
-  freopen("feel.in","r",stdin);
-  freopen("feel.out","w",stdout);
+  //freopen("feel.in","r",stdin);
+  //freopen("feel.out","w",stdout);
   int i,s=0,t=0,top=0;
   long long a,ans=0;
   scanf("%d",&n);

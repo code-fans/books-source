@@ -7,8 +7,8 @@ double p[2][501][1000],ans;    //滚动数组,数组只用开辟一半
 
 int main()
 {
-  freopen("encounter.in","r",stdin);
-  freopen("encounter.out","w",stdout);
+  //freopen("encounter.in","r",stdin);
+  //freopen("encounter.out","w",stdout);
   int n,m;
   cin>>n;
   m=n>>1;

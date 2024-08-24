@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  freopen("ghost10.in","w",stdout);
+  //freopen("ghost10.in","w",stdout);
   set <int> s;
   srand(time(0));
   int n=5000;

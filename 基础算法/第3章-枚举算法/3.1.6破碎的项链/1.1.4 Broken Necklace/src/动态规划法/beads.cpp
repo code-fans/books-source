@@ -10,8 +10,8 @@
  
 int main()
 {
-	freopen("beads.in","r",stdin);
-	freopen("beads.out","w",stdout);
+	//freopen("beads.in","r",stdin);
+	//freopen("beads.out","w",stdout);
 	int i,ans=0,n;
 	char f[2][702];
 	int s[4][702]={0};//¼´rl,rr,bl,br 

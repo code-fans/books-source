@@ -7,8 +7,8 @@ int n, k, price, Ans, c[N], v[N];
 
 int main()
 {
-  freopen("hotel.in","r",stdin);
-  freopen("hotel.out","w",stdout);
+  //freopen("hotel.in","r",stdin);
+  //freopen("hotel.out","w",stdout);
   scanf("%d %d %d", &n, &k, &price);
   for(int i=1; i<=n; i++)
     scanf("%d %d", c+i, v+i);                //输入数组元素c[i]

@@ -17,8 +17,8 @@ inline int ok(int j,int i)
 
 int main()
 {
-  freopen("carriage.in","r",stdin);
-  freopen("carriage.out","w",stdout);
+  //freopen("carriage.in","r",stdin);
+  //freopen("carriage.out","w",stdout);
   scanf("%d%d%d",&n,&m,&k);
   char stu;
   for(int i = 1; i <= n; i++)                //初始化并求前序列和

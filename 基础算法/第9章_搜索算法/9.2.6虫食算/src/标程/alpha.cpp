@@ -141,8 +141,8 @@ void Search(int p,bool u)//处理第p位，上一位进位为u
 
 int main()
 {
-  freopen("alpha.in","r",stdin);
-  freopen("alpha.out","w",stdout);  
+  //freopen("alpha.in","r",stdin);
+  //freopen("alpha.out","w",stdout);  
   for(int i=0;i<30;i++)//初始时所有的字母、数字均未定 
     num[i]=-1,use[i]=0;
     

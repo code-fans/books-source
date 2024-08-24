@@ -139,8 +139,8 @@ void Init(string tmp,int a[])        //字符串转为整型数组
 
 int main()
 {
-  freopen("div.in","r",stdin);
-  freopen("div.out","w",stdout);
+  //freopen("div.in","r",stdin);
+  //freopen("div.out","w",stdout);
   string s1,s2;
   cin>>s1>>s2;
   Init(s1,a);                        //字符串转数组

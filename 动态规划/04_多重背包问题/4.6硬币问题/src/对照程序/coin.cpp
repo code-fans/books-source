@@ -33,8 +33,8 @@ void MultiplyPack(int cost,int weight,int amount)
 }
 int main()
 {
-  freopen("coin.in","r",stdin);
-  freopen("coin.out","w",stdout);
+  //freopen("coin.in","r",stdin);
+  //freopen("coin.out","w",stdout);
   while(scanf("%d%d",&n,&m)&&(n+m))
   {
     ans=0;

@@ -24,8 +24,8 @@ void AddEdge(int u,int v,int w)       //加边
 
 int main()
 {
-  freopen("star.in","r",stdin);
-  freopen("star.out","w",stdout);
+  //freopen("star.in","r",stdin);
+  //freopen("star.out","w",stdout);
   int n,e,u,v,w;
   cin>>n>>e;                          //输入顶点数和边数
   for(int i=0; i<e; i++)

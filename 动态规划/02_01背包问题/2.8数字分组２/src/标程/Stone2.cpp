@@ -6,8 +6,8 @@ int lim,a[100],sum,f[100000];
 
 int main()
 {
-  freopen("Stone2.in","r",stdin);
-  freopen("Stone2.out","w",stdout);
+  //freopen("Stone2.in","r",stdin);
+  //freopen("Stone2.out","w",stdout);
   int n;
   cin>>n;
   f[0]=true;

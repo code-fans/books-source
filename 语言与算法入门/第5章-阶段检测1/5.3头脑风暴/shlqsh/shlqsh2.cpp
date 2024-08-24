@@ -41,8 +41,8 @@ int divide(int x)
 
 int main()
 {
-  freopen("shlqsh.in","r",stdin);
-  freopen("shlqsh.out","w",stdout);
+  //freopen("shlqsh.in","r",stdin);
+  //freopen("shlqsh.out","w",stdout);
   cin>>n>>m;
   pre();
   for(int i=n; i<=m; i++)

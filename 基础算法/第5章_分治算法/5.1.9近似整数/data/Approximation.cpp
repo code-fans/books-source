@@ -7,8 +7,8 @@ double A;
 
 int main()
 {
-  freopen("Approximation.in", "r", stdin);
-  freopen("Approximation.out", "w", stdout);
+  //freopen("Approximation.in", "r", stdin);
+  //freopen("Approximation.out", "w", stdout);
   scanf("%lf%d", &A, &L);
   int ansn, ansd;
   int n = 1, d = 1;                    //初始分子和分母均设为1

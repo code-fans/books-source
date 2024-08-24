@@ -32,8 +32,8 @@ int Find(int num)
 
 int main()
 {
-  freopen("zero.in","r",stdin);
-  freopen("zero.out","w",stdout);
+  //freopen("zero.in","r",stdin);
+  //freopen("zero.out","w",stdout);
   cin>>n;
   for(int i=0; i<n; i++)
     cin>>a[i]>>b[i]>>c[i]>>d[i];

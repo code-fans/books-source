@@ -11,8 +11,8 @@ int getw(int i,int j)
 
 int main()
 {
-  freopen("railway.in","r",stdin);
-  freopen("railway.out","w",stdout);
+  //freopen("railway.in","r",stdin);
+  //freopen("railway.out","w",stdout);
   inf=2000000000;
   inf*=1000000000;
   while(scanf("%d%d",&n,&m)&&n)

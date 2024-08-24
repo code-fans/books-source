@@ -31,8 +31,8 @@ void Calc(int x)                     //部分评测网站例如洛谷需二分优化
 
 int main()
 {
-  freopen("patrik.in","r",stdin);
-  freopen("patrik.out","w",stdout);
+  //freopen("patrik.in","r",stdin);
+  //freopen("patrik.out","w",stdout);
   int n=Read();
   for(int i=1; i<=n; ++i)
     H[i]=Read();

@@ -19,8 +19,8 @@ void Dfs(int dep,int now)
 
 int main()
 {
-  freopen("Stone1.in","r",stdin);
-  freopen("Stone1.out","w",stdout);
+  //freopen("Stone1.in","r",stdin);
+  //freopen("Stone1.out","w",stdout);
   scanf("%d",&n);
   for(long i=1; i<=n; i++)
   {

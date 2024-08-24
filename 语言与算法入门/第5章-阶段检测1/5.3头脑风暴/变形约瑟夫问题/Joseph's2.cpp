@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-  freopen("Joseph's.in","r",stdin);
-  freopen("Joseph's.out","w",stdout);
+  //freopen("Joseph's.in","r",stdin);
+  //freopen("Joseph's.out","w",stdout);
   long long N,K;
   while(cin>>N>>K)
   {

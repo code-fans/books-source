@@ -4,8 +4,8 @@ int a[26];
 
 int main()
 {
-  freopen("book10.in","r",stdin);
-  freopen("check.txt","w",stdout);
+  //freopen("book10.in","r",stdin);
+  //freopen("check.txt","w",stdout);
   int n,m;
   cin>>n>>m;
   string str;

@@ -33,8 +33,8 @@ int Cal(int n)
 
 int main()
 {
-  freopen("lucky.in","r",stdin);
-  freopen("lucky.out","w",stdout);
+  //freopen("lucky.in","r",stdin);
+  //freopen("lucky.out","w",stdout);
   memset(dp,-1,sizeof(dp));             //只需初始化一次
   for(int m,n; scanf("%d%d",&n,&m),n|m;)
     printf("%d\n",Cal(m)-Cal(n-1));

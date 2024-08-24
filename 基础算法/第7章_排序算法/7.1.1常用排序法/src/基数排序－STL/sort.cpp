@@ -48,8 +48,8 @@ void RadixSort()                                     //»ùÊýÅÅÐò
 
 int main()
 {
-  freopen("sort.in","r",stdin);
-  freopen("sort.out","w",stdout);
+  //freopen("sort.in","r",stdin);
+  //freopen("sort.out","w",stdout);
   scanf("%d",&n);
   for(int i=0; i<n; i++)
   {

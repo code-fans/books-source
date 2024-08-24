@@ -33,8 +33,8 @@ void TopSort()
 
 int main()
 {
-  freopen("skiing.in","r",stdin);
-  freopen("skiing.out","w",stdout);
+  //freopen("skiing.in","r",stdin);
+  //freopen("skiing.out","w",stdout);
   int t;
   scanf("%d",&t);
   while(t--)

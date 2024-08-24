@@ -6,8 +6,8 @@ int dp[10002], w[502], v[502];
 
 int main()
 {
-  freopen("Piggy.in","r",stdin);
-  freopen("Piggy.out","w",stdout);
+  //freopen("Piggy.in","r",stdin);
+  //freopen("Piggy.out","w",stdout);
   int T,E,F,N,W;
   for(cin>>T; T; T--)
   {

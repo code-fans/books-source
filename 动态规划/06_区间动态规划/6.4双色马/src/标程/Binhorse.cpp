@@ -6,8 +6,8 @@ int dp[510][510],b[510];
 
 int main()
 {
-  freopen("Binhorse.in","r",stdin);
-  freopen("Binhorse.out","w",stdout);
+  //freopen("Binhorse.in","r",stdin);
+  //freopen("Binhorse.out","w",stdout);
   int N,K;
   scanf("%d %d",&N,&K);
   for(int i=0; i<501; i++)          //马厩数要大于等于马数

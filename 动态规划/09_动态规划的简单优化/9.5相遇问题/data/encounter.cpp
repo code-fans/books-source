@@ -44,8 +44,8 @@ void Fun(int t,int x,int y,double lv)//第t天公主在坐标x,y的概率为lv
 
 int main()
 {
-  freopen("encounter.in","r",stdin);
-  freopen("encounter.out","w",stdout);
+  //freopen("encounter.in","r",stdin);
+  //freopen("encounter.out","w",stdout);
   Init();
   if(encounter)                      //如果有相遇的可能，则递归求解
     Fun(0,k,k,1);                    //时间为0时公主在(k,k)坐标处概率为1

@@ -36,8 +36,8 @@ int dfs(int node,int father)
 
 int main()
 {
-  freopen("banance1.in","r",stdin);
-  freopen("banance1.ans","w",stdout);
+  //freopen("banance1.in","r",stdin);
+  //freopen("banance1.ans","w",stdout);
   int T,a,b;
   scanf("%d",&T);
   while(T--)

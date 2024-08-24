@@ -33,8 +33,8 @@ int Solve(int n)
 
 int main()
 {
-  freopen("increase.in","r",stdin);
-  freopen("increase.out","w",stdout);
+  //freopen("increase.in","r",stdin);
+  //freopen("increase.out","w",stdout);
   for(scanf("%d",&T); T; T--)
   {
     scanf("%d",&n);

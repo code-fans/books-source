@@ -6,8 +6,8 @@ int w[1001],c[1001],f[1001][1001];
 
 int main()
 {
-  freopen("bag01.in","r",stdin);
-  freopen("bag01.out","w",stdout);
+  //freopen("bag01.in","r",stdin);
+  //freopen("bag01.out","w",stdout);
   int m,n;
   scanf("%d%d",&m,&n);
   for(int i=1; i<=n; i++)

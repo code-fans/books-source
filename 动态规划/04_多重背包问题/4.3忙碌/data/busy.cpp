@@ -7,8 +7,8 @@ int dp[110][110],cost[110],val[110];
 
 int main()
 {
-  freopen("busy.in","r",stdin);
-  freopen("busy.out","w",stdout);
+  //freopen("busy.in","r",stdin);
+  //freopen("busy.out","w",stdout);
   int n,t,m,s;
   scanf("%d%d",&n,&t);
   for(int i=1; i<=n; i++)

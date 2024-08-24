@@ -11,8 +11,8 @@ double Dist(int i,int j) //获取两点间的距离
 
 int main()
 {
-  freopen("excision.in","r",stdin);
-  freopen("excision.out","w",stdout);
+  //freopen("excision.in","r",stdin);
+  //freopen("excision.out","w",stdout);
   int n;
   cin>>n;
   for(int i=0; i<=n-1; i++)

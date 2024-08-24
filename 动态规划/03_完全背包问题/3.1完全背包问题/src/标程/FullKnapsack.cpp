@@ -6,8 +6,8 @@ int m,n,c[300],w[300],f[2000];
 
 int main()
 {
-  freopen("FullKnapsack.in","r",stdin);
-  freopen("FullKnapsack.out","w",stdout);
+  //freopen("FullKnapsack.in","r",stdin);
+  //freopen("FullKnapsack.out","w",stdout);
   scanf("%d%d",&m,&n);
   for(int i=1; i<=n; i++)
     scanf("%d%d",&w[i],&c[i]);

@@ -8,7 +8,7 @@ int prime[MAX/3],Count=0;        //prime存素数,Count统计素数个数
 
 int main()
 {
-  freopen("prime.out","w",stdout);
+  //freopen("prime.out","w",stdout);
   for(int i=2,limit=sqrt(MAX); i<MAX; i++)
   {
     if(a[i]==0)                   //a[i]=0表示是素数

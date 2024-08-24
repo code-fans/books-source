@@ -6,8 +6,8 @@ int step[1000]= {0,2};                  //第1步从方向2开始
 
 int main()
 {
-  freopen("knight.in","r",stdin);
-  freopen("knight.out","w",stdout);
+  //freopen("knight.in","r",stdin);
+  //freopen("knight.out","w",stdout);
   int x=1,y=1,X,Y,k=1;
   cin>>X>>Y;
   while(k>=1)

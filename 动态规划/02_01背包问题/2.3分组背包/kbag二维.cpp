@@ -6,8 +6,8 @@ int V,N,w[101][1001],f[101][1001],stone[111][1001],K=0;
 
 int main()
 {
-  freopen("kbag.in","r",stdin);
-  freopen("kbag.out","w",stdout);
+  //freopen("kbag.in","r",stdin);
+  //freopen("kbag.out","w",stdout);
   cin>>V>>N;
   for(int i=1,a,b,c; i<=N; i++)
   {

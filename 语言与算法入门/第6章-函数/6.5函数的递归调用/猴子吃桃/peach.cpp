@@ -13,8 +13,8 @@ int peach(int day)
 
 int main()
 {
-  freopen("peach.in","r",stdin);
-  freopen("peach.out","w",stdout);
+  //freopen("peach.in","r",stdin);
+  //freopen("peach.out","w",stdout);
   cin>>n;
   cout<<peach(1)<<endl;
   return 0;

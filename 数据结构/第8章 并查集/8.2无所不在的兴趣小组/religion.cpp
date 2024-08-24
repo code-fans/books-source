@@ -28,8 +28,8 @@ void Union(int x,int y)               //ºÏ²¢
 
 int main()
 {
-  freopen("religion.in","r",stdin);
-  freopen("religion.out","w",stdout);
+  //freopen("religion.in","r",stdin);
+  //freopen("religion.out","w",stdout);
   int m,n,a,b,Case=0;
   while(cin>>n>>m && n+m!=0)
   {

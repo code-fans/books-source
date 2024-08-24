@@ -10,8 +10,8 @@ int w[maxn];
 
 int main()
 {
-  freopen("Puzzle.in","r",stdin);
-  freopen("Puzzle.out","w",stdout);    
+  //freopen("Puzzle.in","r",stdin);
+  //freopen("Puzzle.out","w",stdout);    
   int i,j,k,n;  
   cin>>n;
   for(i=1;i<=n;++i)

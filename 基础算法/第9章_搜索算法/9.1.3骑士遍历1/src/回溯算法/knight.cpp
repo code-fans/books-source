@@ -12,8 +12,8 @@ int In(int x,int y)
 
 int main()
 {
-  freopen("knight.in","r",stdin);
-  freopen("knight.out","w",stdout);
+  //freopen("knight.in","r",stdin);
+  //freopen("knight.out","w",stdout);
   cin>>X>>Y;
   int dx[5]= {0, 1, 2,2,1};       //控制x方向的增量数组
   int dy[5]= {0,-2,-1,1,2};       //控制y方向的增量数组

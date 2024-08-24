@@ -4,8 +4,8 @@ bool b[10005];
 
 int main()
 {
-  freopen("prime2.in","r",stdin);
-  freopen("prime2.out","w",stdout);
+  //freopen("prime2.in","r",stdin);
+  //freopen("prime2.out","w",stdout);
   int n;
   scanf("%d",&n);
   for (int i=2; i<=n/2; i++)

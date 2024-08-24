@@ -81,8 +81,8 @@ void Try(int x,int y,int k,int d)//求出解的深度 ，x,y,k为初始状态，d为深度
 int main()
 {
   int t;
-  freopen("matches2.in","r",stdin);
-  freopen("matches2.out","w",stdout);
+  //freopen("matches2.in","r",stdin);
+  //freopen("matches2.out","w",stdout);
   cin>>N;
   while (N>0)
   {

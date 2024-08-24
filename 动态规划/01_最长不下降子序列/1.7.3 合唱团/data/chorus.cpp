@@ -7,8 +7,8 @@ int f[201],g[201];
 
 int main()
 {
-  freopen("chorus.in","r",stdin);
-  freopen("chorus.out","w",stdout);
+  //freopen("chorus.in","r",stdin);
+  //freopen("chorus.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

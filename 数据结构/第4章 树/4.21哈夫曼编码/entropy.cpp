@@ -7,8 +7,8 @@ int Letter[260];
 
 int main()
 {
-  freopen("entropy.in","r",stdin);
-  freopen("entropy.out","w",stdout);
+  //freopen("entropy.in","r",stdin);
+  //freopen("entropy.out","w",stdout);
   while(scanf("%s",str),strcmp(str,"END")!=0)
   {
     memset(Letter,0,sizeof(Letter));

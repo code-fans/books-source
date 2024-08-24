@@ -16,8 +16,8 @@ long long Getdown (long long j,long long k)//斜率计算分母部分
 
 int main()
 {
-  freopen("print.in","r",stdin);
-  freopen("print.out","w",stdout);
+  //freopen("print.in","r",stdin);
+  //freopen("print.out","w",stdout);
   while (scanf("%lld %lld",&n,&M)==2)
   {
     for(int i=1; i<=n; i++)

@@ -6,8 +6,8 @@ int f[210],q[210],k[210];
 
 int main()
 {
-  freopen("Mbag.in","r",stdin);
-  freopen("Mbag.out","w",stdout);
+  //freopen("Mbag.in","r",stdin);
+  //freopen("Mbag.out","w",stdout);
   int N,V,head,tail,v,w,c;
   scanf("%d%d",&V,&N);
   for(int i=1; i<=N; i++)

@@ -32,8 +32,8 @@ void dfs(int dep,int layout)
 
 int main()
 {
-  freopen("permutation.in","r",stdin);
-  freopen("permutation.out","w",stdout);     
+  //freopen("permutation.in","r",stdin);
+  //freopen("permutation.out","w",stdout);     
   cin>>N;
   for(int i=0;i<N;++i)
     bitmod[(1<<i) % 37]= i+1;//½¨Á¢¹þÏ£±í 

@@ -28,8 +28,8 @@ int Bsearch(string s,int l,int r)                       //¶þ·Ö
 
 int main()
 {
-  freopen("dictionary.in","r",stdin);
-  freopen("dictionary.out","w",stdout);
+  //freopen("dictionary.in","r",stdin);
+  //freopen("dictionary.out","w",stdout);
   while(getline(cin,s))
   {
     if(s.size()==0)

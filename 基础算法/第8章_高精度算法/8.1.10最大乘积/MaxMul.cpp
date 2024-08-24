@@ -22,8 +22,8 @@ void Mul(int x)
 
 int main()
 {
-  freopen("MaxMul.in","r",stdin);
-  freopen("MaxMul.out","w",stdout);
+  //freopen("MaxMul.in","r",stdin);
+  //freopen("MaxMul.out","w",stdout);
   cin>>n;
   for(int i=2; n>a[num]; i++)
   {

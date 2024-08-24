@@ -73,8 +73,8 @@ bool Solve()
 
 int main()
 {
-  freopen("tautology.in","r",stdin);
-  freopen("tautology.out","w",stdout);
+  //freopen("tautology.in","r",stdin);
+  //freopen("tautology.out","w",stdout);
   int okn;
   while(cin>>inStr,inStr[0]!='0')
   {

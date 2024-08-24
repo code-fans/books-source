@@ -22,8 +22,8 @@ int GetSum(int k)
 
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
   int num;
   scanf("%d",&n);
   for(int i=1; i<=n ;++i)

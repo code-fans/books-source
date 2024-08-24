@@ -17,8 +17,8 @@ void dfs(int root)
 }
 int main()
 {
-  freopen("reverse.in","r",stdin);
-  freopen("reverse.out","w",stdout);
+  //freopen("reverse.in","r",stdin);
+  //freopen("reverse.out","w",stdout);
 
   while(scanf("%d%d",&n,&m)&&n+m)
   {

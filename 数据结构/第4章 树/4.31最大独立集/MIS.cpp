@@ -22,8 +22,8 @@ void MIS(int x,int fa)
 
 int main()
 {
-  freopen("MIS.in","r",stdin);
-  freopen("MIS.out","w",stdout);
+  //freopen("MIS.in","r",stdin);
+  //freopen("MIS.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=1; i<n; i++)

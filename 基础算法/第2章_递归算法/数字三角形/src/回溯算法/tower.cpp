@@ -53,8 +53,8 @@ void init()
 }
 
 int main()
-{ freopen("tower.in","r",stdin);
-  freopen("tower.out","w",stdout); 
+{ //freopen("tower.in","r",stdin);
+  //freopen("tower.out","w",stdout); 
   init();
   fun();
   cout<<Max<<endl;

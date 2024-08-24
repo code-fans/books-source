@@ -13,8 +13,8 @@ bool Cmp(node a,node b)
 
 int main()
 {
-  freopen("ClosedInterval.in","r",stdin);
-  freopen("ClosedInterval.out","w",stdout);
+  //freopen("ClosedInterval.in","r",stdin);
+  //freopen("ClosedInterval.out","w",stdout);
   int n;
   while(scanf("%d",&n)==1)
   {

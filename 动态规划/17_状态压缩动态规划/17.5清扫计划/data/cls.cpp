@@ -7,8 +7,8 @@ int dis[12][12],dp[1<<11][12];
 
 int main()
 {
-  freopen("cls.in","r",stdin);
-  freopen("cls.out","w",stdout);
+  //freopen("cls.in","r",stdin);
+  //freopen("cls.out","w",stdout);
   int n;
   while(scanf("%d",&n) && n)
   {

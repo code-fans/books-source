@@ -12,8 +12,8 @@ inline int pd(int x)
 
 int main()
 {
-  freopen("prime3.in","r",stdin);
-  freopen("prime3.out","w",stdout);
+  //freopen("prime3.in","r",stdin);
+  //freopen("prime3.out","w",stdout);
   int n;
   scanf("%d",&n);
   for(int i=n/2; i>=2; i--)

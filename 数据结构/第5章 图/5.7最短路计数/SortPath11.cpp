@@ -41,8 +41,8 @@ void dijkstra(int s)
 
 int main()
 {
-  freopen("SortPath.in","r",stdin);
-  freopen("SortPath.out","w",stdout);
+  //freopen("SortPath.in","r",stdin);
+  //freopen("SortPath.out","w",stdout);
   cin>>n>>m;
   for(int i = 1; i <= m; ++i)
   {

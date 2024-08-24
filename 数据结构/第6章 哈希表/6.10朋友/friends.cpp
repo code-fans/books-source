@@ -54,8 +54,8 @@ inline bool Judge(int dismiss)
 
 int main()
 {
-  freopen("friends.in","r",stdin);
-  freopen("friends.ans","w",stdout);
+  //freopen("friends.in","r",stdin);
+  //freopen("friends.ans","w",stdout);
   cin >> length;
   if(!(length&1))
   {

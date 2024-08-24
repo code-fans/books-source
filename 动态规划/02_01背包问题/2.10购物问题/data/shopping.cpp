@@ -8,8 +8,8 @@ double price[1100],dp[1100][1100];
 
 int main()
 {
-  freopen("shopping.in","r",stdin);
-  freopen("shopping.out","w",stdout);
+  //freopen("shopping.in","r",stdin);
+  //freopen("shopping.out","w",stdout);
   int n,m;
   cin>>n>>m;
   for(int i=1; i<=n; i++)

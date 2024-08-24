@@ -21,8 +21,8 @@ void Fun(char x)     //ตÝน้
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   cin>>n;
   for(int i=1; i<=n; i++)
     cin>>a[i][0]>>a[i][1]>>a[i][2];

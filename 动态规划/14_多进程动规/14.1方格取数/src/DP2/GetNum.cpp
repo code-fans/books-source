@@ -11,8 +11,8 @@ int Max(int a,int b,int c,int d)
 
 int main()
 {
-  freopen("GetNum.in","r",stdin);
-  freopen("GetNum.out","w",stdout);
+  //freopen("GetNum.in","r",stdin);
+  //freopen("GetNum.out","w",stdout);
   int n,x,y,c;
   cin>>n;
   while(cin>>x>>y>>c, x && y && c)

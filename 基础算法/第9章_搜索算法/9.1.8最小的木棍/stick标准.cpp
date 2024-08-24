@@ -31,8 +31,8 @@ bool DFS(int le,int k,int l)
 }
 int main()
 {
-  freopen("stick.in","r",stdin);
-  freopen("stick.out","w",stdout);
+  //freopen("stick.in","r",stdin);
+  //freopen("stick.out","w",stdout);
   scanf("%d",&n);
   while(n!=0)
   {

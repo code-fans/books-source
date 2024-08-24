@@ -10,8 +10,8 @@ char st[maxn];
 
 int main()
 {
-  freopen("book.in","r",stdin);
-  freopen("book.out","w",stdout);
+  //freopen("book.in","r",stdin);
+  //freopen("book.out","w",stdout);
   cin>>n>>nc>>st;
   memset(name, 0, sizeof(name));
   memset(Hash, 0, sizeof(Hash));

@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  freopen("Csum.in","r",stdin);
-  freopen("Csum.out","w",stdout);
+  //freopen("Csum.in","r",stdin);
+  //freopen("Csum.out","w",stdout);
   int n,s[100005]= {0},a[100005]= {0},MAX=-2147483647;
   scanf("%d",&n);
   for(int i=1; i<=n; i++)

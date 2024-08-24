@@ -7,8 +7,8 @@ int dp[25][85], a[1005], b[1005], w[1005];
 
 int main()
 {
-  freopen("diver.in","r",stdin);
-  freopen("diver.out","w",stdout);
+  //freopen("diver.in","r",stdin);
+  //freopen("diver.out","w",stdout);
   int n, m, num;
   scanf("%d%d%d", &m, &n, &num);
   memset(dp, 0x3f, sizeof(dp));

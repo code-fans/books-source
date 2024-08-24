@@ -31,8 +31,8 @@ void Bfs(int x,int y)
 
 int main()
 {
-  freopen("chess.in","r",stdin);
-  freopen("chess.out","w",stdout);
+  //freopen("chess.in","r",stdin);
+  //freopen("chess.out","w",stdout);
   cin>>m>>n;
   memset(Cost,127,sizeof(Cost));              //³õÊ¼»¯Îª0x7f7f7f7f
   for(int i=0; i<n; i++)

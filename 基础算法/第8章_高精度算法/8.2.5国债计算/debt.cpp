@@ -38,8 +38,8 @@ string Expo(string R, int n)        //¿ìËÙÃÝ
 
 int main()
 {
-  freopen("debt.in","r",stdin);
-  freopen("debt.out","w",stdout);
+  //freopen("debt.in","r",stdin);
+  //freopen("debt.out","w",stdout);
   string R, Ans;
   int n;
   while (cin>>R>>n)

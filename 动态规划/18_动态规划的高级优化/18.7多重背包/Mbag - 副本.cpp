@@ -26,8 +26,8 @@ void DP(int v,int w,int tot)          //tot为当前物品的个数
 
 int main()
 {
-  freopen("Mbag.in","r",stdin);
-  freopen("Mbag.out","w",stdout);
+  //freopen("Mbag.in","r",stdin);
+  //freopen("Mbag.out","w",stdout);
   scanf("%d%d",&m,&n);
   for(int i=0; i<=m; i++)
     f[i]=0;

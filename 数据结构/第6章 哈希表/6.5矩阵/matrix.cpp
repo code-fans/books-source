@@ -39,8 +39,8 @@ bool ask(unsigned int u)
 
 int main()
 {
-  freopen("matrix.in","r",stdin);
-  freopen("matrix.out","w",stdout);
+  //freopen("matrix.in","r",stdin);
+  //freopen("matrix.out","w",stdout);
   int n,m,r,c,q;
   cin>>m>>n>>r>>c;
   for (int i=1; i<=m; i++) scanf("%s",b[i]+1);

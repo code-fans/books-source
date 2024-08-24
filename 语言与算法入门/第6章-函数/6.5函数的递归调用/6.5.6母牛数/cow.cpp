@@ -18,8 +18,8 @@ ULL Cow(int n)
 
 int main()
 {
-  freopen("cow.in","r",stdin);
-  freopen("cow.out","w",stdout);
+  //freopen("cow.in","r",stdin);
+  //freopen("cow.out","w",stdout);
   int n;
   while(scanf("%d",&n)==1)
     printf("%lld\n",Cow(n));

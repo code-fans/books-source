@@ -61,8 +61,8 @@ void DFS(int id, int s)
 
 int main()
 {
-  freopen("DNA1.in", "r", stdin);
-  freopen("DNA1.ans", "w", stdout);
+  //freopen("DNA1.in", "r", stdin);
+  //freopen("DNA1.ans", "w", stdout);
   int T, Case = 0;
   cin >> T;
   while(T--)

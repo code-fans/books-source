@@ -66,8 +66,8 @@ void MaxHeapInsert(int key)         //往堆中插入一个元素
 
 int main()                          //演示操作
 {
-  freopen("game.in","r",stdin);
-  freopen("game.out","w",stdout);
+  //freopen("game.in","r",stdin);
+  //freopen("game.out","w",stdout);
   int i,key,v;
   cin>>n;
   for(i=1; i<=n; i++)

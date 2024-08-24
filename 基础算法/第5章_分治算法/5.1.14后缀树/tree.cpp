@@ -27,8 +27,8 @@ long long Pow(long long a,long long b,long long c)
 
 int main()
 {
-  freopen("tree.in","r",stdin);
-  freopen("tree.out","w",stdout);
+  //freopen("tree.in","r",stdin);
+  //freopen("tree.out","w",stdout);
   scanf("%lld",&n);
   printf("%lld\n",(26ll*Pow(25ll,n-1,998244353ll))%998244353ll);
   return 0;

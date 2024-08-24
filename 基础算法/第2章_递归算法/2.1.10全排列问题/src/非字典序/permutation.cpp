@@ -31,8 +31,8 @@ void permutation(int from,int to)//进一步优化可省略第二个参数
 
 int main()
 {
-  freopen("permutation.in","r",stdin);
-  freopen("permutation.out","w",stdout);
+  //freopen("permutation.in","r",stdin);
+  //freopen("permutation.out","w",stdout);
   cin>>n;
   permutation(0,n-1);
   cout<<total<<endl;

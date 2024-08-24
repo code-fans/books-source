@@ -5,8 +5,8 @@ double min,A;
 int n,d,L;
 int main()
 {
-  freopen("Approximation.in", "r", stdin);
-  freopen("Approximation.out", "w", stdout);
+  //freopen("Approximation.in", "r", stdin);
+  //freopen("Approximation.out", "w", stdout);
 
   while(scanf("%lf%d",&A,&L)!=EOF)
   {

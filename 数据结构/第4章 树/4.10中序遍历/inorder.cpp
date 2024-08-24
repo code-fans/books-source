@@ -44,8 +44,8 @@ void InOrder(int root)                //ÖÐÐò±éÀú
 
 int main()
 {
-  freopen("inorder.in","r",stdin);
-  freopen("inorder.out","w",stdout);
+  //freopen("inorder.in","r",stdin);
+  //freopen("inorder.out","w",stdout);
   cin>>n;
   int node[n+1];
   for(int i=1; i<=n; i++)

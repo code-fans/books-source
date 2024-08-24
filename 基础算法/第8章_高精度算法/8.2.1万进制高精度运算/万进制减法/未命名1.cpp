@@ -42,8 +42,8 @@ void Init(int result[],string in)       //string转整型数组,4位数一格
 
 int main()
 {
-  freopen("sub.in","r",stdin);
-  freopen("sub.out","w",stdout);
+  //freopen("sub.in","r",stdin);
+  //freopen("sub.out","w",stdout);
   string a,b;
   cin>>a>>b;
   if((a<b && a.size()==b.size()) || a.size()<b.size())

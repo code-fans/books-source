@@ -40,8 +40,8 @@ long long DFS(int L1,int R1,int L2,int R2)
 
 int main()
 {
-  freopen("PrePost.in","r",stdin);
-  freopen("PrePost.out","w",stdout);
+  //freopen("PrePost.in","r",stdin);
+  //freopen("PrePost.out","w",stdout);
   Init();
   while(scanf("%d",&m) && m)
   {

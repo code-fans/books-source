@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-  freopen("revelation.in","r",stdin);
-  freopen("revelation.out","w",stdout);
+  //freopen("revelation.in","r",stdin);
+  //freopen("revelation.out","w",stdout);
   long long f[210][5]= {1};
   for (int i=1; i<=20; i++)
   {

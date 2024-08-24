@@ -64,8 +64,8 @@ void DispPost(int T)                    //打印后序表达式
 
 int main()
 {
-  freopen("calc.in","r",stdin);
-  freopen("calc.out","w",stdout);
+  //freopen("calc.in","r",stdin);
+  //freopen("calc.out","w",stdout);
   cin.getline(str,200);
   int root=BuildTree(0,strlen(str)-1);
   DispPre(root);

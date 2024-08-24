@@ -12,8 +12,8 @@ int mv[40000],mvp[40000],fv[40000][3],fvp[40000][3],f[40000];
 
 int main()
 {
-  freopen("budget.in","r",stdin);
-  freopen("budget.out","w",stdout);
+  //freopen("budget.in","r",stdin);
+  //freopen("budget.out","w",stdout);
   int m,n;
   cin>>n>>m;
   for(int i=1,v,p,q; i<=m; i++)
