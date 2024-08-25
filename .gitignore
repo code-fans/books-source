@@ -4,6 +4,7 @@ runtime
 *.ilk
 *.exe
 *.out
+.cena
 
 runtime/*
 **/*.obj
@@ -11,3 +12,4 @@ runtime/*
 **/*.ilk
 **/*.exe
 **/*.out
+**/.cena
