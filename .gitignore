@@ -1,5 +1,13 @@
 runtime
 *.obj
 *.pdb
+*.ilk
 *.exe
 *.out
+
+runtime/*
+**/*.obj
+**/*.pdb
+**/*.ilk
+**/*.exe
+**/*.out

@@ -38,7 +38,7 @@ void Place(int x)           //递归函数
   if(x>n)                   //棋子第n行已摆好，则打印成功方案
   {
     Print();
-    //PrintGraph();         //若使用该语句，可图形化打印布局
+    PrintGraph();         //若使用该语句，可图形化打印布局
   }
   else
     for(int y=1; y<=n; ++y) //该行棋子依次从左向右移
