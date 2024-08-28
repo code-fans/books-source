@@ -1,5 +1,6 @@
 //N皇后问题—位运算 
 #include <bits/stdc++.h>
+#include <string>
 using namespace std;
 
 int upperlim,sum,n;

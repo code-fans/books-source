@@ -5,6 +5,7 @@ runtime
 *.exe
 *.out
 .cena
+.DS_Store
 
 runtime/*
 **/*.obj
@@ -13,3 +14,4 @@ runtime/*
 **/*.exe
 **/*.out
 **/.cena
+**/.DS_Store
